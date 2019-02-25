@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   color: #5a6671;
   font-weight: 400;
@@ -10,6 +14,10 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 [class*="col-"] {
@@ -100,7 +108,7 @@ body {
 }
 
 .d-none {
-  display: none;
+  display: none!important;
 }
 
 .justify-content-between {
@@ -130,6 +138,10 @@ body {
   text-align: center !important;
 }
 
+.text-right {
+  text-align: right !important;
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -147,6 +159,11 @@ body {
 .row::after {
   content: " ";
   display: table;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 /* Colores */
@@ -232,6 +249,71 @@ img {
   max-height: 89vh;
 }
 
+footer.footer6 {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding-top: 2.33333rem;
+}
+
+footer .footer__big {
+  padding: 40px 0 20px;
+}
+
+footer .footer__big .text_widget .footer_logo {
+  margin-bottom: 2rem;
+}
+
+footer .footer__big .text_widget div a {
+  margin-bottom: 1.33333rem;
+}
+
+footer .footer__big .text_widget div a button {
+  border: none;
+  border-radius: 100%;
+  color: #002C54;
+  cursor: pointer;
+  font-size: 1.8rem;
+  height: 43px;
+  margin-left: 35px;
+  outline: none;
+  padding: 3px;
+  width: 43px
+}
+footer .footer__big .widget ul.links li {
+  margin-bottom: .66667rem;
+}
+
+footer .footer__big .widget ul.links li a {
+  color: white;
+}
+
+footer.footer6 .footer__bottom .container,
+footer.footer6 .footer__big .container {
+  width: 75%;
+}
+
+footer .footer__bottom .footer__bottom-content {
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 0 2.33333rem 0;
+}
+
+footer .footer__bottom .footer__bottom-content .social-basic li a {
+  color: white;
+}
+
 .form-control {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -306,9 +388,14 @@ label {
 
 .list-menu ul li {
   font-weight: 600;
-  line-height: 50px;
+  line-height: 55px;
   list-style: none;
   text-transform: uppercase;
+}
+
+.list-menu ul {
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 .list-menu ul li a {
@@ -545,21 +632,85 @@ label {
   .d-sm-block {
     display: block !important;
   }
+  .form-group {
+    margin-top: .5em;
+  }
+  .form-control {
+    height: 105px;
+  }
+  footer.footer6 {
+    padding-top: 0;
+  }
+  footer .footer__big {
+    padding: 75px 0 20px;
+    font-size: 3rem;
+  }
+  footer .footer__big .widget--links .links {
+    padding-left: 110px;
+  }
+  footer .footer__big .text_widget {
+    padding-top: 5rem;
+    text-align: center!important;
+  }
+  footer .footer__big .text_widget div a button {
+    font-size: 4.5rem;
+    height: 100px;
+    margin-left: 35px;
+    padding: 4px;
+    width: 100px;
+  }
+  footer .footer__big .text_widget div {
+    margin-top: 5rem;
+  }
+  footer .footer__big .text_widget .footer_logo2 {
+    display: inline!important;
+  }
+  footer .footer__bottom .footer__bottom-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  footer .footer__bottom .footer__bottom-content p {
+    font-size: 3.7rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+  }
+  footer .footer__bottom .footer__bottom-content .social-basic {
+    font-size: 2.72rem;
+    margin-bottom: 6rem;
+  }
+  .search-form .search-field {
+    border-radius: 100px;
+    font-size: 3rem;
+    padding-left: 150px;
+  }
   .home {
     padding-top: 6vh;
   }
   .list-menu {
-    font-size: 4rem;
+    font-size: 5rem;
     height: 100vh;
     max-height: 100vh;
   }
   .list-menu ul li {
-    line-height: 100px;
+    line-height: 170px;
   }
   .list-menu div a button {
     font-size: 5rem;
     height: 120px;
     width: 120px;
+    margin: 0 50px;
 }
   .menu_area .navbar {
     padding-top: 0.6rem;
@@ -572,6 +723,10 @@ label {
   }
   .navbar-toggler {
     font-size: 5rem;
+  }
+  .search-form .search-submit {
+    font-size: 4rem;
+    padding-left: 50px;
   }
   .w-100 {
     width: 100% !important;

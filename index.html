@@ -23,9 +23,9 @@
           </div>
         </div>
       </section>
-      <div id="list-menu" class="col-4 col-sm-12 list-menu text-center">
-        <div class="col-6">
-          <form class="search-form d-sm-block">
+      <div id="list-menu" class="col-4 col-sm-12 list-menu text-center" hidden>
+        <div class="col-12 d-none d-sm-block">
+          <form class="search-form">
             <div class="form-group">
               <label for="search" class="sr-only"></label>
               <input class="form-control search-field" type="text" placeholder="">
@@ -47,7 +47,7 @@
           </ul>
         </div>
         <div class="col-12 text-center">
-          <a href="#"><button class="btn azul" type="button"><i class="fa fa-facebook align-items-center" style="padding: 10px 10px 7px 7px;" aria-hidden="true"></i></button></a>
+          <a href="#"><button class="btn" style="background-color: #3268B1" type="button"><i class="fa fa-facebook align-items-center" aria-hidden="true"></i></button></a>
           <a href="#"><button class="btn rosa" type="button"><i class="fa fa-instagram align-items-center" aria-hidden="true"></i></button></a>
         </div>
       </div>
@@ -60,8 +60,8 @@
           <div class="col-8 p-0 col-sm-12" style="left: 0px; display: block;">
             <div class="owl-item w-100" style="width: 50%;">
               <div class="item">
-                <img class="d-sm-none"src="http://lorempixel.com/300/352/food" alt="">
-                <img class="d-none"src="http://lorempixel.com/300/502/food" alt="">
+                <img class="d-sm-none" src="http://lorempixel.com/300/352/food" alt="">
+                <img class="d-none d-sm-block" src="http://lorempixel.com/300/502/food" alt="">
                 <div class="item-caption">
                   <div class="caption-description">
                     <span class="caption-title">
@@ -85,7 +85,7 @@
           <div class="col-4 p-0 d-sm-none" style="left: 0px; display: block;">
             <div class="owl-item" style="width: 100%;">
               <div class="item">
-                <img src="http://lorempixel.com/300/175/food" alt="">
+                <img src="http://lorempixel.com/300/176/food" alt="">
                 <div class="item-caption">
                   <div class="caption-description text-center" style="bottom: 14%">
                     <span class="caption-title">
@@ -97,7 +97,7 @@
             </div>
             <div class="owl-item" style="width: 100%;">
               <div class="item">
-                <img src="http://lorempixel.com/300/175/food" alt="">
+                <img src="http://lorempixel.com/300/176/food" alt="">
                 <div class="item-caption">
                   <div class="caption-description text-center" style="bottom: 14%">
                     <span class="caption-title">
@@ -130,6 +130,83 @@
         </div>
       </div>
     </section>
+
+    <footer class="azul">
+      <div class="footer__big">
+        <div class="container">
+          <div class="row">
+            <div class="col-1 col-sm-6">
+              <div class="widget widget--links">
+                <ul class="links">
+                  <li>
+                    <a href="#">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#">Quesos</a>
+                  </li>
+                  <li>
+                    <a href="#">Recetas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-1 col-sm-6">
+              <div class="widget widget--links">
+                <ul class="links">
+                  <li>
+                    <a href="#">Consejos</a>
+                  </li>
+                  <li>
+                    <a href="#">Wellness</a>
+                  </li>
+                  <li>
+                    <a href="#">Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-1 col-sm-6">
+              <div class="widget widget--links">
+                <ul class="links">
+                  <li>
+                    <a href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-3 col-sm-12">
+              <div class="widget text_widget text-right">
+                <img class="footer_logo d-sm-none" src="http://lorempixel.com/170/60" alt="Logo">
+                <img class="footer_logo2 d-none" src="http://lorempixel.com/700/160" alt="Logo">
+                <div class="col-12 p-0">
+                  <a href="#"><button class="btn" style="background-color: #3268B1" type="button"><i class="fa fa-facebook align-items-center" aria-hidden="true"></i></button></a>
+                  <a href="#"><button class="btn rosa" type="button"><i class="fa fa-instagram align-items-center" aria-hidden="true"></i></button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer__bottom-content">
+                <p>
+                  Copyright © Quesos Navarro. Todos los Derechos Reservados
+                </p>
+                <div class="social-basic">
+                  <ul class="d-flex justify-content">
+                    <li><a href="#">Términos y condiciones</a> / <a href="#">Políticas de privacidad</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="js/app.js"></script>
   </body>
