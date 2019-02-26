@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Roboto-regular";
+  src: url("../assets/fonts/Roboto-regular.ttf");
+}
+
+@font-face {
+  font-family: "FuturaPTCond";
+  src: url("../assets/fonts/FuturaPTCondExtraBold.otf");
+}
+
 *, ::after, ::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -11,6 +21,7 @@ body {
   color: #5a6671;
   font-weight: 400;
   font-size: 1rem;
+  font-family: "Roboto-regular";
   line-height: 1.3;
   margin: 0;
   padding: 0;
@@ -298,6 +309,7 @@ img {
   text-align: left;
   border: 2px solid #002C54;
   color: #002C54;
+  margin-left: auto;
   font-weight: 600;
 }
 
@@ -652,6 +664,10 @@ label {
   text-transform: uppercase;
 }
 
+.section_subtitle {
+  padding-right: 40px;
+}
+
 .section_subtitle h2 {
   font-weight: 600;
   font-size: 3.8rem;
@@ -840,6 +856,10 @@ label {
   height: 20px;
 }
 
+.owl-item.nQuesos {
+  height: 346px;
+}
+
 .widget_search .search-form .search-field {
   border-color: #fff;
   background-color: #fff;
@@ -847,6 +867,66 @@ label {
 
 .item.cheddar:hover .item-caption-quesos {
   background-color: #FF9F00;
+}
+
+.item.manchego:hover .item-caption-quesos {
+  background-color: #FA3B55;
+}
+
+.item.panela:hover .item-caption-quesos {
+  background-color: #71C8EB;
+}
+
+.item.adobera:hover .item-caption-quesos {
+  background-color: #E14F00;
+}
+
+.item.qamarillo:hover .item-caption-quesos {
+  background-color: #FFDC40;
+}
+
+.item.oaxaca:hover .item-caption-quesos {
+  background-color: #00A49D;
+}
+
+.item.parmesano:hover .item-caption-quesos {
+  background-color: #A8AC1A;
+}
+
+.item.crema:hover .item-caption-quesos {
+  background-color: #6FCAEE;
+}
+
+.item.cabra:hover .item-caption-quesos {
+  background-color: #576E7E;
+}
+
+.item.chihuahua:hover .item-caption-quesos {
+  background-color: #B3A79B;
+}
+
+.item.gouda:hover .item-caption-quesos {
+  background-color: #90989D;
+}
+
+.item.mozzarella:hover .item-caption-quesos {
+  background-color: #2382CF;
+}
+
+.item.cheddaranejo:hover .item-caption-quesos {
+  background-color: #858888;
+}
+
+.item.extraanejo:hover .item-caption-quesos {
+  background-color: #A47A37;
+}
+
+.item.cotija:hover .item-caption-quesos {
+  background-color: #CE4702;
+}
+
+.item.giftpack:hover .item-caption-quesos {
+  background-color: #002C54;
 }
 
 @media (max-width: 991.98px) {

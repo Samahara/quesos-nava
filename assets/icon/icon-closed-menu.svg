@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-closed-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-closed-menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="0" width="50" height="50"></rect>
+            <g id="Group-2" transform="translate(3.000000, 3.000000)" fill="#FFFFFF">
+                <path d="M0.724101053,4.22037022 C-0.241367018,3.25490215 -0.241367018,1.68956912 0.724101053,0.724101053 C1.68956912,-0.241367018 3.25490215,-0.241367018 4.22037022,0.724101053 L44.2758989,40.7796298 C45.241367,41.7450979 45.241367,43.3104309 44.2758989,44.2758989 C43.3104309,45.241367 41.7450979,45.241367 40.7796298,44.2758989 L0.724101053,4.22037022 Z" id="Path-5"></path>
+                <path d="M40.7078756,0.736412122 C41.6897584,-0.245470707 43.281705,-0.245470707 44.2635879,0.736412122 C45.2454707,1.71829495 45.2454707,3.31024156 44.2635879,4.29212439 L4.29212439,44.2635879 C3.31024156,45.2454707 1.71829495,45.2454707 0.736412122,44.2635879 C-0.245470707,43.281705 -0.245470707,41.6897584 0.736412122,40.7078756 L40.7078756,0.736412122 Z" id="Path-6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

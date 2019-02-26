@@ -12,13 +12,14 @@
         <div class="menu_area menu8">
           <div class="container">
             <div class="navbar">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="../index.html">
                 <img class="d-sm-none" src="../assets/img/quesos-navarro-logo-nosotros.png" width="70px" height="auto" alt="Logo">
                 <img class="img-fluid d-none d-sm-block" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="logo">
               </a>
               <button class="navbar-toggler" type="button" name="button">
                 <span>
-                  <img class="img-fluid" src="../assets/icon/icon-menu.svg" alt="menu">
+                  <img id="spanMenu" name="spanMenu" class="img-fluid" src="../assets/icon/icon-menu.svg" alt="menu">
+                  <img id="spanMenu2" name="spanMenu2" class="img-fluid" src="../assets/icon/icon-closed-menu.svg" alt="menu" hidden>
                 </span>
               </button>
             </div>
@@ -39,12 +40,12 @@
         </div>
         <div class="col-12">
           <ul class="p-0">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Quesos</a></li>
-            <li><a href="#">Recetas</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../views/quesos.html">Quesos</a></li>
+            <li><a href="../views/recetas.html">Recetas</a></li>
             <li><a href="#">Tips</a></li>
-            <li><a href="#">Wellness</a></li>
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="../views/wellness.html">Wellness</a></li>
+            <li><a href="../views/historia.html">Nosotros</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
         </div>
@@ -91,9 +92,9 @@
               <div class="row text-center">
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #FF9F00"></div>
-                  <div class="owl-item w-100">
+                  <div class="owl-item w-100 nQuesos">
                     <div class="item cheddar" style="padding-left: 35px; padding-top: 50px;">
-                      <img height="250px" src="../assets/img/queso-navarro-cheddar.png" alt="cheddar">
+                      <img height="250px" src="../assets/img/queso-navarro-cheddar.png" alt="Cheddar">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -106,9 +107,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #FA3B55"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #FA3B55">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item manchego" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-manchego.png" alt="Manchego">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -121,9 +122,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #71C8EB"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #71C8EB">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item panela" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="350px;" class="" src="../assets/img/queso-navarro-panela.png" alt="Panela">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -136,9 +137,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #E14F00"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #E14F00">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item adobera" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-adobera.png" alt="Adobera">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -151,9 +152,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #FFDC40"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #FFDC40">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item qamarillo" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="240px" class="" src="../assets/img/queso-navarro-amarillo.png" alt="Amarillo">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -166,9 +167,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #00A49D"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #00A49D">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item oaxaca" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-oaxaca.png" alt="Oaxaca">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -181,9 +182,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #A8AC1A"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #A8AC1A">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item parmesano" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-parmesano.png" alt="Parmesano">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -196,9 +197,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #6FCAEE"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #6FCAEE">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item crema" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-crema.png" alt="Crema">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -211,9 +212,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #576E7E"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #576E7E">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item cabra" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-cabra.png" alt="Cabra">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -226,9 +227,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #B3A79B"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #B3A79B">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item chihuahua" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-chihuahua.png" alt="Chihuahua">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -241,9 +242,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #90989D"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #90989D">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item gouda" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-gouda.png" alt="Gouda">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -256,9 +257,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #2382CF"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #2382CF">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item mozzarella" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-mozzarella.png" alt="Mozzarella">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -271,9 +272,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #858888"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #858888">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item cheddaranejo" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-cheddar-añejo.png" alt="Cheddar añejo">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -286,9 +287,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #A47A37"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #A47A37">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item extraanejo" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-cheddar-extra-añejo.png" alt="Extra añejo">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -301,9 +302,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #CE4702"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #CE4702">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item cotija" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-cotija-añejo.png" alt="Cotija">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
@@ -316,9 +317,9 @@
                 </div>
                 <div class="col-4 p-0">
                   <div class="owl-title-item" style="background-color: #002C54"></div>
-                  <div class="owl-item w-100" style="width: 100%;">
-                    <div class="item" style="background-color: #002C54">
-                      <img class="" src="http://lorempixel.com/410/350/food" alt="">
+                  <div class="owl-item w-100 nQuesos" style="width: 100%;">
+                    <div class="item giftpack" style="padding-left: 35px; padding-top: 50px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-gift-pack.png" alt="Gift pack">
                       <div class="item-caption-quesos">
                         <div class="caption-description">
                           <span class="caption-title">
