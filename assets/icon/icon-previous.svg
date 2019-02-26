@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-previous</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-previous" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(25.000000, 25.000000) rotate(-180.000000) translate(-25.000000, -25.000000) " fill-rule="nonzero" id="Controls-/-Close">
+            <g transform="translate(25.000000, 25.000000) rotate(-180.000000) translate(-25.000000, -25.000000) ">
+                <rect id="Rectangle" x="-5.68434189e-14" y="0" width="50" height="50"></rect>
+                <path d="M17.6988942,25 L36.5663142,42.6361456 C37.159809,43.1909094 37.1419331,44.0742484 36.5263871,44.6091386 C35.9108411,45.1440287 34.9307198,45.1279179 34.3372249,44.573154 L14.4336842,25.9685042 C13.8554386,25.4279945 13.8554386,24.5720055 14.4336842,24.0314958 L34.3372249,5.42684595 C34.9307198,4.87208214 35.9108411,4.85597133 36.5263871,5.39086145 C37.1419331,5.92575157 37.159809,6.80909062 36.5663142,7.36385443 L17.6988942,25 Z" id="Path-2" fill="#979797"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-more</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-more" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" fill-rule="nonzero">
+            <rect id="Rectangle" x="0" y="0" width="50" height="50"></rect>
+            <g id="Group" transform="translate(6.000000, 6.000000)" fill="#FFFFFF">
+                <path d="M2.1220244,22 C0.950062687,22 0,20.8807119 0,19.5 C0,18.1192881 0.950062687,17 2.1220244,17 L36.8779756,17 C38.0499373,17 39,18.1192881 39,19.5 C39,20.8807119 38.0499373,22 36.8779756,22 L2.1220244,22 Z" id="Line-2"></path>
+                <path d="M22,36.8630137 C22,38.0432386 20.8807119,39 19.5,39 C18.1192881,39 17,38.0432386 17,36.8630137 L17,2.1369863 C17,0.956761357 18.1192881,0 19.5,0 C20.8807119,0 22,0.956761357 22,2.1369863 L22,36.8630137 Z" id="Line-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
