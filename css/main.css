@@ -924,7 +924,7 @@ label {
   background-color: #002C54;
 }
 
-@media (max-width: 991.98px) {
+@media only screen and (max-width: 991.98px) {
   .col-sm-6 {
     width: 50%;
   }
