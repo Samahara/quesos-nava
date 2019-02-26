@@ -57,14 +57,13 @@
     </section>
 
     <!-- Home -->
-    <section class="topbar-slider home">
+    <section class="topbar-slider home d-sm-none">
       <div id="slider-thumbnail" class="owl-carousel" style="opacity: 1; display: block;">
         <div class="owl-wrapper-oute">
           <div class="col-8 p-0 col-sm-12" style="left: 0px; display: block;">
             <div class="owl-item w-100" style="width: 50%;">
               <div class="item" height="535px">
                 <img class="d-sm-none" src="assets/img/productos-quesos-navarro.png" height="535px" alt="Productos">
-                <img class="d-none d-sm-block" src="assets/img/productos-quesos-navarro.png" alt="Productos">
                 <div class="item-caption">
                   <div class="caption-description" style="top: 0;">
                     <span class="caption-title">
@@ -116,18 +115,25 @@
     </section>
 
     <!-- Home mobile -->
-    <section class="d-none d-sm-block">
+    <section class="home-mobile d-none d-sm-block">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 p-0">
             <div class="button-menu">
-              <button class="btn-block rosa d-flex" type="button" name="button">Productos <i class="fa fa-plus ml-auto" aria-hidden="true"></i></button>
+              <img class="img-fluid" src="assets/img/productos-quesos-navarro.png" alt="Productos">
+              <button class="btn-block rosa d-flex" type="button" name="button">Productos <img height="92px" class="ml-auto" src="assets/icon/icon-more.svg" alt=""></button>
             </div>
             <div class="button-menu">
-              <button class="btn-block azul d-flex" type="button" name="button">Recetas <i class="fa fa-plus ml-auto" aria-hidden="true"></i></button>
+              <img class="img-fluid" src="assets/img/recetas-quesos-navarro.png" alt="Recetas">
+              <button class="btn-block azul d-flex" type="button" name="button">Recetas <img height="92px" class="ml-auto" src="assets/icon/icon-more.svg" alt=""></button>
             </div>
             <div class="button-menu">
-              <button class="btn-block amarillo d-flex" type="button" name="button">Empresa <i class="fa fa-minus ml-auto" aria-hidden="true"></i></button>
+              <img class="img-fluid" src="assets/img/wellnes-plato-del-buen-comer-quesos-navarro.png" alt="Wellness">
+              <button class="btn-block azul-claro d-flex" type="button" name="button">Wellness <img height="92px" class="ml-auto" src="assets/icon/icon-more.svg" alt=""></button>
+            </div>
+            <div class="button-menu">
+              <img class="img-fluid" src="assets/img/nosotros-quesos-navarro.png" alt="Nosotros">
+              <button class="btn-block amarillo d-flex" type="button" name="button">Nosotros <img height="92px" class="ml-auto" src="assets/icon/icon-more.svg" alt=""></button>
             </div>
           </div>
         </div>
@@ -142,13 +148,13 @@
               <div class="widget widget--links">
                 <ul class="links">
                   <li>
-                    <a href="#">Inicio</a>
+                    <a href="index.html">Inicio</a>
                   </li>
                   <li>
-                    <a href="#">Quesos</a>
+                    <a href="views/quesos.html">Quesos</a>
                   </li>
                   <li>
-                    <a href="#">Recetas</a>
+                    <a href="views/recetas.html">Recetas</a>
                   </li>
                 </ul>
               </div>
@@ -160,10 +166,10 @@
                     <a href="#">Consejos</a>
                   </li>
                   <li>
-                    <a href="#">Wellness</a>
+                    <a href="views/wellness.html">Wellness</a>
                   </li>
                   <li>
-                    <a href="#">Nosotros</a>
+                    <a href="views/historia.html">Nosotros</a>
                   </li>
                 </ul>
               </div>
@@ -183,8 +189,8 @@
                 <img class="footer_logo d-sm-none" src="assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
                 <img class="footer_logo2 d-none" src="assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
                 <div class="col-12 p-0">
-                  <a href="#"><button class="btn azul" type="button"><img class="img-fluid" src="assets/icon/icon-fb.svg" alt="facebook"></button></a>
-                  <a href="#"><button class="btn azul" type="button"><img class="img-fluid" src="assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><button class="btn azul" type="button"><img class="img-fluid" src="assets/icon/icon-fb.svg" alt="facebook"></button></a>
+                  <a target="_blank" href="http://instagram.com/quesosnavarro"><button class="btn azul" type="button"><img class="img-fluid" src="assets/icon/icon-instagram.svg" alt="instagram"></button></a>
                 </div>
               </div>
             </div>

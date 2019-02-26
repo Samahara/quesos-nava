@@ -199,6 +199,10 @@ ul {
   background-color: #002C54;
 }
 
+.azul-claro {
+  background-color: #71C8EB;
+}
+
 .bg-awards {
   background-color: #FF9D00;
 }
@@ -988,13 +992,13 @@ label {
     justify-content: center;
   }
   footer .footer__bottom .footer__bottom-content p {
-    font-size: 3.7rem;
+    font-size: 3.4rem;
     text-align: center;
     margin-bottom: 5rem;
     margin-top: 6rem;
   }
   footer .footer__bottom .footer__bottom-content .social-basic {
-    font-size: 2.72rem;
+    font-size: 2.4rem;
     margin-bottom: 6rem;
   }
   .presentaciones-queso {
@@ -1005,8 +1009,8 @@ label {
     font-size: 3rem;
     padding-left: 150px;
   }
-  .home {
-    padding-top: 6vh;
+  .home-mobile {
+
   }
   .list-menu {
     font-size: 5rem;
