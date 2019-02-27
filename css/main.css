@@ -936,6 +936,9 @@ label {
   .col-sm-12 {
     width: 100%;
   }
+  .container-mobile {
+    width: 100%;
+  }
   .d-sm-none {
     display: none !important;
   }
@@ -1029,6 +1032,25 @@ label {
   .navbar .navbar-brand {
     width: 45%;
   }
+  .owl-title-item {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 33px 20px;
+  }
+  .owl-item.nQuesos {
+    height: auto;
+    display: flex;
+  }
+  .owl-item.nQuesos .item {
+    width: 50%;
+  }
+  .owl-item.nQuesos .item img {
+    width: 100%;
+    height: auto;
+  }
   .page--content {
     min-height: 100vh;
     padding-top: 10vh;
@@ -1049,6 +1071,17 @@ label {
     height: auto;
     width: 130px;
     padding-top: 22px;
+  }
+  .text-quesos-mobile {
+    font-size: 3rem;
+    color: black;
+    padding-top: 20%;
+    padding-bottom: 40%;
+    text-align: left;
+  }
+  .text-quesos-mobile a {
+    text-decoration: underline;
+    color: #FFAD2C;
   }
   .w-100 {
     width: 100% !important;
