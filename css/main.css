@@ -308,7 +308,7 @@ img {
   text-align: left;
   border: 2px solid #002C54;
   color: #002C54;
-  margin-left: auto;
+  margin: auto;
   font-weight: 600;
 }
 
@@ -939,6 +939,19 @@ label {
   .container-mobile {
     width: 100%;
   }
+  .composicion-table {
+    font-size: 1.9rem;
+    width: 100%;
+  }
+  .composicion-table-information {
+    width: 86%;
+  }
+  .composicion-table-information th {
+    font-size: 3rem;
+  }
+  .composicion-table-information td {
+    font-size: 2rem;
+  }
   .d-sm-none {
     display: none !important;
   }
@@ -1005,6 +1018,14 @@ label {
     font-size: 2.4rem;
     margin-bottom: 6rem;
   }
+  .info-leche-conv {
+    width: 120px;
+    height: auto;
+  }
+  .info-leche-conh {
+    width: 240px;
+    height: auto;
+  }
   .presentaciones-queso {
     font-size: 3rem;
   }
@@ -1051,12 +1072,45 @@ label {
     width: 100%;
     height: auto;
   }
+  .owl-item .item:hover .item-caption-quesos {
+    background-color: none;
+  }
   .page--content {
     min-height: 100vh;
-    padding-top: 10vh;
+    padding-top: 9.9vh;
+  }
+  .p-mobile-0 {
+    padding-top: 0;
+  }
+  .paginator button.mobile-button {
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    width: 70%;
+  }
+  .paginator button img {
+    width: 100%;
+    height: auto;
+  }
+  .presentaciones-queso p {
+    font-size: 1.1rem;
   }
   .navbar-toggler {
     width: 100px;
+  }
+  .section_title h2,
+  .section_subtitle h2 {
+    font-size: 4.8rem;
+  }
+  .section_subsubtitle h2 {
+    font-size: 2.8rem;
+  }
+  .section_subtitle {
+    padding-right: 0;
+    text-align: center;
+  }
+  .sub-text p {
+    font-size: 1.5rem;
   }
   .search-form {
     padding-top: 1px;
@@ -1082,6 +1136,16 @@ label {
   .text-quesos-mobile a {
     text-decoration: underline;
     color: #FFAD2C;
+  }
+  .text-info-leche td {
+    font-size: 2.4rem !important;
+  }
+  .section_title-awards {
+    text-align: center;
+  }
+  .section_title-awards h2 {
+    text-align: center;
+    font-size: 5.5rem;
   }
   .w-100 {
     width: 100% !important;

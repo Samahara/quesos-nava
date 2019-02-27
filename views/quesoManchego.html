@@ -58,14 +58,28 @@
 
     <!-- Page content -->
     <section class="page--content">
-      <section class="paginator p-top-30">
-        <div class="container">
+      <section class="paginator p-top-30 p-mobile-0">
+        <div class="container d-sm-none">
           <div class="row">
             <div class="col-6">
-              <button class="d-flex" type="button" name="button"><img src="../assets/icon/icon-previous.svg" alt=""></i> Anterior</button>
+              <button class="d-flex" type="button" name="button"><img src="../assets/icon/icon-previous.svg" alt="Anterior"></i>Anterior</button>
             </div>
             <div class="col-6 text-right">
-              <button class="d-flex ml-auto" type="button" name="button">Siguiente <img src="../assets/icon/icon-next.svg" alt=""></button>
+              <button class="d-flex ml-auto" type="button" name="button">Siguiente <img src="../assets/icon/icon-next.svg" alt="Siguiente"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid d-none text-white d-sm-block" style="background-color: #FA3B55; font-size: 4rem; padding-top: 30px; padding-bottom: 30px;">
+          <div class="row">
+            <div class="col-2">
+              <button class="mobile-button" type="button" name="button"><img src="../assets/icon/icon-previous-white.svg" alt="Anterior"></i></button>
+            </div>
+            <div class="col-8 text-center">
+              <h3 class="m-0">Queso manchego</h3>
+            </div>
+            <div class="col-2 text-right">
+              <button class="mobile-button" type="button" name="button"><img src="../assets/icon/icon-next-white.svg" alt="Siguiente"></button>
             </div>
           </div>
         </div>
@@ -80,8 +94,8 @@
                 <img style="position: absolute; left: 73px; top: 60px;" src="../assets/img/queso-navarro-manchego.png" alt="Queso">
               </div>
               <div class="p-bottom-30 d-none d-sm-block">
-                <img width="18.5%" style="position: relative; right: 69px;" src="../assets/img/etiqueta-manchego.png" alt="">
-                <img width="100%" style="position: absolute; left: 10px; top: 130px;" src="../assets/img/queso-navarro-manchego.png" alt="Queso">
+                <img width="18.5%" style="position: relative; right: 31px;" src="../assets/img/etiqueta-manchego.png" alt="">
+                <img width="100%" style="position: absolute; left: 48px; top: 130px;" src="../assets/img/queso-navarro-manchego.png" alt="Queso">
               </div>
               <div class="text-center presentaciones-queso p-bottom-30 p-top-30" style="color: #414141">
                 <div class="container">
@@ -110,16 +124,16 @@
                 <div class="container text-center">
                   <div class="row">
                     <div class="col-6">
-                      <img class="" src="../assets/img/logo-cofocalec.png" alt="Leche info">
+                      <img class="info-leche-conv" src="../assets/img/logo-cofocalec.png" alt="Leche info">
                     </div>
                     <div class="col-6">
-                      <img class="" src="../assets/img/100-natural.png" alt="Leche info">
+                      <img class="info-leche-conh" src="../assets/img/100-natural.png" alt="Leche info">
                     </div>
                     <div class="col-6">
-                      <img class="" src="../assets/img/100-leche-fresca.png" alt="Leche info">
+                      <img class="info-leche-conh" src="../assets/img/100-leche-fresca.png" alt="Leche info">
                     </div>
                     <div class="col-6">
-                      <img class="" src="../assets/img/envasado-al-vacio.png" alt="Leche info">
+                      <img class="info-leche-conh" src="../assets/img/envasado-al-vacio.png" alt="Leche info">
                     </div>
                   </div>
                 </div>
@@ -203,7 +217,7 @@
                         </td>
                         <td></td>
                       </tr>
-                      <tr>
+                      <tr class="text-info-leche">
                         <td></td>
                         <td colspan="3" style="font-size: 1.2rem">
                           Cantidad por porción
@@ -238,7 +252,7 @@
                         </td>
                         <td></td>
                       </tr>
-                      <tr>
+                      <tr class="text-info-leche">
                         <td></td>
                         <td colspan="3" style="font-size: 1.2rem">
                           De las cuales:
@@ -343,15 +357,15 @@
       <section>
         <div class="container-fluid bg-awards p-top-70 p-bottom-30">
           <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7">
+            <div class="col-5 d-sm-none"></div>
+            <div class="col-7 col-sm-12">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-12 text-white">
                     <div class="section_title-awards text-awards">
                       <h2 class="">AWARDS</h2>
                     </div>
-                    <div class="text-justify">
+                    <div class="text-justify txt-wrd">
                       <p class="mb-0">
                         Nuestro Queso Manchego NAVARRO nos llenó de orgullo en 2018 al ser galardonado a nivel mundial en dos
                         ocasiones, trayendo a casa dos medallas:
@@ -363,30 +377,26 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid bg-awards-medals">
           <div class="row">
-            <div class="container-fluid bg-awards-medals">
-              <div class="row">
-                <div class="col-5">
-                  <div class="container p-bottom-30 p-top-30">
-                    <img class="" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="Medals">
-                  </div>
-                </div>
-                <div class="col-7">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="section_medals-awards">
-                          <h4>
-                            Primer lugar en la ACS Judging and  Competition en la categoría
-                            Hispanic & Portuguese Chesses, Cooking Hispanic.
-                          </h4>
-                          <h4>
-                            Medalla de plata en los Word Chesses Awards en la categoría Any
-                            other semi-hard cow's milk chesse.
-                          </h4>
-                        </div>
-                      </div>
+            <div class="col-5 d-sm-none">
+              <div class="container p-bottom-30 p-top-30">
+                <img class="" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="Medals">
+              </div>
+            </div>
+            <div class="col-7 col-sm-12">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section_medals-awards">
+                      <h4>
+                        Primer lugar en la ACS Judging and  Competition en la categoría
+                        Hispanic & Portuguese Chesses, Cooking Hispanic.
+                      </h4>
+                      <h4>
+                        Medalla de plata en los Word Chesses Awards en la categoría Any
+                        other semi-hard cow's milk chesse.
+                      </h4>
                     </div>
                   </div>
                 </div>
@@ -396,13 +406,13 @@
         </div>
         <div class="container-fluid bg-awards p-bottom-30 p-top-30">
           <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7">
+            <div class="col-5 d-sm-none"></div>
+            <div class="col-7 col-sm-12 text-white">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-12 text-white">
-                    <div class="text-justify">
-                      <p>
+                    <div class="text-justify txt-wrd">
+                      <p class="mt-0">
                         Todos son reconocimientos que nos llenan de orgullo e inspiración, porque en Quesos NAVARRO, sabemos hacer
                         Quesos de clase mundial.
                       </p>
@@ -414,18 +424,6 @@
           </div>
         </div>
       </section>
-
-      <!-- <h4>PRESENTACIONES</h4>
-      <p>200g | 400g | 1kg | 2kg | 5kg</p>
-      <p>Rebanadas Molleteras 200g</p>
-      <p>Rallado 225</p>
-      <p>Rebanadas sándwich 400g</p>
-      <p>Rallado 2.5kg</p>
-
-      <p>Mezcla Mozzarella-Manchego Cubicado 1kg</p>
-      <p>Mezcla Mozzarella-Manchego Cubicado 5kg</p>
-      <p>Mezcla Mozzarella-Manchego Premium 5kg</p> -->
-
     </section>
 
     <footer class="azul">
