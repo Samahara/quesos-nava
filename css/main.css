@@ -240,9 +240,31 @@ img {
   border-style: none;
 }
 
+.art-card_subsubtitle {
+  font-size: .9rem;
+}
+
+.art-card_subsubtitle h2 {
+  color: #2B221D;
+  font-size: 1.4rem;
+}
+
+.button-art a {
+  color: #FFAD2C;
+  font-size: .9rem;
+  text-decoration: underline;
+}
+
 .btn-block {
   display: block;
   width: 100%;
+}
+
+.button-menu button.contacto {
+    font-size: .88rem;
+    padding: 8px 70px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .btn, .btn-md {
@@ -450,6 +472,14 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
   -webkit-box-shadow: none;
   box-shadow: none;
   background: 0 0;
+}
+
+.input-style{
+  padding: 14px;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #555;
+    width: 100%;
 }
 
 label {
@@ -957,6 +987,9 @@ label {
   }
   .d-sm-block {
     display: block !important;
+  }
+  .error-mobile {
+    padding-top: 50%;
   }
   .form-group {
     margin-top: .5em;
