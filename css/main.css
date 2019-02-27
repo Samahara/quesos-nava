@@ -87,7 +87,7 @@ table {
 }
 
 .col-11 {
-  width: 91.66;
+  width: 91.66%;
 }
 
 .col-12 {
@@ -522,6 +522,13 @@ label {
 
 .menu_area .navbar {
   padding: 0.2rem;
+}
+
+.number-tips {
+  color: #ccc;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .navbar {
@@ -1077,7 +1084,7 @@ label {
   }
   .page--content {
     min-height: 100vh;
-    padding-top: 9.9vh;
+    padding-top: 9.8vh;
   }
   .p-mobile-0 {
     padding-top: 0;
@@ -1102,6 +1109,8 @@ label {
   .section_subtitle h2 {
     font-size: 4.8rem;
   }
+  .number-tips,
+  .section_subtitle-tips,
   .section_subsubtitle h2 {
     font-size: 2.8rem;
   }
@@ -1120,6 +1129,9 @@ label {
     padding-left: 0;
     height: auto;
     width: 150px;
+  }
+  .search-form.page-search .form-group {
+    margin-top: 2.5em;
   }
   .search-form .search-submit img {
     height: auto;
