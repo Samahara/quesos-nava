@@ -12,12 +12,12 @@ a {
   text-decoration: none;
 }
 
-hr{
+/* hr {
     height: 100%;
     width: 1px;
     border-left: 1px solid orange;
     display: inline-block;
-}
+} */
 
 body {
   color: #5a6671;
@@ -1409,7 +1409,7 @@ label {
     margin: 70px;
   }
   .tip-wellness p {
-    font-size: 2.9rem;
+    font-size: 2.1rem;
   }
   .number-tips {
     font-size: 2.5rem!important;
