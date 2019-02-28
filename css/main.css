@@ -425,7 +425,7 @@ img {
   border: none;
   color: white;
   font-size: 5rem;
-  padding: 25px 70px;
+  padding: 30px 70px;
   text-transform: uppercase;
   text-align: left
 }
@@ -1558,7 +1558,7 @@ label {
   }
   .page--content {
     min-height: 100vh;
-    padding-top: 9.9vh;
+    padding-top: 9.5vh;
   }
   .p-mobile-0 {
     padding-top: 0;
