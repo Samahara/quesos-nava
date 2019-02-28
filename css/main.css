@@ -1058,8 +1058,8 @@ label {
   .composicion-table-information {
     width: 86%;
   }
-  .composicion-table-information th
-  {
+  .section_subtitle-tips h2,
+  .composicion-table-information th {
     font-size: 3rem;
   }
   .text-contac-m {
@@ -1164,12 +1164,13 @@ label {
     height: auto;
   }
   .input-style{
-      padding: 24px;
-      display: block;
-      border: none;
-      font-size: 2.5rem;
-      border-bottom: 4px solid #333;
-      width: 100%;
+    padding: 24px;
+    display: block;
+    border: none;
+    font-size: 2.5rem;
+    border-bottom: 4px solid #333;
+    outline: none;
+    width: 100%;
   }
   .presentaciones-queso,
   .art-card_subsubtitle h2 {
@@ -1269,6 +1270,9 @@ label {
   }
   .tip-wellness p {
     font-size: 2.9rem;
+  }
+  .number-tips {
+    font-size: 2.5rem!important;
   }
   .presentaciones-queso p,
   .content-art p,
