@@ -465,7 +465,7 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
 
 .home {
   height: 100vh;
-  padding-top: 14.4vh;
+  padding-top: 13.5vh;
   max-height: 100vh;
   overflow: hidden;
 }
@@ -485,10 +485,11 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
 
 .input-style{
   padding: 14px;
-    display: block;
-    border: none;
-    border-bottom: 2px solid #555;
-    width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #555;
+  width: 100%;
+  outline: none;
 }
 
 label {
@@ -830,6 +831,14 @@ label {
   transition: opacity .2s linear;
 }
 
+.topbar-slider #slider-thumbnail .item-caption {
+  height: 568px;
+}
+
+.topbar-slider #slider-thumbnail .item-caption.petite-caption {
+  height: 284px;
+}
+
 .owl-item .item .item-caption-quesos {
     height: 346px!important;
   }
@@ -913,7 +922,8 @@ label {
 }
 
 
-.owl-item .item:hover .item-caption-quesos {
+.owl-item .item:hover .item-caption-quesos,
+.item.homehovo:hover .item-caption {
   background-color: inherit;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -963,6 +973,16 @@ label {
 .owl-item.nQuesos {
   height: 346px;
 }
+
+.owl-item.nHome {
+  width: 50%;
+  height: 568px;
+}
+
+.owl-item.nHome2 {
+  height: 284px;
+}
+
 
 .widget_search .search-form .search-field {
   border-color: #fff;
@@ -1220,7 +1240,14 @@ label {
     height: auto;
     display: flex;
   }
+  .owl-item.nHome {
+    height: auto;
+    display: flex;
+  }
   .owl-item.nQuesos .item {
+    width: 50%;
+  }
+  .owl-item.nHome .item {
     width: 50%;
   }
   .owl-item.nQuesos .item img {
