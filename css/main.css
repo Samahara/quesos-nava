@@ -352,6 +352,10 @@ img {
   border-style: none;
 }
 
+.art-card {
+  min-height: 350px;
+}
+
 .art-card_subsubtitle {
   font-size: .9rem;
 }
@@ -424,6 +428,11 @@ img {
   padding: 25px 70px;
   text-transform: uppercase;
   text-align: left
+}
+
+.content-art.wellness {
+  height: 150px;
+  border-top: 10px solid #FF9B00;
 }
 
 .contain-menu-left {
@@ -568,7 +577,7 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
 
 .home {
   height: 100vh;
-  padding-top: 14.4vh;
+  padding-top: 13.5vh;
   max-height: 100vh;
   overflow: hidden;
 }
@@ -588,10 +597,11 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
 
 .input-style{
   padding: 14px;
-    display: block;
-    border: none;
-    border-bottom: 2px solid #555;
-    width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #555;
+  width: 100%;
+  outline: none;
 }
 
 label {
@@ -666,6 +676,19 @@ label {
   padding: 0.2rem;
 }
 
+.media-art {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.number-tips {
+  color: #ccc;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -704,6 +727,7 @@ label {
   color: #fff;
   line-height: 1;
   padding: .33333rem .66667rem;
+  outline: none;
   -webkit-border-radius: .25rem;
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,.1);
 }
@@ -759,7 +783,7 @@ label {
 
 .page--content {
   min-height: 100vh;
-  padding-top: 15.4vh;
+  padding-top: 14vh;
 }
 
 .p-top-10 {
@@ -919,6 +943,14 @@ label {
   transition: opacity .2s linear;
 }
 
+.topbar-slider #slider-thumbnail .item-caption {
+  height: 568px;
+}
+
+.topbar-slider #slider-thumbnail .item-caption.petite-caption {
+  height: 284px;
+}
+
 .owl-item .item .item-caption-quesos {
     height: 346px!important;
   }
@@ -929,6 +961,44 @@ label {
   width: 100%;
   padding: 40px 30px 60px;
   text-align: left;
+}
+
+.text-art-title {
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.tip-wellness {
+  height: 350px;
+  padding: 10px 10px;
+}
+
+.tip-wellness h2 {
+  font-size: 3rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.tip-wellness h2 img {
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+
+.tip-wellness p {
+  font-size: .9rem;
+  padding: 0 0 15px 0;
+}
+
+.tip-wellness button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  margin: 10px;
 }
 
 .owl-item .item .caption-description {
@@ -964,7 +1034,8 @@ label {
 }
 
 
-.owl-item .item:hover .item-caption-quesos {
+.owl-item .item:hover .item-caption-quesos,
+.item.homehovo:hover .item-caption {
   background-color: inherit;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -1014,6 +1085,16 @@ label {
 .owl-item.nQuesos {
   height: 346px;
 }
+
+.owl-item.nHome {
+  width: 50%;
+  height: 568px;
+}
+
+.owl-item.nHome2 {
+  height: 284px;
+}
+
 
 .widget_search .search-form .search-field {
   border-color: #fff;
@@ -1084,15 +1165,16 @@ label {
   background-color: #002C54;
 }
 
-
 @media only screen and (max-width: 991.98px) {
+  .button-art a {
+    font-size: 3rem;
+  }
   .button-menu button.contacto {
     font-size: 2.8rem;
     padding: 12px 70px;
     text-align: center;
     font-weight: bold;
   }
-
   .col-sm-6 {
     width: 50%;
   }
@@ -1109,8 +1191,8 @@ label {
   .composicion-table-information {
     width: 86%;
   }
-  .composicion-table-information th
-  {
+  .section_subtitle-tips h2,
+  .composicion-table-information th {
     font-size: 3rem;
   }
   .text-contac-m {
@@ -1126,6 +1208,16 @@ label {
 
   .composicion-table-information td {
     font-size: 2rem;
+  }
+  .container-wellness-2 {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .content-art.wellness p {
+    font-size: 2.8rem
   }
   .d-sm-none {
     display: none !important;
@@ -1204,15 +1296,17 @@ label {
     width: 240px;
     height: auto;
   }
-  .input-style{
-      padding: 24px;
-      display: block;
-      border: none;
-      font-size: 2.5rem;
-      border-bottom: 4px solid #333;
-      width: 100%;
+  .input-style {
+    padding: 24px;
+    display: block;
+    border: none;
+    font-size: 2.5rem;
+    outline: none;
+    border-bottom: 4px solid #333;
+    width: 100%;
   }
-  .presentaciones-queso {
+  .presentaciones-queso,
+  .art-card_subsubtitle h2 {
     font-size: 3rem;
   }
   .search-form .search-field {
@@ -1236,6 +1330,13 @@ label {
   .menu_area .navbar {
     padding: 2rem 0;
   }
+  .media-art {
+    height: 400px;
+  }
+  .art-card {
+    margin-bottom: 70px;
+    min-height: 950px;
+  }
   .navbar .navbar-brand {
     width: 45%;
   }
@@ -1251,7 +1352,14 @@ label {
     height: auto;
     display: flex;
   }
+  .owl-item.nHome {
+    height: auto;
+    display: flex;
+  }
   .owl-item.nQuesos .item {
+    width: 50%;
+  }
+  .owl-item.nHome .item {
     width: 50%;
   }
   .owl-item.nQuesos .item img {
@@ -1278,7 +1386,37 @@ label {
     width: 100%;
     height: auto;
   }
-  .presentaciones-queso p {
+  .tip-wellness {
+    height: auto;
+  }
+  .tip-wellness-content {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 70px;
+  }
+  .tip-wellness h2 {
+    font-size: 5rem;
+  }
+  .tip-wellness h2 img {
+    padding-bottom: 0;
+    padding-right: 15px;
+    width: 12%;
+  }
+  .tip-wellness button {
+    border: 4px solid white;
+    font-size: 3rem;
+    padding: 25px 60px;
+    margin: 70px;
+  }
+  .tip-wellness p {
+    font-size: 2.9rem;
+  }
+  .number-tips {
+    font-size: 2.5rem!important;
+  }
+  .presentaciones-queso p,
+  .content-art p,
+  .tips-content p {
     font-size: 1.1rem;
   }
   .navbar-toggler {
@@ -1289,7 +1427,7 @@ label {
     font-size: 4.8rem;
   }
   .section_subsubtitle h2 {
-    font-size: 2.8rem;
+    font-size: 2.8rem!important;
   }
   .section_subtitle {
     padding-right: 0;
@@ -1333,7 +1471,14 @@ label {
     text-align: center;
     font-size: 5.5rem;
   }
+  .text-art-title {
+    padding: 30px 0;
+    font-size: 2.5rem;
+  }
   .w-100 {
     width: 100% !important;
+  }
+  .content-art.wellness {
+    height: 500px;
   }
 }
