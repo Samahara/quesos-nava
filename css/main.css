@@ -53,7 +53,7 @@ table {
   align-items: center!important;
 }
 
-.background-historia.col{
+.background-historia-col{
   background-image: url('/assets/img/maquina-2002.png');
   background-repeat: no-repeat, repeat;
   background-position: 53% 21%;

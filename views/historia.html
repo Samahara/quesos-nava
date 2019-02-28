@@ -70,32 +70,32 @@
           <div class="row">
             <div class="col-1 p-bottom-70">
               <div class="" >
-                      <button class="text-amarillo btn-tiempo-historia" type="button" name="button">
+                      <button id="btn-1960" class="text-amarillo btn-tiempo-historia" type="button" name="button" onclick="timeline()">
                       1960
-                      <p><div class="mt-0 mb-0 linea-naranja"></div></p>
+                      <p><div id="line-1960" class="mt-0 mb-0 linea-naranja"></div></p>
                       </button>
               </div>
               <div class="">
-                      <button class="text-azul btn-tiempo-historia" type="button" name="button" >
+                      <button id="btn-2002" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline1()">
                       2002
-                      <p><div class="mt-0 mb-0 linea-azul"></div></p>
+                      <p><div id="line-2002" class="mt-0 mb-0 linea-azul"></div></p>
                       </button>
               </div>
               <div class="">
-                      <button class="text-azul btn-tiempo-historia" type="button" name="button" >
+                      <button id="btn-2008" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline2()">
                       2008
-                      <p><div class="mt-0 mb-0 linea-azul"></div></p>
+                      <p><div id="line-2008" class="mt-0 mb-0 linea-azul"></div></p>
                       </button>
               </div>
               <div class="">
-                      <button class="text-azul btn-tiempo-historia" type="button" name="button" >
+                      <button id="btn-hoy" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline3()">
                       HOY
                       </button>
               </div>
 
             </div>
             <div class="col-11">
-              <div class="row" style="display:none">
+              <div id="historia-1960" class="row p-bottom-70" style="">
                 <div class="col-6">
                   <div class="">
                     <img src="/assets/img/retrato.png" alt="">
@@ -137,7 +137,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row p-top-30 background-historia.col" style="display: none;">
+              <div id="historia-2002" class="row p-top-30 background-historia-col" style="display: none;">
                   <div class="col-5">
                     <p class="text-historia-gl">El año 2002 marca el punto de partida para nuestra diversificación, ya que
                        hasta este punto, Quesos Navarro fue una empresa de un solo producto.
@@ -184,7 +184,7 @@
                     </div>
                   </div>
               </div>
-              <div class="row p-bottom-70">
+              <div id="historia-2008" style="display:none" class="row p-bottom-70 background-historia2-col">
                 <div class="col-6">
                   <div class="p-top-70 p-bottom-30">
                     <img src="/assets/img/planta-exterior.png" alt="">
@@ -202,7 +202,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6 background-historia2-col">
+                <div class="col-6">
                   <div class="row p-top-70" >
                     <div class="col-11" >
                       <p class="text-historia-gl">En el año 2008, se inauguran nuevas instalaciones. Esta segunda planta cuenta con
@@ -216,7 +216,7 @@
                 </div>
               </div>
 
-              <div class="row" style="display:none">
+              <div id="historia-hoy" class="row" style="display:none">
                 <div class="col-12">
                   <div class="p-bottom-30">
                     <p class="text-historia-gl">En 2010 nos llenamos de orgullo al ser Primer Queso hecho en México que recibe el 3er lugar en la categoria de Quesos Hispanos y Portugueses otorgado por American
@@ -274,12 +274,12 @@
 
 
         </div>
-        <div class="container-fluid">
+        <div id="historia-hoy2" style="display:none" class="container-fluid">
           <div class="row bg-awards">
             <div class="col-12">
               <div class="row">
                 <div class="col-6 text-center p-top-70 p-bottom-70">
-                  <img class="img-medalla-grande" src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="">
+                  <img class="img-medalla-grande" src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
                 </div>
                 <div class="col-6 p-top-70 p-bottom-70">
                   <div class="">
@@ -296,24 +296,24 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div id="historia-hoy3" style="display:none" class="container-fluid">
           <div class="row contenedor-naranja-f">
             <div class="col-12 text-center p-top-30 p-bottom-30 img-medalla-space">
               <img  class="img-medalla"  src="/assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
               <img  src="/assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
               <img  src="/assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="">
+              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
               <img  src="/assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
               <img  class="img-medalla"  src="/assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
               <img  src="/assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="">
+              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
               <img  src="/assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="">
+              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
             </div>
           </div>
 
         </div>
-        <div class="container">
+        <div id="historia-hoy4" style="display:none" class="container">
           <div class="row">
             <div class="col-12">
               <div class="container">
