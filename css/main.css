@@ -227,6 +227,10 @@ table {
   text-align: right !important;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
 .text-historia-t{
   font-weight: bold;
   font-size: 2.1rem;
@@ -339,6 +343,10 @@ ul {
 
 .text-white {
   color: white;
+}
+
+.text-gris {
+  color: #CCCCCC;
 }
 
 /* Estilos */
@@ -480,6 +488,35 @@ img {
 
 .container-leche-info div {
   padding: 10px;
+}
+
+.content-recetas img {
+  width: 80%
+}
+
+.content-print {
+  display: inline-flex;
+}
+
+.content-print button img {
+  display: inline-flex;
+  width: 85%!important;
+}
+
+.content-recetas p {
+  font-size: .8rem;
+}
+
+.content-recetas span {
+  font-size: .9rem;
+  padding-top: 8px;
+}
+
+.subsub_title-recetagr h2 {
+  color: #FFA10E;
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1;
 }
 
 footer.footer6 {
@@ -879,6 +916,16 @@ label {
   line-height: 60px;
 }
 
+.section_subtitle-recetas h2 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.section_subtitle-recetas p {
+  font-size: .7rem;
+  color: #4F4F4F;
+}
+
 .search-form {
   position: relative;
   padding-top: 10px;
@@ -971,7 +1018,7 @@ label {
 }
 
 .tip-recetas p {
-    font-size: .9rem;
+    font-size: 1rem;
     padding: 43% 0;
 }
 
@@ -1348,6 +1395,20 @@ label {
   .composicion-table-information {
     width: 86%;
   }
+  .content-recetas span {
+    font-size: 2rem!important;
+    align-content: center;
+    text-align: left;
+  }
+  .owl-item .item.recetaIte2 .caption-description {
+    bottom: 15%;
+  }
+  .owl-item .item.recetaIte.receto .caption-description {
+    bottom: 15%;
+}
+  .content-recetas img {
+    width: 50%!important;
+  }
   .section_subtitle-tips h2,
   .composicion-table-information th {
     font-size: 3rem;
@@ -1572,6 +1633,12 @@ label {
   .paginator button img {
     width: 100%;
     height: auto;
+  }
+  .section_subtitle-recetas h2 {
+    font-size: 5.8rem;
+  }
+  .section_subtitle-recetas p {
+    font-size: 2rem;
   }
   .tip-wellness {
     height: auto;
