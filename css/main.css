@@ -548,6 +548,14 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
   color: white;
 }
 
+.filter-select {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  width: 20px;
+}
+
 .form-control {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -680,6 +688,11 @@ label {
   width: 100%;
   height: 140px;
   overflow: hidden;
+}
+
+
+.owl-item .item .caption-description.recetas2.mariscos-title {
+  bottom: 35px!important;
 }
 
 .number-tips {
@@ -924,8 +937,14 @@ label {
   width: 100%;
 }
 
+.owl-item .item .caption-description.recetas2 {
+  padding: 40px 40px 60px;
+}
+
 .topbar-slider #slider-thumbnail .item-caption,
-.owl-item .item .item-caption-quesos {
+.owl-item .item .item-caption-quesos,
+.owl-item .item .item-caption-recetas,
+.owl-item .item .item-caption-recetas2 {
   display: block;
   position: absolute;
   left: 0;
@@ -951,9 +970,19 @@ label {
   height: 284px;
 }
 
-.owl-item .item .item-caption-quesos {
-    height: 346px!important;
-  }
+.tip-recetas p {
+    font-size: .9rem;
+    padding: 43% 0;
+}
+
+.owl-item .item .item-caption-quesos,
+.owl-item .item .item-caption-recetas {
+  height: 346px!important;
+}
+
+.owl-item .item .item-caption-recetas2 {
+  height: 310px!important;
+}
 
 .topbar-slider #slider-thumbnail .item .caption-description {
   display: block;
@@ -1009,7 +1038,9 @@ label {
   bottom: 60px;
 }
 
-.topbar-slider #slider-thumbnail .item:hover .item-caption {
+.topbar-slider #slider-thumbnail .item:hover .item-caption,
+.owl-item .item:hover .item-caption-recetas,
+.owl-item .item:hover .item-caption-recetas2 {
   background-color: #000000bd;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -1084,6 +1115,16 @@ label {
 
 .owl-item.nQuesos {
   height: 346px;
+}
+
+.owl-item.nRecetas {
+  height: 346px;
+  overflow: hidden;
+}
+
+.owl-item.nRecetas2 {
+  height: 310px;
+  overflow: hidden;
 }
 
 .owl-item.nHome {
@@ -1176,6 +1217,11 @@ label {
   position: relative;
   font-family: Arial;
   border-bottom: 1px solid #000;
+  width: 35%;
+}
+
+.custom-select.custom2 {
+  margin-left: auto;
 }
 
 .custom-select select {
@@ -1183,11 +1229,11 @@ label {
 }
 
 .select-selected {
-  background-color: transparen;
+  background-color: transparent;
 }
 
 /*style the arrow inside the select element:*/
-.select-selected:after {
+/* .select-selected:after {
   position: absolute;
   content: "";
   top: 14px;
@@ -1196,13 +1242,13 @@ label {
   height: 0;
   border: 6px solid transparent;
   border-color: #000 transparent transparent transparent;
-}
+} */
 
 /*point the arrow upwards when the select box is open (active):*/
-.select-selected.select-arrow-active:after {
+/* .select-selected.select-arrow-active:after {
   border-color: transparent transparent #000 transparent;
   top: 7px;
-}
+} */
 
 /*style the items (options), including the selected item:*/
 .select-items div,
@@ -1218,15 +1264,18 @@ label {
 
 /*style items (options):*/
 .select-items {
+  background-color: #fff;
+  top: 102%;
+  left: 20px;
+  right: 0;
   position: absolute;
   background-color: #fff;
-  top: 100%;
-  left: 0;
-  right: 0;
   z-index: 99;
-  border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  -webkit-box-shadow: 0 10px 30px rgba(41,41,59,.1);
+  box-shadow: 0 10px 30px rgba(41,41,59,.1);
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 /*hide the items when the select box is closed:*/
@@ -1240,6 +1289,38 @@ label {
 }
 
 /* Fin select */
+
+/* Paginación */
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 5px 10px;
+  font-size: .9rem;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.icon-paginator {
+  width: 20%;
+}
+
+.pagination a.active {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.pagination a:hover:not(.active) {background-color: transparent;}
+
+/* Fin paginación */
 
 @media only screen and (max-width: 991.98px) {
   .button-art a {
@@ -1281,7 +1362,6 @@ label {
   .subtitle-contact-m{
     font-size: 3.5rem
   }
-
   .composicion-table-information td {
     font-size: 2rem;
   }
@@ -1298,6 +1378,12 @@ label {
   .content-art.wellness {
     border-top: 30px solid #FF9B00;
   }
+  .custom-select {
+    width: 75%;
+  }
+  .custom-select.custom2 {
+    margin-left: 0;
+  }
   .d-sm-none {
     display: none !important;
   }
@@ -1312,6 +1398,10 @@ label {
   }
   .form-control {
     height: 105px;
+  }
+  .filter-select {
+    bottom: 0px;
+    width: 50px;
   }
   footer.footer6 {
     padding-top: 0;
@@ -1384,6 +1474,10 @@ label {
     border-bottom: 4px solid #333;
     width: 100%;
   }
+  .pagination a {
+    padding: 10px 14px;
+    font-size: 2.5rem;
+  }
   .presentaciones-queso,
   .art-card_subsubtitle h2 {
     font-size: 3rem;
@@ -1427,26 +1521,40 @@ label {
     text-transform: uppercase;
     padding: 33px 20px;
   }
-  .owl-item.nQuesos {
-    height: auto;
-    display: flex;
-  }
+  .owl-item.nQuesos,
   .owl-item.nHome {
     height: auto;
     display: flex;
   }
-  .owl-item.nQuesos .item {
-    width: 50%;
+  .owl-item.nRecetas,
+  .owl-item.nRecetas2 {
+    height: 460px;
+    display: flex;
   }
+  .owl-item.nQuesos .item,
   .owl-item.nHome .item {
     width: 50%;
   }
-  .owl-item.nQuesos .item img {
+  .owl-item.nRecetas .item,
+  .owl-item.nRecetas2 .item.recetaIte2 {
+    width: 100%;
+  }
+  .owl-item.nQuesos .item img,
+  .owl-item.nRecetas .item img,
+  .owl-item.nRecetas2 .item img {
     width: 100%;
     height: auto;
   }
   .owl-item .item:hover .item-caption-quesos {
     background-color: none;
+  }
+  .owl-item .item.recetaIte .caption-description,
+  .owl-item .item.recetaIte2 .caption-description {
+    bottom: 28%;
+  }
+  .owl-item .item .item-caption-recetas,
+  .owl-item .item .item-caption-recetas2 {
+    height: 460px!important;
   }
   .page--content {
     min-height: 100vh;
@@ -1524,10 +1632,15 @@ label {
     height: auto;
     width: 150px;
   }
+  .search-form .search-submit img.rec {
+    height: auto;
+    width: 110px;
+    padding-top: 0px;
+  }
   .search-form .search-submit img {
     height: auto;
     width: 130px;
-    padding-top: 22px;
+    padding-top: 20px;
   }
   .text-quesos-mobile {
     font-size: 3rem;
@@ -1549,6 +1662,9 @@ label {
   .section_title-awards h2 {
     text-align: center;
     font-size: 5.5rem;
+  }
+  .select-items div, .select-selected {
+    font-size: 2.5rem;
   }
   .text-art-title {
     padding: 30px 0;
