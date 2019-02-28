@@ -12,6 +12,13 @@ a {
   text-decoration: none;
 }
 
+hr{
+    height: 100%;
+    width: 1px;
+    border-left: 1px solid orange;
+    display: inline-block;
+}
+
 body {
   color: #5a6671;
   font-weight: 400;
@@ -44,6 +51,25 @@ table {
   -webkit-align-items: center!important;
   -ms-flex-align: center!important;
   align-items: center!important;
+}
+
+.background-historia.col{
+  background-image: url('/assets/img/maquina-2002.png');
+  background-repeat: no-repeat, repeat;
+  background-position: 53% 21%;
+}
+
+.background-historia2-col{
+  background-image: url('/assets/img/maquina.png');
+  background-repeat: no-repeat, repeat;
+  background-position: 22% 70%;
+}
+
+.btn-tiempo-historia{
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .col-1 {
@@ -102,12 +128,29 @@ table {
   margin-left: auto;
 }
 
+.contenedor-naranja-f{
+  background-color: #fb9200;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.contenedor-azules-historia{
+  padding-left: 1.4%;
+  width: 100.9%;
+}
+
+.fondo-azul-card-h{
+  background-color: #a0d4f1;
+}
+
+.fondo-azulf-card-h{
+  background-color: #002C54;
 }
 
 .d-flex {
@@ -131,6 +174,29 @@ table {
 .img-fluid {
   height: auto;
   width: 100%;
+}
+
+.img-medalla{
+  width: 6%;
+}
+.img-medalla-space{
+  letter-spacing: 20px;
+}
+
+.img-medalla-grande{
+  width: 40%;
+}
+
+.linea-naranja{
+  margin-left: 50%;
+  height: 70px;
+  border-left: 3px solid #FFA10E;
+}
+
+.linea-azul{
+  margin-left: 50%;
+  height: 70px;
+  border-left: 3px solid #002C54;
 }
 
 .ml-auto {
@@ -159,6 +225,52 @@ table {
 
 .text-right {
   text-align: right !important;
+}
+
+.text-historia-t{
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+.text-historia-sub{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.text-historia-gl{
+  font-size: 0.89rem;
+}
+
+.text-historia-card-azules{
+  font-size: 0.8rem;
+}
+
+.text-h-card-a-title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text-first-historia{
+  font-size: 0.85rem;
+}
+
+.text-first-historia2{
+  font-size: 0.82rem;
+}
+
+.space-historia-text{
+  line-height: .2;
+}
+
+.space-card-margin-item{
+  line-height: .5;
+  margin-left: 40%;
+}
+
+.space-card-margin{
+  border-bottom: 2px solid white;
+  width: 80%;
+  line-height: .3;
+  margin-left: 9%;
 }
 
 .row {
