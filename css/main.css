@@ -323,6 +323,10 @@ ul {
   background-color: #8BC7E9;
 }
 
+.bg-adobera {
+  background-color: #CD571D;
+}
+
 .bg-awards {
   background-color: #FCA311;
 }
@@ -347,6 +351,10 @@ ul {
 
 .text-panela {
   color: #8BC7E9;
+}
+
+.text-adobera {
+  color: #CD571D;
 }
 
 .text-giftpack {
