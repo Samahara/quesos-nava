@@ -727,7 +727,7 @@ label {
 }
 
 .menu_area .navbar {
-  padding: 0.2rem;
+  padding: 0.35rem;
 }
 
 .media-art {
@@ -1565,7 +1565,7 @@ label {
   .list-menu {
     top: 200px;
     font-size: 60px;
-    height: 88.5vh;
+    height: 88.8vh;
   }
   .list-menu ul li {
     line-height: 160px;
