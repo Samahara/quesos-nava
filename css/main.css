@@ -448,13 +448,14 @@ img {
 .button-menu button {
   border: none;
   color: white;
+  cursor: pointer;
   font-family: "Roboto";
-  font-size: 80px;
+  font-size: 24px;
   font-weight: bold;
   padding: 10px 70px;
   text-transform: uppercase;
-  text-align: left;
-  line-height: 125px;
+  text-align: center;
+  line-height: 50px;
 }
 
 .button-paginator {
@@ -1440,6 +1441,13 @@ label {
     padding: 12px 70px;
     text-align: center;
     font-weight: bold;
+  }
+  .button-menu button {
+    font-size: 80px;
+    font-weight: bold;
+    padding: 10px 70px;
+    text-align: left;
+    line-height: 125px;
   }
   .col-sm-6 {
     width: 50%;
