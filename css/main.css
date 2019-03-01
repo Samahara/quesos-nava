@@ -303,11 +303,11 @@ ul {
 
 /* Colores */
 
-.rosa {
+.bg-manchego {
   background-color: #E2485F;
 }
 
-.amarillo {
+.bg-cheddar {
   background-color: #FBA400;
 }
 
@@ -315,8 +315,8 @@ ul {
   background-color: #002654;
 }
 
-.azul-claro {
-  background-color: #71C8EB;
+.bg-panela {
+  background-color: #8BC7E9;
 }
 
 .bg-awards {
@@ -329,11 +329,15 @@ ul {
 
 /* Textos */
 
-.text-rosa {
+.text-amarillo {
+  color: #F5A623;
+}
+
+.text-manchego {
   color: #E2485F;
 }
 
-.text-amarillo {
+.text-cheddar {
   color: #FBA400;
 }
 
@@ -444,6 +448,7 @@ img {
 .button-paginator {
   border: none;
   color: white;
+
   font-family: "Roboto";
   font-size: 60px;
   font-weight: bold;
@@ -500,7 +505,6 @@ img {
 
 .composicion-table th {
   border: 2px solid;
-  border-color: #E2485F;
   color: white;
   font-size: 16px;
   line-height: 19px;
@@ -509,7 +513,6 @@ img {
 
 .composicion-table td {
   border: 2px solid;
-  border-color: #E2485F;
   padding: 15px;
 }
 
@@ -854,8 +857,8 @@ label {
 .paginator button {
   background-color: transparent;
   border: none;
-  color: #A2A2A2;
-  font-size: .9rem;
+  color: #929292;
+  cursor: pointer;
 }
 
 .paginator button img {
