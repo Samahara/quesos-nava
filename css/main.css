@@ -311,8 +311,12 @@ ul {
   background-color: #FBA400;
 }
 
-.azul {
+.bg-giftpack {
   background-color: #002654;
+}
+
+.azul {
+  background-color: #002C54;
 }
 
 .bg-panela {
@@ -345,8 +349,12 @@ ul {
   color: #8BC7E9;
 }
 
-.text-azul {
+.text-giftpack {
   color: #002654;
+}
+
+.text-azul {
+  color: #002C54;
 }
 
 .text-white {
