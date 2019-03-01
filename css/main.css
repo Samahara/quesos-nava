@@ -841,7 +841,7 @@ label {
 
 .page--content {
   min-height: 100vh;
-  padding-top: 13vh;
+  padding-top: 95px;
 }
 
 .p-top-10 {
@@ -881,9 +881,9 @@ label {
 }
 
 .section_title h2 {
-  font-weight: 600;
-  font-size: 3.8rem;
-  margin-bottom: 3.46667rem;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
   text-transform: uppercase;
 }
 
@@ -1085,10 +1085,11 @@ label {
 }
 
 .owl-item .item .caption-description {
+  bottom: 28%;
   display: block;
+  padding: 40px 110px;
   position: absolute;
   width: 100%;
-  padding: 40px 110px;
 }
 
 .topbar-slider #slider-thumbnail .item:hover .item-caption,
@@ -1149,16 +1150,17 @@ label {
 }
 
 .owl-item .item .caption-title-text-cheese {
-  display: block;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-family: Oswald,sans-serif;
-  font-size: 2rem;
-  line-height: 40px;
-  letter-spacing: 2px;
   color: #fff;
-  text-decoration: none;
+  display: block;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+  height: 100%;
+  line-height: 38px;
   text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .owl-title-item {
@@ -1199,67 +1201,67 @@ label {
 }
 
 .item.cheddar:hover .item-caption-quesos {
-  background-color: #FF9F00;
+  background-color: #FBA400;
 }
 
 .item.manchego:hover .item-caption-quesos {
-  background-color: #FA3B55;
+  background-color: #E2485F;
 }
 
 .item.panela:hover .item-caption-quesos {
-  background-color: #71C8EB;
+  background-color: #8BC7E9;
 }
 
 .item.adobera:hover .item-caption-quesos {
-  background-color: #E14F00;
+  background-color: #CD571D;
 }
 
 .item.qamarillo:hover .item-caption-quesos {
-  background-color: #FFDC40;
+  background-color: #FBDD3D;
 }
 
 .item.oaxaca:hover .item-caption-quesos {
-  background-color: #00A49D;
+  background-color: #00A29B;
 }
 
 .item.parmesano:hover .item-caption-quesos {
-  background-color: #A8AC1A;
+  background-color: #A9AD00;
 }
 
 .item.crema:hover .item-caption-quesos {
-  background-color: #6FCAEE;
+  background-color: #8AC8EC;
 }
 
 .item.cabra:hover .item-caption-quesos {
-  background-color: #576E7E;
+  background-color: #5D6E7F;
 }
 
 .item.chihuahua:hover .item-caption-quesos {
-  background-color: #B3A79B;
+  background-color: #B1A89C;
 }
 
 .item.gouda:hover .item-caption-quesos {
-  background-color: #90989D;
+  background-color: #93999E;
 }
 
 .item.mozzarella:hover .item-caption-quesos {
-  background-color: #2382CF;
+  background-color: #4681CF;
 }
 
 .item.cheddaranejo:hover .item-caption-quesos {
-  background-color: #858888;
+  background-color: #878989;
 }
 
 .item.extraanejo:hover .item-caption-quesos {
-  background-color: #A47A37;
+  background-color: #9D7C36;
 }
 
 .item.cotija:hover .item-caption-quesos {
-  background-color: #CE4702;
+  background-color: #BC4E20;
 }
 
 .item.giftpack:hover .item-caption-quesos {
-  background-color: #002C54;
+  background-color: #002654;
 }
 
 /* Select */
@@ -1379,6 +1381,10 @@ label {
 /* Fin paginación */
 
 @media only screen and (max-width: 991.98px) {
+  body {
+    font-size: 35px;
+    line-height: 50px;
+  }
   .button-art a {
     font-size: 3rem;
   }
@@ -1589,12 +1595,13 @@ label {
     width: 417.5px;
   }
   .owl-title-item {
-    width: 100%;
-    height: auto;
     color: white;
-    font-size: 3.5rem;
-    text-transform: uppercase;
+    font-size: 60px;
+    height: auto;
+    line-height: 70px;
     padding: 33px 20px;
+    text-transform: uppercase;
+    width: 100%;
   }
   .owl-item.nQuesos,
   .owl-item.nHome {
@@ -1633,7 +1640,7 @@ label {
   }
   .page--content {
     min-height: 100vh;
-    padding-top: 9.5vh;
+    padding-top: 200px;
   }
   .p-mobile-0 {
     padding-top: 0;
@@ -1692,7 +1699,8 @@ label {
   }
   .section_title h2,
   .section_subtitle h2 {
-    font-size: 4.8rem;
+    font-size: 80px;
+    line-height: 125px;
   }
   .section_subsubtitle h2 {
     font-size: 2.8rem!important;
@@ -1700,12 +1708,6 @@ label {
   .section_subtitle {
     padding-right: 0;
     text-align: center;
-  }
-  .sub-text p {
-    font-size: 1.5rem;
-  }
-  .search-form {
-
   }
   .search-form .search-submit {
     font-size: 4rem;
@@ -1725,15 +1727,14 @@ label {
     width: 130px;
   }
   .text-quesos-mobile {
-    font-size: 3rem;
-    color: black;
     padding-top: 20%;
     padding-bottom: 40%;
     text-align: left;
   }
   .text-quesos-mobile a {
-    text-decoration: underline;
     color: #FFAD2C;
+    font-size: 35px;
+    text-decoration: underline;
   }
   .text-info-leche td {
     font-size: 2.4rem !important;

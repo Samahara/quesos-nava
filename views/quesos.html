@@ -16,7 +16,7 @@
                 <img class="d-sm-none" src="../assets/img/quesos-navarro-logo-nosotros.png" width="70px" height="auto" alt="Logo">
                 <img class="img-fluid d-none d-sm-block" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="logo">
               </a>
-              <button class="navbar-toggler" type="button" name="button">
+              <button class="navbar-toggler" type="button" name="buttonMenu">
                 <span>
                   <img id="spanMenu" name="spanMenu" class="img-fluid" src="../assets/icon/icon-menu.svg" alt="menu">
                   <img id="spanMenu2" name="spanMenu2" class="img-fluid" src="../assets/icon/icon-closed-menu.svg" alt="menu" hidden>
@@ -34,24 +34,24 @@
               <input class="form-control search-field" type="text" placeholder="">
             </div>
             <button type="button" class="btn btn-default search-submit" name="button">
-              <img src="../assets/icon/icon-search.svg" alt="">
+              <img src="../assets/icon/icon-search.svg" alt="buscar">
             </button>
           </form>
         </div>
         <div class="col-12">
           <ul class="p-0">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../views/quesos.html">Quesos</a></li>
-            <li><a href="../views/recetas.html">Recetas</a></li>
-            <li><a href="../views/tips.html">Tips</a></li>
-            <li><a href="../views/wellness.html">Wellness</a></li>
-            <li><a href="../views/historia.html">Nosotros</a></li>
-            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a class="text-azul" href="../index.html">Inicio</a></li>
+            <li><a class="text-azul" href="../views/quesos.html">Quesos</a></li>
+            <li><a class="text-azul" href="../views/recetas.html">Recetas</a></li>
+            <li><a class="text-azul" href="../views/tips.html">Tips</a></li>
+            <li><a class="text-azul" href="../views/wellness.html">Wellness</a></li>
+            <li><a class="text-azul" href="../views/historia.html">Nosotros</a></li>
+            <li><a class="text-azul" href="../views/contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div class="col-12 text-center">
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+        <div class="menu_media col-12 text-center">
+          <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+          <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
         </div>
       </div>
     </section>
@@ -61,7 +61,7 @@
       <div class="button-menu d-none d-sm-block">
         <button class="btn-block rosa" type="button" name="button">Productos</button>
       </div>
-      <section class="p-top-10">
+      <section class="p-top-30">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -94,41 +94,45 @@
             <div class="col-12" style="left: 0px; display: block;">
               <div class="row text-center">
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #FF9F00">
+                  <div class="owl-title-item" style="background-color: #FBA400">
                     <h3 class="m-0 d-none d-sm-block">Queso cheddar</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos">
                     <div class="item cheddar" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" src="../assets/img/queso-navarro-cheddar.png" alt="Cheddar">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO CHEDDAR</a>
-                          </span>
-                        </div>
+                        <a href="../views/quesoManchego.html" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO CHEDDAR
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
                       <div class="text-quesos-mobile">
-                        <p style="margin-bottom: 30px; margin-top: 0;">El queso Cheddar NAVARRO es elaborado a la usanza inglesa.</p>
+                        <p class="mt-0">El queso Cheddar NAVARRO es elaborado a la usanza inglesa.</p>
                         <p class="mt-0"><a href="#">Leer más</a></p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #FA3B55">
+                  <div class="owl-title-item" style="background-color: #E2485F">
                     <h3 class="m-0 d-none d-sm-block">Queso manchego</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item manchego" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-manchego.png" alt="Manchego">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="../views/quesoManchego.html" class="caption-title-text-cheese">QUESO MANCHEGO</a>
-                          </span>
-                        </div>
+                        <a href="../views/quesoManchego.html" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO MANCHEGO
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -140,18 +144,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #71C8EB">
+                  <div class="owl-title-item" style="background-color: #8BC7E9">
                     <h3 class="m-0 d-none d-sm-block">Queso panela</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item panela" style="padding-left: 35px; padding-top: 50px;">
-                      <img height="350px;" class="" src="../assets/img/queso-navarro-panela.png" alt="Panela">
+                      <img height="250px;" class="" src="../assets/img/queso-navarro-panela.png" alt="Panela">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO PANELA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO PANELA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -163,18 +169,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #E14F00">
+                  <div class="owl-title-item" style="background-color: #CD571D">
                     <h3 class="m-0 d-none d-sm-block">Queso adobera</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item adobera" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-adobera.png" alt="Adobera">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO ADOBERA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO ADOBERA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -186,18 +194,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #FFDC40">
+                  <div class="owl-title-item" style="background-color: #FBDD3D">
                     <h3 class="m-0 d-none d-sm-block">Queso amarillo</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item qamarillo" style="padding-left: 35px; padding-top: 50px;">
                       <img height="240px" class="" src="../assets/img/queso-navarro-amarillo.png" alt="Amarillo">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO AMARILLO</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO AMARILLO
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -209,18 +219,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #00A49D">
+                  <div class="owl-title-item" style="background-color: #00A29B">
                     <h3 class="m-0 d-none d-sm-block">Queso oaxaca</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item oaxaca" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-oaxaca.png" alt="Oaxaca">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO OAXACA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO OAXACA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -232,18 +244,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #A8AC1A">
+                  <div class="owl-title-item" style="background-color: #A9AD00">
                     <h3 class="m-0 d-none d-sm-block">Queso parmesano</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item parmesano" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-parmesano.png" alt="Parmesano">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO PARMESANO</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO PARMESANO
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -255,18 +269,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #6FCAEE">
+                  <div class="owl-title-item" style="background-color: #8AC8EC">
                     <h3 class="m-0 d-none d-sm-block">Queso crema</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
-                    <div class="item crema" style="padding-left: 35px; padding-top: 50px;">
-                      <img height="250px" class="" src="../assets/img/queso-navarro-crema.png" alt="Crema">
+                    <div class="item crema" style="padding-top: 120px;">
+                      <img width="70%" height="auto" class="" src="../assets/img/queso-navarro-queso-crema.png" alt="Crema">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO CREMA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO CREMA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -278,18 +294,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #576E7E">
+                  <div class="owl-title-item" style="background-color: #5D6E7F">
                     <h3 class="m-0 d-none d-sm-block">Queso de cabra</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item cabra" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-cabra.png" alt="Cabra">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO DE CABRA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO DE CABRA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -301,18 +319,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #B3A79B">
+                  <div class="owl-title-item" style="background-color: #B1A89C">
                     <h3 class="m-0 d-none d-sm-block">Queso chihuahua</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item chihuahua" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-chihuahua.png" alt="Chihuahua">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO CHIHUAHUA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO CHIHUAHUA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -324,18 +344,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #90989D">
+                  <div class="owl-title-item" style="background-color: #93999E">
                     <h3 class="m-0 d-none d-sm-block">Queso gouda</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item gouda" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-gouda.png" alt="Gouda">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO GOUDA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO GOUDA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -347,18 +369,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #2382CF">
+                  <div class="owl-title-item" style="background-color: #4681CF">
                     <h3 class="m-0 d-none d-sm-block">Queso mozzarella</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item mozzarella" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-mozzarella.png" alt="Mozzarella">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO MOZZARELLA</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                              QUESO MOZZARELLA
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -370,18 +394,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #858888">
+                  <div class="owl-title-item" style="background-color: #878989">
                     <h3 class="m-0 d-none d-sm-block">Queso cheddar añejo</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item cheddaranejo" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-cheddar-añejo.png" alt="Cheddar añejo">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO CHEDDAR AÑEJO</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description" style="bottom: 22%">
+                            <span class="caption-title">
+                              QUESO CHEDDAR AÑEJO
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -393,18 +419,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #A47A37">
+                  <div class="owl-title-item" style="background-color: #9D7C36">
                     <h3 class="m-0 d-none d-sm-block">Queso cheddar extra añejo</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item extraanejo" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-cheddar-extra-añejo.png" alt="Extra añejo">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO CHEDDAR EXTRA AÑEJO</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description" style="bottom: 16%">
+                            <span class="caption-title">
+                              QUESO CHEDDAR EXTRA AÑEJO
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -416,18 +444,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #CE4702">
+                  <div class="owl-title-item" style="background-color: #BC4E20">
                     <h3 class="m-0 d-none d-sm-block">Queso cotija añejo</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
                     <div class="item cotija" style="padding-left: 35px; padding-top: 50px;">
                       <img height="250px" class="" src="../assets/img/queso-navarro-cotija-añejo.png" alt="Cotija">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">QUESO COTIJA AÑEJO</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description" style="bottom: 22%">
+                            <span class="caption-title">
+                              QUESO COTIJA AÑEJO
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -439,18 +469,20 @@
                   </div>
                 </div>
                 <div class="col-4 col-sm-12 p-0">
-                  <div class="owl-title-item" style="background-color: #002C54">
+                  <div class="owl-title-item" style="background-color: #002654">
                     <h3 class="m-0 d-none d-sm-block">Gift pack 2018</h3>
                   </div>
                   <div class="owl-item w-100 nQuesos" style="width: 100%;">
-                    <div class="item giftpack" style="padding-left: 35px; padding-top: 50px;">
-                      <img height="250px" class="" src="../assets/img/queso-navarro-gift-pack.png" alt="Gift pack">
+                    <div class="item giftpack" style="padding-left: 25px; padding-top: 70px;">
+                      <img height="250px" class="" src="../assets/img/queso-navarro-gift-pack-2019.png" alt="Gift pack">
                       <div class="item-caption-quesos d-sm-none">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">GIFT PACK 2018</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description" style="bottom: 26%">
+                            <span class="caption-title">
+                              GIFT PACK 2018-2019
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <div class="col-sm-6 d-none d-sm-block">
@@ -475,39 +507,25 @@
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Inicio</a>
-                  </li>
-                  <li>
-                    <a href="#">Quesos</a>
-                  </li>
-                  <li>
-                    <a href="#">Recetas</a>
-                  </li>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../views/quesos.html">Quesos</a></li>
+                  <li><a href="../views/recetas.html">Recetas</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Consejos</a>
-                  </li>
-                  <li>
-                    <a href="#">Wellness</a>
-                  </li>
-                  <li>
-                    <a href="#">Nosotros</a>
-                  </li>
+                  <li><a href="#">Consejos</a></li>
+                  <li><a href="../views/wellness.html">Wellness</a></li>
+                  <li><a href="../views/historia.html">Nosotros</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Contacto</a>
-                  </li>
+                  <li><a href="../views/contacto.html">Contacto</a></li>
                 </ul>
               </div>
             </div>
@@ -516,9 +534,9 @@
               <div class="widget text_widget text-right">
                 <img class="footer_logo d-sm-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
                 <img class="footer_logo2 d-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
-                <div class="col-12 p-0">
-                  <a href="#"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-                  <a href="#"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+                <div class="footer_media">
+                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+                  <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
                 </div>
               </div>
             </div>
@@ -530,7 +548,7 @@
           <div class="row">
             <div class="col-12">
               <div class="footer__bottom-content">
-                <p>
+                <p class="m-0">
                   Copyright © Quesos Navarro. Todos los Derechos Reservados
                 </p>
                 <div class="social-basic">
