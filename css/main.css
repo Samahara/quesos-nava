@@ -571,6 +571,12 @@ img {
   line-height: 70px;
 }
 
+.section_subtitle-tips h2 {
+  color: #FCA311;
+  font-size: 32px;
+  line-height: 50px;
+}
+
 .categoria_title h2 {
   color: #CCCCCC;
   font-size: 32px;
@@ -1290,6 +1296,8 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .text-art-title {
+  font-size: 18px;
+  line-height: 21px;
   padding: 10px 0;
   text-transform: uppercase;
 }
@@ -1750,7 +1758,6 @@ textarea {
     font-size: 40px;
     line-height: 47.5px;
   }
-  .section_subtitle-tips h2,
   .composicion-table-information th {
     font-size: 50px;
     height: 140px;
@@ -1991,6 +1998,7 @@ textarea {
     width: 100%;
     height: auto;
   }
+  .section_subtitle-tips h2,
   .presentaciones-queso h4,
   .section_medals-awards h4,
   .section_subsubtitle h2,
@@ -2091,7 +2099,8 @@ textarea {
   }
   .text-art-title {
     padding: 30px 0;
-    font-size: 2.5rem;
+    font-size: 45px;
+    line-height: 52px;
   }
   .w-100 {
     width: 100% !important;
