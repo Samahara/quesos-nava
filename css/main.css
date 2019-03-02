@@ -1891,8 +1891,8 @@ textarea {
     border-bottom: 4px solid #555;
     width: 100%;
   }
-  .form-group {
-    padding-top: 50px;
+  .form-group.contactanos {
+    padding-top: 60px;
   }
   .pagination a {
     padding: 20px 15px;
