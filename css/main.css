@@ -673,6 +673,16 @@ img {
   margin: 0 20px;
 }
 
+.content-error h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.content-error p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .content-menu-recetas p {
   font-size: 10px;
   line-height: 14px;
@@ -1681,6 +1691,18 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
     margin: 0;
     margin-right: 10px;
   }
+  .content-error {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+  .content-error h2 {
+    font-size: 65px;
+    line-height: 75px;
+  }
+  .content-error p {
+    font-size: 45px;
+    line-height: 52px;
+  }
   .intro-area-two {
     height: 200px;
   }
@@ -1737,9 +1759,6 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   }
   .d-sm-block {
     display: block !important;
-  }
-  .error-mobile {
-    padding-top: 50%;
   }
   .guarnicion_title h3 {
     font-size: 60px;
