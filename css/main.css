@@ -231,11 +231,12 @@ table {
   text-align: left !important;
 }
 
-.text-historia-t{
+.text-historia-t {
   font-weight: bold;
   font-size: 2.1rem;
 }
-.text-historia-sub{
+
+.text-historia-sub {
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -785,6 +786,10 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
   width: 30px;
 }
 
+.tips-content p {
+  line-height: 20px;
+}
+
 .filter-select {
   cursor: pointer;
   position: absolute;
@@ -946,8 +951,10 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .number-tips {
   color: #ccc;
   margin: 0;
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: right;
 }
 
 .navbar {
@@ -1656,7 +1663,7 @@ textarea {
 
 .pagination a.active {
   background-color: #ffc107;
-  color: #000;
+  color: #fff;
 }
 
 .disabled {
@@ -1696,6 +1703,12 @@ textarea {
   }
   .col-sm-12 {
     width: 100%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
   }
   .composicion-table,
   .composicion-table-information {
@@ -1770,8 +1783,13 @@ textarea {
     margin-right: auto;
     margin-left: auto;
   }
-  .content-art.wellness p {
-    font-size: 2.8rem
+  .number-tips {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .tips-content p {
+    line-height: 50px;
+    padding-bottom: 15px;
   }
   .content-art.wellness {
     border-top: 30px solid #FF9B00;
@@ -1998,7 +2016,7 @@ textarea {
     width: 100%;
     height: auto;
   }
-  .section_subtitle-tips h2,
+  .section_subtitle- h2,
   .presentaciones-queso h4,
   .section_medals-awards h4,
   .section_subsubtitle h2,
@@ -2006,6 +2024,7 @@ textarea {
     font-size: 60px;
     line-height: 70px;
   }
+  .section_subtitle-tips h2,
   .section_subtitle-recetas h2 {
     font-size: 80px;
     line-height: 75px;
@@ -2040,12 +2059,11 @@ textarea {
   .tip-wellness p {
     font-size: 2.1rem;
   }
-  .number-tips {
-    font-size: 2.5rem!important;
+  .number- {
+    font-size: 60px;
   }
   .presentaciones-queso p,
-  .content-art p,
-  .tips-content p {
+  .content-art p {
     line-height: 47px;
   }
   .presentaciones-queso p.chico {
