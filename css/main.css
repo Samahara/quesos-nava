@@ -504,11 +504,14 @@ img {
   width: 100%;
 }
 
-.button-menu button.contacto {
-    font-size: .88rem;
-    padding: 8px 70px;
-    text-align: center;
-    font-weight: bold;
+.button-menu_contacto button {
+  border: none;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  height: 32px;
+  width: 100%;
 }
 
 .btn, .btn-md {
@@ -673,6 +676,16 @@ img {
   margin: 0 20px;
 }
 
+.section_title_contacto h2 {
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.section_title_contacto h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
 .content-error h2 {
   font-size: 32px;
   line-height: 36px;
@@ -828,13 +841,17 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
   background: 0 0;
 }
 
-.input-style{
+.input-style {
   padding: 14px;
   display: block;
   border: none;
   border-bottom: 2px solid #555;
   width: 100%;
   outline: none;
+}
+
+.input-style::placeholder {
+  color: #3f3f3f;
 }
 
 label {
@@ -1347,19 +1364,6 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   background-color: #FBA400;
 }
 
-.text-contac-m {
-  font-size: .87rem;
-}
-
-.title-contact-m{
-  font-size: 2.9rem;
-  letter-spacing: 1px;
-}
-
-.subtitle-contact-m{
-  font-size: 1.3rem
-}
-
 .owl-item .item:hover .item-caption-quesos,
 .item.homehovo:hover .item-caption {
   background-color: inherit;
@@ -1529,18 +1533,47 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   background-color: #002654;
 }
 
+textarea {
+  resize: none;
+  font-family: "Roboto";
+}
+
 /* Select */
 
-.linebajo{
+.linebajo {
   width: 80%;
   margin-left: 10%;
   }
+
 /*the container must be positioned relative:*/
 .custom-select {
   position: relative;
-  font-family: Arial;
+  font-family: "Roboto";
   border-bottom: 1px solid #000;
   width: 235px;
+}
+
+.custom-select.contacto {
+  border-bottom: 1px solid #555;
+}
+
+.custom-select.contacto {
+  width: 100%;
+}
+
+.custom-select.contacto option {
+  width: 100%;
+}
+
+.custom-select.contacto .select-selected {
+  padding-left: 14px;
+  color: #3F3F3F;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Roboto";
+  padding: 14px;
+  border-bottom: 1px solid #555;
+  line-height: 18px;
 }
 
 .custom-select.custom2 {
@@ -1551,27 +1584,13 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   display: none; /*hide original SELECT element:*/
 }
 
+.custom-select_contacto select {
+  display: none; /*hide original SELECT element:*/
+}
+
 .select-selected {
   background-color: transparent;
 }
-
-/*style the arrow inside the select element:*/
-/* .select-selected:after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #000 transparent transparent transparent;
-} */
-
-/*point the arrow upwards when the select box is open (active):*/
-/* .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #000 transparent;
-  top: 7px;
-} */
 
 /*style the items (options), including the selected item:*/
 .select-items div,
@@ -1654,8 +1673,10 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   .button-art a {
     font-size: 3rem;
   }
-  .button-menu button.contacto {
-    font-size: 2.8rem;
+  .button-menu_contacto button {
+    font-size: 35px;
+    height: 78px;
+    line-height: 40px;
     padding: 12px 70px;
     text-align: center;
     font-weight: bold;
@@ -1671,9 +1692,6 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
     width: 50%;
   }
   .col-sm-12 {
-    width: 100%;
-  }
-  .container-mobile {
     width: 100%;
   }
   .composicion-table,
@@ -1694,6 +1712,23 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   .content-error {
     padding-top: 300px;
     padding-bottom: 300px;
+  }
+  .section_title_contacto h2 {
+    font-size: 80px;
+    line-height: 125px;
+  }
+  .section_title_contacto h3 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .custom-select.contacto .select-selected {
+    font-size: 40px;
+    font-family: "Roboto";
+    padding: 24px;
+    line-height: 50px;
+  }
+  .custom-select.contacto{
+    border-bottom: 3px solid #555;
   }
   .content-error h2 {
     font-size: 65px;
@@ -1724,16 +1759,6 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
     font-size: 50px;
     height: 140px;
     line-height: 40px;
-  }
-  .text-contac-m {
-    font-size: 2.1rem;
-  }
-  .title-contact-m{
-    font-size: 5.8rem;
-    text-align: left;
-  }
-  .subtitle-contact-m {
-    font-size: 3.5rem
   }
   .container-wellness-2 {
     width: 90%;
@@ -1836,13 +1861,17 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
     height: auto;
   }
   .input-style {
+    font-size: 40px;
+    line-height: 50px;
     padding: 24px;
     display: block;
     border: none;
-    font-size: 2.5rem;
     outline: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #555;
     width: 100%;
+  }
+  .form-group {
+    padding-top: 50px;
   }
   .pagination a {
     padding: 20px 15px;
