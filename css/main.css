@@ -327,6 +327,50 @@ ul {
   background-color: #CD571D;
 }
 
+.bg-qamarillo {
+  background-color: #FBDD3D;
+}
+
+.bg-oaxaca {
+  background-color: #00A29B;
+}
+
+.bg-parmesano {
+  background-color: #A9AD00;
+}
+
+.bg-qcrema {
+  background-color: #8AC8EC;
+}
+
+.bg-cabra {
+  background-color: #5D6E7F;
+}
+
+.bg-gouda {
+  background-color: #93999E;
+}
+
+.bg-chihuahua {
+  background-color: #B1A89C;
+}
+
+.bg-mozzarella {
+  background-color: #4681CF;
+}
+
+.bg-cheddaranejo {
+  background-color: #878989;
+}
+
+.bg-extraanejo {
+  background-color: #9D7C36;
+}
+
+.bg-cotija {
+  background-color: #BC4E20;
+}
+
 .bg-awards {
   background-color: #FCA311;
 }
@@ -355,6 +399,58 @@ ul {
 
 .text-adobera {
   color: #CD571D;
+}
+
+.text-qamarillo {
+  color: #FBDD3D;
+}
+
+.text-oaxaca {
+  color: #00A29B;
+}
+
+.text-parmesano {
+  color: #A9AD00;
+}
+
+.text-qcrema {
+  color: #8AC8EC;
+}
+
+.text-cabra {
+  color: #5D6E7F;
+}
+
+.text-gouda {
+  color: #93999E;
+}
+
+.text-chihuahua {
+  color: #B1A89C;
+}
+
+.text-mozzarella {
+  color: #4681CF;
+}
+
+.text-cheddaranejo {
+  color: #878989;
+}
+
+.text-extraanejo {
+  color: #9D7C36;
+}
+
+.text-cotija {
+  color: #BC4E20;
+}
+
+.text-awards {
+  color: #FCA311;
+}
+
+.text-awards-medals {
+  color: #FB9200;
 }
 
 .text-giftpack {
@@ -1058,7 +1154,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .owl-item .item .caption-description {
   bottom: 28%;
   display: block;
-  padding: 40px 110px;
+  padding: 40px 90px;
   position: absolute;
   width: 100%;
 }
@@ -1233,8 +1329,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   width: 100%;
 }
 
-.owl-item .item .caption-title-text-cheese,
- {
+.owl-item .item .caption-title-text-cheese {
   color: #fff;
   display: block;
   font-family: "Roboto";
@@ -1763,6 +1858,8 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   .owl-item .item .item-caption-recetas,
   .owl-item .item .item-caption-recetas2 {
     height: 460px!important;
+    background-color: #0000006b;
+    opacity: 1;
   }
   .page--content {
     min-height: 100vh;
