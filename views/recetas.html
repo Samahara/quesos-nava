@@ -16,7 +16,7 @@
                 <img class="d-sm-none" src="../assets/img/quesos-navarro-logo-nosotros.png" width="70px" height="auto" alt="Logo">
                 <img class="img-fluid d-none d-sm-block" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="logo">
               </a>
-              <button class="navbar-toggler" type="button" name="button">
+              <button class="navbar-toggler" type="button" name="buttonMenu">
                 <span>
                   <img id="spanMenu" name="spanMenu" class="img-fluid" src="../assets/icon/icon-menu.svg" alt="menu">
                   <img id="spanMenu2" name="spanMenu2" class="img-fluid" src="../assets/icon/icon-closed-menu.svg" alt="menu" hidden>
@@ -34,31 +34,31 @@
               <input class="form-control search-field" type="text" placeholder="">
             </div>
             <button type="button" class="btn btn-default search-submit" name="button">
-              <img src="../assets/icon/icon-search.svg" alt="">
+              <img src="../assets/icon/icon-search.svg" alt="buscar">
             </button>
           </form>
         </div>
         <div class="col-12">
           <ul class="p-0">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../views/quesos.html">Quesos</a></li>
-            <li><a href="../views/recetas.html">Recetas</a></li>
-            <li><a href="../views/tips.html">Tips</a></li>
-            <li><a href="../views/wellness.html">Wellness</a></li>
-            <li><a href="../views/historia.html">Nosotros</a></li>
-            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a class="text-azul" href="../index.html">Inicio</a></li>
+            <li><a class="text-azul" href="../views/quesos.html">Quesos</a></li>
+            <li><a class="text-azul" href="../views/recetas.html">Recetas</a></li>
+            <li><a class="text-azul" href="../views/tips.html">Tips</a></li>
+            <li><a class="text-azul" href="../views/wellness.html">Wellness</a></li>
+            <li><a class="text-azul" href="../views/historia.html">Nosotros</a></li>
+            <li><a class="text-azul" href="../views/contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div class="col-12 text-center">
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+        <div class="menu_media col-12 text-center">
+          <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+          <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
         </div>
       </div>
     </section>
 
     <!-- Page content -->
     <section class="page--content">
-      <section class="p-top-10">
+      <section class="">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -103,15 +103,15 @@
         </div>
       </section>
 
-      <section>
-        <div class="container p-top-30">
+      <section class="menu-select-recetas">
+        <div class="container p-top-10">
           <div class="row">
             <div class="col-6 col-sm-12">
               <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
               <div class="custom-select">
                 <img class="filter-select" src="../assets/icon/icon-drop-down.svg" alt="drop-down">
                 <select>
-                  <option value="0">Productos</option>
+                  <option style="font-weight: bold" value="0">Productos</option>
                   <option value="1">Queso Cheddar</option>
                   <option value="2">Queso Manchego</option>
                   <option value="3">Queso Panela</option>
@@ -148,11 +148,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayunos.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="../views/desayunos.html" class="caption-title-text-cheese">Desayunos</a>
-                          </span>
-                        </div>
+                        <a href="../views/desayunos.html" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas">
+                            <span class="caption-title">
+                              Desayunos
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -163,11 +165,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/lunch.png" alt="Lunch">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="../views/quesoManchego.html" class="caption-title-text-cheese">Lunch</a>
-                          </span>
-                        </div>
+                        <a href="../views/quesoManchego.html" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas">
+                            <span class="caption-title">
+                              Lunch
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -178,11 +182,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/entrada.png" alt="Entradas">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Entradas</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas">
+                            <span class="caption-title">
+                              Entradas
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -193,11 +199,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/sopas-y-cremas.png" alt="Sopas y cremas">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Sopas y cremas</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas twowords">
+                            <span class="caption-title">
+                              Sopas y cremas
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -220,11 +228,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/acompañamientos.png" alt="Oaxaca">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese tipejo">Acompañamiento</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas tipejo">
+                          <div class="caption-description-recetas">
+                            <span class="caption-title">
+                              Acompañamiento
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -235,11 +245,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/ensaladas.png" alt="Ensaladas">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Ensaladas</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas">
+                            <span class="caption-title">
+                              Ensaladas
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -250,11 +262,13 @@
                     <div class="item recetaIte w-100">
                       <img class="imb-fluid" src="../assets/img/a-toda-hora.png" alt="A toda hora">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">A toda hora</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas twowords">
+                            <span class="caption-title">
+                              A toda hora
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -265,11 +279,13 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/postres.png" alt="Postres">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Postres</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas">
+                          <div class="caption-description-recetas">
+                            <span class="caption-title">
+                              Postres
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -302,6 +318,11 @@
       <section>
         <div class="container-fluid">
           <div class="row">
+            <div class="col-12 categoria_title">
+              <h2>Categoría</h2>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-12" style="left: 0px; display: block;">
               <div class="row text-center">
 
@@ -310,11 +331,13 @@
                     <div class="item recetaIte2 w-100">
                       <img class="img-fluid" src="../assets/img/pastas.png" alt="Pastas">
                       <div class="item-caption-recetas2">
-                        <div class="caption-description recetas2">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Pastas</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas2">
+                          <div class="caption-description-recetas2">
+                            <span class="caption-title">
+                              Pastas
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -325,11 +348,13 @@
                     <div class="item recetaIte2 w-100">
                       <img class="img-fluid" src="../assets/img/carnes-y-aves.png" alt="Carnes y aves">
                       <div class="item-caption-recetas2">
-                        <div class="caption-description recetas2">
-                          <span class="caption-title">
-                            <a href="../views/quesoManchego.html" class="caption-title-text-cheese">Carnes y aves</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas2">
+                          <div class="caption-description-recetas2 twowords">
+                            <span class="caption-title">
+                              Carnes y aves
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -337,14 +362,16 @@
 
                 <div class="col-3 col-sm-6 p-0">
                   <div class="owl-item w-100 nRecetas2">
-                    <div class="item recetaIte2  w-100">
+                    <div class="item recetaIte2 w-100">
                       <img class="img-fluid" src="../assets/img/pescados-y-mariscos.png" alt="Pescados y mariscos">
                       <div class="item-caption-recetas2">
-                        <div class="caption-description recetas2 mariscos-title">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Pescados y mariscos</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas2">
+                          <div class="caption-description-recetas2 twowords">
+                            <span class="caption-title">
+                              Pescados y mariscos
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -355,11 +382,13 @@
                     <div class="item recetaIte2 w-100">
                       <img class="img-fluid" src="../assets/img/vegetariano.png" alt="Vegetariano">
                       <div class="item-caption-recetas2">
-                        <div class="caption-description recetas2">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese">Vegetarianos</a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-recetas2">
+                          <div class="caption-description-recetas2" style="padding: 25px;">
+                            <span class="caption-title">
+                              Vegetarianos
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -379,39 +408,25 @@
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Inicio</a>
-                  </li>
-                  <li>
-                    <a href="#">Quesos</a>
-                  </li>
-                  <li>
-                    <a href="#">Recetas</a>
-                  </li>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../views/quesos.html">Quesos</a></li>
+                  <li><a href="../views/recetas.html">Recetas</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Consejos</a>
-                  </li>
-                  <li>
-                    <a href="#">Wellness</a>
-                  </li>
-                  <li>
-                    <a href="#">Nosotros</a>
-                  </li>
+                  <li><a href="#">Consejos</a></li>
+                  <li><a href="../views/wellness.html">Wellness</a></li>
+                  <li><a href="../views/historia.html">Nosotros</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Contacto</a>
-                  </li>
+                  <li><a href="../views/contacto.html">Contacto</a></li>
                 </ul>
               </div>
             </div>
@@ -420,9 +435,9 @@
               <div class="widget text_widget text-right">
                 <img class="footer_logo d-sm-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
                 <img class="footer_logo2 d-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
-                <div class="col-12 p-0">
-                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-                  <a target="_blank" href="http://instagram.com/quesosnavarro"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+                <div class="footer_media">
+                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+                  <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
                 </div>
               </div>
             </div>
@@ -434,7 +449,7 @@
           <div class="row">
             <div class="col-12">
               <div class="footer__bottom-content">
-                <p>
+                <p class="m-0">
                   Copyright © Quesos Navarro. Todos los Derechos Reservados
                 </p>
                 <div class="social-basic">

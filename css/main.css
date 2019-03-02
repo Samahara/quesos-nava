@@ -469,7 +469,6 @@ img {
 .button-paginator {
   border: none;
   color: white;
-
   font-family: "Roboto";
   font-size: 60px;
   font-weight: bold;
@@ -478,6 +477,15 @@ img {
   text-transform: uppercase;
   text-align: left;
   line-height: 70px;
+}
+
+.categoria_title h2 {
+  color: #CCCCCC;
+  font-size: 32px;
+  line-height: 50px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .content-art.wellness {
@@ -720,7 +728,6 @@ label {
 
 .list-menu {
   background-color: white;
-  color: #002C54;
   font-size: 32px;
   font-weight: bold;
   min-height: 86vh;
@@ -731,7 +738,18 @@ label {
   z-index: 11
 }
 
+.list-menu.home-menu-n {
+  background-color: #002c54eb;
+  color: #fff !important;
+}
+
+section.menu-select-recetas > div > div > div:nth-child(2) > div > div.select-selected,
+section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-selected {
+  font-weight: bold;
+}
+
 .list-menu ul li {
+  color: #002C54;
   line-height: 60px;
   list-style: none;
   text-transform: uppercase;
@@ -782,11 +800,6 @@ label {
   width: 100%;
   height: 140px;
   overflow: hidden;
-}
-
-
-.owl-item .item .caption-description.recetas2.mariscos-title {
-  bottom: 35px!important;
 }
 
 .number-tips {
@@ -942,8 +955,8 @@ label {
   text-transform: uppercase;
 }
 
-.section_subtitle {
-  padding-right: 40px;
+.section_subtitle.title-padding {
+  padding-right: 130px;
 }
 
 .section_subtitle h2,
@@ -1015,8 +1028,11 @@ label {
   border-radius: 20px;
   background-color: transparent;
   border: none;
+}
+
+.search-form .search-submit img {
+  width: 40px;
   height: auto;
-  width: 66px;
 }
 
 .sr-only {
@@ -1039,8 +1055,35 @@ label {
   width: 100%;
 }
 
-.owl-item .item .caption-description.recetas2 {
-  padding: 40px 40px 60px;
+.owl-item .item .caption-description {
+  bottom: 28%;
+  display: block;
+  padding: 40px 110px;
+  position: absolute;
+  width: 100%;
+}
+
+.owl-item .item .caption-description-recetas {
+  bottom: 38%;
+  display: block;
+  padding: 20px 50px;
+  position: absolute;
+  width: 100%;
+}
+
+.owl-item .item .caption-description-recetas2 {
+  bottom: 36%;
+  display: block;
+  padding: 20px 50px;
+  position: absolute;
+  width: 100%;
+}
+
+.owl-item .item .caption-description-recetas.twowords {
+  bottom: 29%;
+}
+.owl-item .item .caption-description-recetas2.twowords {
+  bottom: 25%;
 }
 
 .topbar-slider #slider-thumbnail .item-caption,
@@ -1073,17 +1116,14 @@ label {
 }
 
 .tip-recetas p {
-    font-size: 1rem;
-    padding: 43% 0;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 40%;
 }
 
 .owl-item .item .item-caption-quesos,
 .owl-item .item .item-caption-recetas {
   height: 346px!important;
-}
-
-.owl-item .item .item-caption-recetas2 {
-  height: 310px!important;
 }
 
 .topbar-slider #slider-thumbnail .item .caption-description {
@@ -1131,14 +1171,6 @@ label {
   margin: 10px;
 }
 
-.owl-item .item .caption-description {
-  bottom: 28%;
-  display: block;
-  padding: 40px 110px;
-  position: absolute;
-  width: 100%;
-}
-
 .topbar-slider #slider-thumbnail .item:hover .item-caption,
 .owl-item .item:hover .item-caption-recetas,
 .owl-item .item:hover .item-caption-recetas2 {
@@ -1150,6 +1182,10 @@ label {
   -ms-transition: opacity .2s linear;
   -o-transition: opacity .2s linear;
   transition: opacity .2s linear;
+}
+
+.owl-item .item:hover .item-caption-recetas2 {
+  background-color: #FBA400;
 }
 
 .text-contac-m {
@@ -1164,7 +1200,6 @@ label {
 .subtitle-contact-m{
   font-size: 1.3rem
 }
-
 
 .owl-item .item:hover .item-caption-quesos,
 .item.homehovo:hover .item-caption {
@@ -1181,6 +1216,8 @@ label {
 .topbar-slider #slider-thumbnail .item .caption-title,
 .owl-item .item .caption-title {
   display: block;
+  font-size: 40px;
+  line-height: 47px;
 }
 
 .topbar-slider #slider-thumbnail .item .caption-title-link {
@@ -1196,7 +1233,8 @@ label {
   width: 100%;
 }
 
-.owl-item .item .caption-title-text-cheese {
+.owl-item .item .caption-title-text-cheese,
+ {
   color: #fff;
   display: block;
   font-family: "Roboto";
@@ -1210,15 +1248,28 @@ label {
   width: 100%;
 }
 
+.owl-item .item .caption-title-text-recetas,
+.owl-item .item .caption-title-text-recetas2 {
+  color: #fff;
+  display: block;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
 .owl-title-item {
   width: 100%;
   height: 20px;
 }
 
-.owl-item.nQuesos {
-  height: 346px;
-}
 
+.owl-item.nQuesos,
 .owl-item.nRecetas {
   height: 346px;
   overflow: hidden;
@@ -1331,7 +1382,7 @@ label {
   position: relative;
   font-family: Arial;
   border-bottom: 1px solid #000;
-  width: 35%;
+  width: 235px;
 }
 
 .custom-select.custom2 {
@@ -1534,9 +1585,6 @@ label {
   .error-mobile {
     padding-top: 50%;
   }
-  .form-group {
-    margin-top: .5em;
-  }
   .form-control {
     height: 105px;
   }
@@ -1618,8 +1666,9 @@ label {
     width: 100%;
   }
   .pagination a {
-    padding: 10px 14px;
-    font-size: 2.5rem;
+    padding: 20px 15px;
+    font-size: 35px;
+    line-height: 45px;
   }
   .presentaciones-queso,
   .art-card_subsubtitle h2 {
@@ -1642,6 +1691,12 @@ label {
     height: 100px;
     margin: 35px;
     width: 100px;
+  }
+  .menu-select-recetas {
+    padding: 70px 0 0;
+  }
+  .menu-select-recetas .col-6 {
+    padding: 30px 0;
   }
   .menu_area .navbar {
     padding: 41px 0;
@@ -1668,7 +1723,16 @@ label {
   .owl-item.nQuesos,
   .owl-item.nHome {
     height: auto;
-    display: flex;
+  }
+  .owl-item .item .caption-description-recetas.twowords,
+  .owl-item .item .caption-description-recetas2.twowords {
+    bottom: 35%;
+  }
+  .owl-item .item .caption-description-recetas {
+    bottom: 40%;
+  }
+  .owl-item .item .caption-description-recetas2 {
+    bottom: 39%;
   }
   .owl-item.nRecetas,
   .owl-item.nRecetas2 {
@@ -1719,7 +1783,8 @@ label {
   }
   .presentaciones-queso h4,
   .section_medals-awards h4,
-  .section_subsubtitle h2 {
+  .section_subsubtitle h2,
+  .categoria_title h2 {
     font-size: 60px;
     line-height: 70px;
   }
@@ -1775,21 +1840,11 @@ label {
     text-align: center;
   }
   .search-form .search-submit {
-    font-size: 4rem;
-    padding-left: 0;
-    height: auto;
-    width: 150px;
-  }
-  .search-form .search-submit img.rec {
-    height: auto;
-    width: 110px;
-    padding-top: 0px;
+    padding-left: 30px;
   }
   .search-form .search-submit img {
+    width: 110px;
     height: auto;
-    margin-left: 25px;
-    padding-top: 20px;
-    width: 130px;
   }
   .text-quesos-mobile {
     padding-top: 20%;
