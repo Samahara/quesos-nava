@@ -484,19 +484,12 @@ img {
   min-height: 350px;
 }
 
-.art-card_subsubtitle {
-  font-size: .9rem;
-}
-
-.art-card_subsubtitle h2 {
-  color: #2B221D;
-  font-size: 1.4rem;
-}
-
 .button-art a {
-  color: #FFAD2C;
-  font-size: .9rem;
-  text-decoration: underline;
+  color: #FCA311;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 10px;
+  text-decoration: underline!important;
 }
 
 .btn-block {
@@ -589,7 +582,7 @@ img {
 
 .content-art.wellness {
   height: 150px;
-  border-top: 10px solid #FF9B00;
+  border-top: 10px solid #FCA311;
 }
 
 .contain-menu-left {
@@ -681,6 +674,7 @@ img {
   line-height: 57px;
 }
 
+.section_wellness h3,
 .section_title_contacto h3 {
   font-size: 24px;
   line-height: 28px;
@@ -1671,7 +1665,8 @@ textarea {
     line-height: 50px;
   }
   .button-art a {
-    font-size: 3rem;
+    font-size: 45px;
+    line-height: 45px;
   }
   .button-menu_contacto button {
     font-size: 35px;
@@ -1717,6 +1712,7 @@ textarea {
     font-size: 80px;
     line-height: 125px;
   }
+  .art-card_subsubtitle h2,
   .section_title_contacto h3 {
     font-size: 60px;
     line-height: 70px;
@@ -1877,9 +1873,6 @@ textarea {
     padding: 20px 15px;
     font-size: 35px;
     line-height: 45px;
-  }
-  .art-card_subsubtitle h2 {
-    font-size: 3rem;
   }
   .search-form .search-field {
     border-radius: 100px;
