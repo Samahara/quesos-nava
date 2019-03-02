@@ -2,7 +2,7 @@
 <html lang="" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>desayunos</title>
+    <title>Desayunos</title>
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
@@ -16,7 +16,7 @@
                 <img class="d-sm-none" src="../assets/img/quesos-navarro-logo-nosotros.png" width="70px" height="auto" alt="Logo">
                 <img class="img-fluid d-none d-sm-block" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="logo">
               </a>
-              <button class="navbar-toggler" type="button" name="button">
+              <button class="navbar-toggler" type="button" name="buttonMenu">
                 <span>
                   <img id="spanMenu" name="spanMenu" class="img-fluid" src="../assets/icon/icon-menu.svg" alt="menu">
                   <img id="spanMenu2" name="spanMenu2" class="img-fluid" src="../assets/icon/icon-closed-menu.svg" alt="menu" hidden>
@@ -34,24 +34,24 @@
               <input class="form-control search-field" type="text" placeholder="">
             </div>
             <button type="button" class="btn btn-default search-submit" name="button">
-              <img src="../assets/icon/icon-search.svg" alt="">
+              <img src="../assets/icon/icon-search.svg" alt="buscar">
             </button>
           </form>
         </div>
         <div class="col-12">
           <ul class="p-0">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../views/quesos.html">Quesos</a></li>
-            <li><a href="../views/recetas.html">Recetas</a></li>
-            <li><a href="../views/tips.html">Tips</a></li>
-            <li><a href="../views/wellness.html">Wellness</a></li>
-            <li><a href="../views/historia.html">Nosotros</a></li>
-            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a class="text-azul" href="../index.html">Inicio</a></li>
+            <li><a class="text-azul" href="../views/quesos.html">Quesos</a></li>
+            <li><a class="text-azul" href="../views/recetas.html">Recetas</a></li>
+            <li><a class="text-azul" href="../views/tips.html">Tips</a></li>
+            <li><a class="text-azul" href="../views/wellness.html">Wellness</a></li>
+            <li><a class="text-azul" href="../views/historia.html">Nosotros</a></li>
+            <li><a class="text-azul" href="../views/contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div class="col-12 text-center">
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+        <div class="menu_media col-12 text-center">
+          <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+          <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
         </div>
       </div>
     </section>
@@ -91,15 +91,15 @@
         </div>
       </section>
 
-      <section>
-        <div class="container p-top-30">
+      <section class="menu-select-recetas">
+        <div class="container p-top-10">
           <div class="row">
             <div class="col-6 col-sm-12">
               <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
               <div class="custom-select">
                 <img class="filter-select" src="../assets/icon/icon-drop-down.svg" alt="drop-down">
                 <select>
-                  <option value="0">Productos</option>
+                  <option style="font-weight: bold" value="0">Productos</option>
                   <option value="1">Queso Cheddar</option>
                   <option value="2">Queso Manchego</option>
                   <option value="3">Queso Panela</option>
@@ -139,7 +139,7 @@
       </section>
 
       <section>
-        <div class="container-fluid container-mobile p-top-70 p-bottom-30" style="opacity: 1; display: block;">
+        <div class="container-fluid container-mobile p-top-30 p-bottom-30" style="opacity: 1; display: block;">
           <div class="row">
             <div class="col-12" style="left: 0px; display: block;">
               <div class="row text-center">
@@ -147,54 +147,49 @@
                 <div class="col-6 col-sm-6 p-0">
                   <div class="owl-item nRecetas">
                     <div class="item recetaIte receto w-100">
-                      <img class="img-fluid" src="../assets/img/desayuno-1.png" alt="Desayunos">
+                      <img class="img-fluid" src="../assets/img/desayuno-5.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <div class="">
-                              <a href="../views/chilaquiles.html" class="text-white"><h2>MOLLETES</h2></a>
-                              <div class="container-fluid text-white content-recetas">
-                                <div class="row">
-                                  <div class="col-4 col-sm-12">
-                                    <div class="row">
-                                      <div class="col-6">
-                                        <img src="../assets/icon/icon-chef-hat.svg" alt="sombrero">
-                                      </div>
-                                      <div class="col-6">
-                                        <span>Fácil</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-4 col-sm-12">
-                                    <div class="row">
-                                      <div class="col-6">
-                                        <img src="../assets/icon/icon-clock.svg" alt="reloj">
-                                      </div>
-                                      <div class="col-6">
-                                        <span>10 min</span>
+                        <a href="../views/chilaquiles.html" class="text-white">
+                          <div class="caption-description-info-recetas">
+                            <span class="caption-title">
+                              <div class="container-fluid content-menu-recetas">
+                                <h3>Chilaquiles blancos y hashbrown</h3>
+                                <div class="col-2"></div>
+                                <div class="col-8 text-white content-recetas text-center">
+                                  <div class="row">
+                                    <div class="col-4 col-sm-12">
+                                      <div class="row">
+                                        <div class="col-12 p-0">
+                                          <img src="../assets/icon/icon-chef-hat.svg" alt="sombrero">
+                                          <span>Fácil</span>
+                                        </div>
                                       </div>
                                     </div>
-                                  </div>
-                                  <div class="col-4 col-sm-12">
-                                    <div class="row">
-                                      <div class="col-6">
-                                        <img src="../assets/icon/icon-people.svg" alt="personas">
+                                    <div class="col-4 col-sm-12">
+                                      <div class="row">
+                                        <div class="col-12 p-0">
+                                          <img src="../assets/icon/icon-clock.svg" alt="reloj">
+                                          <span>20 min</span>
+                                        </div>
                                       </div>
-                                      <div class="col-6">
-                                        <span>6</span>
+                                    </div>
+                                    <div class="col-4 col-sm-12">
+                                      <div class="row">
+                                        <div class="col-12 p-0">
+                                          <img src="../assets/icon/icon-people.svg" alt="personas">
+                                          <span>6</span>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="row d-sm-none">
-                                  <div class="col-12">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat, risus at luctus dapibus, lectus metus tincidunt purus, ut feugiat tortor nibh non sem.</p>
-                                  </div>
+                                <div class="col-12 text-center d-sm-none">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat, risus at luctus dapibus, lectus metus tincidunt purus, ut feugiat tortor nibh non sem.</p>
                                 </div>
                               </div>
-                            </div>
-                          </span>
-                        </div>
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -205,11 +200,12 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-2.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="../views/quesoManchego.html" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -220,11 +216,12 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-3.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -235,17 +232,18 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-4.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-3 col-sm-6 p-0 d-sm-none">
+                <div class="col-3 col-sm-6 p-0">
                   <div class="owl-item w-100 nRecetas bg-awards">
                     <div class="item recetaIte w-100">
                       <div class="col-12 text-center bg-awards tip-recetas text-white">
@@ -261,13 +259,14 @@
                 <div class="col-6 col-sm-6 p-0">
                   <div class="owl-item nRecetas">
                     <div class="item recetaIte w-100">
-                      <img class="img-fluid" src="../assets/img/desayuno-5.png" alt="Desayunos">
+                      <img class="img-fluid" src="../assets/img/desayuno-1.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese tipejo"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese tipejo">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -278,11 +277,12 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-6.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -293,11 +293,12 @@
                     <div class="item recetaIte w-100">
                       <img class="imb-fluid" src="../assets/img/desayuno-7.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -308,17 +309,18 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-8.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-3 col-sm-6 p-0 d-sm-none">
+                <div class="col-3 col-sm-6 p-0">
                   <div class="owl-item w-100 nRecetas bg-awards">
                     <div class="item recetaIte w-100">
                       <div class="col-12 text-center bg-awards tip-recetas text-white">
@@ -336,11 +338,12 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-9.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -351,11 +354,12 @@
                     <div class="item recetaIte w-100">
                       <img class="img-fluid" src="../assets/img/desayuno-10.png" alt="Desayunos">
                       <div class="item-caption-recetas">
-                        <div class="caption-description">
-                          <span class="caption-title">
-                            <a href="#" class="caption-title-text-cheese tipejo"></a>
-                          </span>
-                        </div>
+                        <a href="#" class="caption-title-text-cheese tipejo">
+                          <div class="caption-description">
+                            <span class="caption-title">
+                            </span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -368,7 +372,7 @@
       </section>
 
       <section>
-        <div class="container p-top-70 p-bottom-70">
+        <div class="container p-top-20 p-bottom-30">
           <div class="row">
             <div class="col-12 text-center">
               <div class="pagination">
@@ -395,39 +399,25 @@
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Inicio</a>
-                  </li>
-                  <li>
-                    <a href="#">Quesos</a>
-                  </li>
-                  <li>
-                    <a href="#">Recetas</a>
-                  </li>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../views/quesos.html">Quesos</a></li>
+                  <li><a href="../views/recetas.html">Recetas</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Consejos</a>
-                  </li>
-                  <li>
-                    <a href="#">Wellness</a>
-                  </li>
-                  <li>
-                    <a href="#">Nosotros</a>
-                  </li>
+                  <li><a href="#">Consejos</a></li>
+                  <li><a href="../views/wellness.html">Wellness</a></li>
+                  <li><a href="../views/historia.html">Nosotros</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Contacto</a>
-                  </li>
+                  <li><a href="../views/contacto.html">Contacto</a></li>
                 </ul>
               </div>
             </div>
@@ -436,9 +426,9 @@
               <div class="widget text_widget text-right">
                 <img class="footer_logo d-sm-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
                 <img class="footer_logo2 d-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
-                <div class="col-12 p-0">
-                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-                  <a target="_blank" href="http://instagram.com/quesosnavarro"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+                <div class="footer_media">
+                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+                  <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
                 </div>
               </div>
             </div>
@@ -450,7 +440,7 @@
           <div class="row">
             <div class="col-12">
               <div class="footer__bottom-content">
-                <p>
+                <p class="m-0">
                   Copyright © Quesos Navarro. Todos los Derechos Reservados
                 </p>
                 <div class="social-basic">
