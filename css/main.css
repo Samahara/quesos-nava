@@ -656,6 +656,20 @@ img {
   width: 22px;
 }
 
+.content_politicas_priv span {
+  font-size: 100px;
+  line-height: 117px;
+  color: #ccc;
+}
+
+.content_politicas_priv .border-bottom {
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.content_politicas_priv .pad-politicas {
+  padding: 35px 0;
+}
+
 .content-print {
   display: inline-flex;
 }
@@ -1121,6 +1135,13 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
+  text-transform: uppercase;
+}
+
+.title_aviso_priv h1 {
+  font-size: 64px;
+  line-height: 55px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
