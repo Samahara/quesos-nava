@@ -3,6 +3,11 @@
   src: url("../assets/fonts/Roboto-Regular.ttf");
 }
 
+@font-face {
+  font-family: "FlamaCondensed";
+  src: url("../assets/fonts/Flama Condensed Extrabold.otf");
+}
+
 *, ::after, ::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -51,25 +56,6 @@ table {
   -webkit-align-items: center!important;
   -ms-flex-align: center!important;
   align-items: center!important;
-}
-
-.background-historia-col{
-  background-image: url('/assets/img/maquina-2002.png');
-  background-repeat: no-repeat, repeat;
-  background-position: 53% 21%;
-}
-
-.background-historia2-col{
-  background-image: url('/assets/img/maquina.png');
-  background-repeat: no-repeat, repeat;
-  background-position: 22% 70%;
-}
-
-.btn-tiempo-historia{
-  background-color: transparent;
-  border: none;
-  font-size: 2rem;
-  font-weight: bold;
 }
 
 .col-1 {
@@ -128,10 +114,6 @@ table {
   margin-left: auto;
 }
 
-.contenedor-naranja-f{
-  background-color: #fb9200;
-}
-
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -140,17 +122,12 @@ table {
   margin-left: auto;
 }
 
-.contenedor-azules-historia{
-  padding-left: 1.4%;
-  width: 100.9%;
+.fondo-azul-card-h {
+  background-color: #A0D4F1;
 }
 
-.fondo-azul-card-h{
-  background-color: #a0d4f1;
-}
-
-.fondo-azulf-card-h{
-  background-color: #002C54;
+.fondo-azulf-card-h {
+  background-color: #041E42;
 }
 
 .d-flex {
@@ -179,7 +156,14 @@ table {
 .img-medalla{
   width: 6%;
 }
-.img-medalla-space{
+
+.us-time-line {
+  position: fixed;
+  z-index: 8;
+  background-color: white;
+}
+
+.img-medalla-space {
   letter-spacing: 20px;
 }
 
@@ -189,13 +173,13 @@ table {
 
 .linea-naranja{
   margin-left: 50%;
-  height: 70px;
+  height: 50px;
   border-left: 3px solid #FFA10E;
 }
 
 .linea-azul{
   margin-left: 50%;
-  height: 70px;
+  height: 50px;
   border-left: 3px solid #002C54;
 }
 
@@ -229,53 +213,6 @@ table {
 
 .text-left {
   text-align: left !important;
-}
-
-.text-historia-t {
-  font-weight: bold;
-  font-size: 2.1rem;
-}
-
-.text-historia-sub {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.text-historia-gl{
-  font-size: 0.89rem;
-}
-
-.text-historia-card-azules{
-  font-size: 0.8rem;
-}
-
-.text-h-card-a-title{
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.text-first-historia{
-  font-size: 0.85rem;
-}
-
-.text-first-historia2{
-  font-size: 0.82rem;
-}
-
-.space-historia-text{
-  line-height: .2;
-}
-
-.space-card-margin-item{
-  line-height: .5;
-  margin-left: 40%;
-}
-
-.space-card-margin{
-  border-bottom: 2px solid white;
-  width: 80%;
-  line-height: .3;
-  margin-left: 9%;
 }
 
 .row {
@@ -378,6 +315,10 @@ ul {
 
 .bg-awards-medals {
   background-color: #FB9200;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 /* Textos */
@@ -611,6 +552,68 @@ img {
   width: 390.6px;
 }
 
+.background-historia-col{
+  background-image: url('../assets/img/maquina-2002.png');
+  background-repeat: no-repeat, repeat;
+  background-position: 54% 2%;
+}
+
+.background-historia2-col{
+  background-image: url('../assets/img/maquina.png');
+  background-size: 49%;
+  background-repeat: no-repeat, repeat;
+  background-position: 100% 80%;
+}
+
+.section_awards--history,
+.section_footer--history,
+.section_mercadospremios--history {
+  position: relative;
+  z-index: 9;
+}
+
+.text_award_history h2 {
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.btn-tiempo-historia {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: bold;
+  outline: none;
+}
+
+.card_linea_productos {
+  height: 542px;
+}
+
+.card_linea_productos h2 {
+  font-size: 48px;
+  line-height: 62px;
+  font-family: "FlamaCondensed";
+  padding-top: 120px;
+  margin: 0;
+}
+
+.card_linea_productos p {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.card_linea_productos div.linea_b {
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+  height: 2px;
+
+}
+
 .composicion-table-information th {
   border: 2px solid #002C54;
   color: white;
@@ -682,9 +685,11 @@ img {
 }
 
 .section_wellness h3,
-.section_title_contacto h3 {
+.section_title_contacto h3,
+.text_award_history p {
   font-size: 24px;
   line-height: 28px;
+  font-weight: bold;
 }
 
 .content-error h2 {
@@ -1084,6 +1089,13 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   line-height: 28px;
   margin-top: 0;
   text-transform: uppercase;
+}
+
+.title_nuestros-quesos h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-top: 0;
 }
 
 .guarnicion_title h3 {
@@ -1707,6 +1719,9 @@ textarea {
   .col-sm-2 {
     width: 16.66%;
   }
+  .col-sm-3 {
+    width: 25%;
+  }
   .col-sm-10 {
     width: 83.33%;
   }
@@ -1734,7 +1749,8 @@ textarea {
     line-height: 125px;
   }
   .art-card_subsubtitle h2,
-  .section_title_contacto h3 {
+  .section_title_contacto h3,
+  .title_nuestros-quesos h2 {
     font-size: 60px;
     line-height: 70px;
   }
@@ -1816,6 +1832,20 @@ textarea {
   .filter-select {
     bottom: 0px;
     width: 50px;
+  }
+  .text_award_history h2 {
+    font-size: 55px;
+    line-height: 125px;
+    text-align: center;
+  }
+  .text_award_history p {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 70px;
+  }
+  .cont_medals img {
+    padding: 15px;
   }
   footer.footer6 {
     padding-top: 0;
@@ -1968,6 +1998,12 @@ textarea {
   .owl-item.nQuesos .item,
   .owl-item.nHome .item {
     width: 50%;
+  }
+  .background-historia-col {
+    background-size: 0%;
+  }
+  .background-historia2-col {
+    background-size: 0%;
   }
   .owl-item.nRecetas .item,
   .owl-item.nRecetas2 .item.recetaIte2 {

@@ -2,7 +2,7 @@
 <html lang="" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Historia</title>
+    <title>Nosotros</title>
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
@@ -16,7 +16,7 @@
                 <img class="d-sm-none" src="../assets/img/quesos-navarro-logo-nosotros.png" width="70px" height="auto" alt="Logo">
                 <img class="img-fluid d-none d-sm-block" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="logo">
               </a>
-              <button class="navbar-toggler" type="button" name="button">
+              <button class="navbar-toggler" type="button" name="buttonMenu">
                 <span>
                   <img id="spanMenu" name="spanMenu" class="img-fluid" src="../assets/icon/icon-menu.svg" alt="menu">
                   <img id="spanMenu2" name="spanMenu2" class="img-fluid" src="../assets/icon/icon-closed-menu.svg" alt="menu" hidden>
@@ -34,316 +34,378 @@
               <input class="form-control search-field" type="text" placeholder="">
             </div>
             <button type="button" class="btn btn-default search-submit" name="button">
-              <img src="../assets/icon/icon-search.svg" alt="">
+              <img src="../assets/icon/icon-search.svg" alt="buscar">
             </button>
           </form>
         </div>
         <div class="col-12">
           <ul class="p-0">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../views/quesos.html">Quesos</a></li>
-            <li><a href="../views/recetas.html">Recetas</a></li>
-            <li><a href="../views/tips.html">Tips</a></li>
-            <li><a href="../views/wellness.html">Wellness</a></li>
-            <li><a href="../views/historia.html">Nosotros</a></li>
-            <li><a href="../views/contacto.html">Contacto</a></li>
+            <li><a class="text-azul" href="../index.html">Inicio</a></li>
+            <li><a class="text-azul" href="../views/quesos.html">Quesos</a></li>
+            <li><a class="text-azul" href="../views/recetas.html">Recetas</a></li>
+            <li><a class="text-azul" href="../views/tips.html">Tips</a></li>
+            <li><a class="text-azul" href="../views/wellness.html">Wellness</a></li>
+            <li><a class="text-azul" href="../views/historia.html">Nosotros</a></li>
+            <li><a class="text-azul" href="../views/contacto.html">Contacto</a></li>
           </ul>
         </div>
-        <div class="col-12 text-center">
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-          <a href="#"><button class="btn" style="background-color: transparent" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+        <div class="menu_media col-12 text-center">
+          <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+          <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
         </div>
       </div>
     </section>
 
     <!-- Page content -->
     <section class="page--content">
-      <section class="p-top-10">
+      <section class="contenedor_historia">
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <div class="section_title text-center text-amarillo">
-                <h2>Historia</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-2 p-bottom-70">
+            <div class="col-1 p-top-10 us-time-line">
               <div class="" >
-                      <button id="btn-1960" class="text-amarillo btn-tiempo-historia" type="button" name="button" onclick="timeline()">
-                      1960
-                      <p><div id="line-1960" class="mt-0 mb-0 linea-naranja"></div></p>
-                      </button>
+                <button id="btn-1960" class="text-amarillo btn-tiempo-historia" type="button" name="button" onclick="timeline()">1960
+                <p><div id="line-1960" class="mt-0 mb-0 linea-naranja"></div></p>
+                </button>
               </div>
               <div class="">
-                      <button id="btn-2002" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline1()">
-                      2002
-                      <p><div id="line-2002" class="mt-0 mb-0 linea-azul"></div></p>
-                      </button>
+                <button id="btn-2002" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline1()">2002
+                  <p><div id="line-2002" class="mt-0 mb-0 linea-azul"></div></p>
+                </button>
               </div>
               <div class="">
-                      <button id="btn-2008" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline2()">
-                      2008
-                      <p><div id="line-2008" class="mt-0 mb-0 linea-azul"></div></p>
-                      </button>
+                <button id="btn-2008" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline2()">2008
+                  <p><div id="line-2008" class="mt-0 mb-0 linea-azul"></div></p>
+                </button>
               </div>
               <div class="">
-                      <button id="btn-hoy" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline3()">
-                      HOY
-                      </button>
+                <button id="btn-hoy" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline3()">HOY</button>
               </div>
-
             </div>
-            <div class="col-10">
-              <div id="historia-1960" class="row p-bottom-70" style="">
-                <div class="col-6 col-sm-12">
-                  <div class="">
-                    <img src="../assets/img/retrato.png" alt="">
-                  </div>
-                  <div class="">
-                    <p class="text-first-historia" >La filosofía de calidad de Don Alberto se basa en que los quesos serían
-                    elaborados con 100% leche entera fluida pasteurizada de vaca. Esta filosofía
-                    sigue vigente y se ha convertido en un diferenciador importante en nuestros
-                    días ya que se traduce en quesos de excelente calidad e inigualable sabor.</p>
-                    <p class="text-first-historia">La ubicación de Quesos Navarro, Los Altos de Jalisco, región lechera por
-                    tradición, facilitó el aprovosionamiento de nuestro principal insumo, leche
-                    fresca, de manera local. Buscamos mantener estas relaciones a largo plazo
-                    y entenderemos que la unica manera de hacerlo es por medio de un comercio
-                    justo y agregando valor a cada uno de los eslabones que forman parte de
-                    nuestro cadena.</p>
-                  </div>
-                </div>
-                <div class="col-6 col-sm-12">
-                  <p class="text-first-historia2" >Más de 50 años en el ramo, millones de litros de leche procesados y toneladas de
-                     queso elaboradas podrián resumir la historia de la empresa. La visión
-                     emprendedora de Don Alberto Navarro Cruz, su empeño y dedicación para
-                     incursionar en el mundo de los lácteos dan origen a Quesos Navarro, empresa
-                     familiar que desde los años 60's se ha dedicado a elaborar orgullosamente
-                     productos lácteos de la más alta calidad.</p>
-                  <p class="text-first-historia2" >Todo comenzó por el interés de Kraft Foods de México en desarrollar un
-                     proveedor nacional de Queso Cheddar. En este momento Don Alberto Navarro
-                     Cruz había visualizado la empresa como una embotelladora de leche, que no llegó
-                     a concretarse ya que se adecuaron las instalaciones para convertirse en una
-                     fábrica de quesos, dando así el inicio de la elaboración de queso bajo el concepto
-                     de maquila. Años después, en 1961, nace la marca Navarro.</p>
 
-                  <div class="row p-top-30">
-                    <div class="col-6">
-                      <img src="../assets/img/registro.png" alt="">
-                    </div>
-                    <div class="col-6">
-                      <img src="../assets/img/logo-viejo.png" alt="">
+            <div class="col-1"></div>
+            <div class="col-11">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section_title text-center text-amarillo">
+                      <h2 class="mb-0">Historia</h2>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div id="historia-2002" class="row p-top-30 background-historia-col" style="display: none;">
-                  <div class="col-5 col-sm-12">
-                    <p class="text-historia-gl">El año 2002 marca el punto de partida para nuestra diversificación, ya que
-                       hasta este punto, Quesos Navarro fue una empresa de un solo producto.
-                       Todos nuestros quesos se han desarrollado siempre bajo estos
-                       principios:
-                        <ul class="text-historia-gl">
-                          <li> - 100% Naturales sin conservadores, ni colorantes ni saborizantes.</li>
-                          <li> - Elaborados con 100% leche entera fluida pasteurizada de vaca.</li>
-                        </ul>
 
-                     </p>
-                     <div class="p-bottom-70">
-                       <p class="text-historia-gl">Dominio de la técnica de la fabricación por medio de capacitación y
-                          experiencia. La tecnología solo facilita el trabajo y garantiza la calidad, el
-                          mérito de hacer buenos quesos es del maestro quesero y de su equipo.</p>
-                     </div>
-                     <div class="p-bottom-70">
-                       <img src="../assets/img/quesos-viejos.png" alt="">
-                     </div>
+                <div id="historia-1960" class="row p-bottom-30 p-top-30">
+                  <div class="col-12">
+                    <div class="section_subsubtitle">
+                      <h2>1960</h2>
+                    </div>
                   </div>
-                  <div class="col-7 col-sm-12">
-                    <div class="row" >
-                      <div class="col-5 d-sm-none">
-                        <div class="">
-
-                        </div>
+                  <div class="col-6 col-sm-12">
+                    <p>
+                      <img class="img-fluid" src="../assets/img/retrato.png" alt="">
+                    </p>
+                    <p>
+                      La filosofía de calidad de Don Alberto se basa en que los quesos serían
+                      elaborados con 100% leche entera fluida pasteurizada de vaca. Esta filosofía
+                      sigue vigente y se ha convertido en un diferenciador importante en nuestros
+                      días ya que se traduce en quesos de excelente calidad e inigualable sabor.
+                    </p>
+                    <p>
+                      La ubicación de Quesos Navarro, Los Altos de Jalisco, región lechera por
+                      tradición, facilitó el aprovosionamiento de nuestro principal insumo, leche
+                      fresca, de manera local. Buscamos mantener estas relaciones a largo plazo
+                      y entenderemos que la unica manera de hacerlo es por medio de un comercio
+                      justo y agregando valor a cada uno de los eslabones que forman parte de
+                      nuestro cadena.
+                    </p>
+                  </div>
+                  <div class="col-6 col-sm-12">
+                    <p>
+                      Más de 50 años en el ramo, millones de litros de leche procesados y toneladas de
+                      queso elaboradas podrián resumir la historia de la empresa. La visión
+                      emprendedora de Don Alberto Navarro Cruz, su empeño y dedicación para
+                      incursionar en el mundo de los lácteos dan origen a Quesos Navarro, empresa
+                      familiar que desde los años 60's se ha dedicado a elaborar orgullosamente
+                      productos lácteos de la más alta calidad.
+                    </p>
+                    <p>
+                      Todo comenzó por el interés de Kraft Foods de México en desarrollar un
+                      proveedor nacional de Queso Cheddar. En este momento Don Alberto Navarro
+                      Cruz había visualizado la empresa como una embotelladora de leche, que no llegó
+                      a concretarse ya que se adecuaron las instalaciones para convertirse en una
+                      fábrica de quesos, dando así el inicio de la elaboración de queso bajo el concepto
+                      de maquila. Años después, en 1961, nace la marca Navarro.
+                    </p>
+                    <div class="row">
+                      <div class="col-6 col-sm-12">
+                        <img class="img-fluid" src="../assets/img/registro.png" alt="">
                       </div>
-                      <div class="col-7 col-sm-12">
-                        <div class="">
-                          <img src="../assets/img/periodico.png" alt="">
+                      <div class="col-6 col-sm-12">
+                        <img class="img-fluid" src="../assets/img/logo-viejo.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="historia-2002" class="row background-historia-col p-bottom-30 p-top-30">
+                  <div class="col-12">
+                    <div class="section_subsubtitle">
+                      <h2>2002</h2>
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-12">
+                    <p class="mt-0">
+                      El año 2002 marca el punto de partida para nuestra diversificación, ya que
+                      hasta este punto, Quesos Navarro fue una empresa de un solo producto.
+                      Todos nuestros quesos se han desarrollado siempre bajo estos
+                      principios:
+                    </p>
+                    <div class="col-12 p-bottom-30">
+                      <ul class="">
+                        <li style="list-style: disc"> 100% Naturales sin conservadores, ni colorantes ni saborizantes.</li>
+                        <li style="list-style: disc"> Elaborados con 100% leche entera fluida pasteurizada de vaca.</li>
+                      </ul>
+                    </div>
+                    <p class="mt-0">
+                      Dominio de la técnica de la fabricación por medio de capacitación y
+                      experiencia. La tecnología solo facilita el trabajo y garantiza la calidad, el
+                      mérito de hacer buenos quesos es del maestro quesero y de su equipo.
+                    </p>
+                    <p>
+                      <img class="img-fluid" src="../assets/img/quesos-viejos.png" alt="">
+                    </p>
+                  </div>
+                  <div class="col-6 col-sm-12">
+                    <div class="row">
+                      <div class="col-5 d-sm-none"></div>
+                      <div class="col-7 col-sm-6">
+                        <img class="img-fluid" src="../assets/img/periodico.png" alt="">
+                      </div>
+                      <div class="col-sm-6 d-none d-sm-block">
+                        <img class="img-fluid" style="padding-top: 130px;" src="../assets/img/maquina-2002.png" alt="">
+                      </div>
+                    </div>
+                    <p>
+                      Y desde su origen hasta nuestros días, Quesos Navarro se ha dedicado a mejorar los productos
+                      que elbora, Calidad y Sabor han sido y serán nuestros pilares. Las innovaciones que se realizan,
+                      tanto en el producto como en los procesos, no comprometen en la tradición de hacer buenos
+                      quesos sino que aseguran la calidad de los mismo. Ejemplo de esto es que todos nuestros
+                      productos están envasados al alto vacío.
+                    </p>
+                  </div>
+                </div>
+
+                <div id="historia-2008" class="row p-bottom-30 p-top-30 background-historia2-col">
+                  <div class="col-12">
+                    <div class="section_subsubtitle">
+                      <h2>2008</h2>
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-12">
+                    <p>
+                      <img class="img-fluid" src="../assets/img/planta-exterior.png" alt="">
+                    </p>
+                    <p>
+                      El trabajo en conjunto con nuestros proveedores ha hecho posible el
+                      desarrollo de productos y aplicaciones donde hemos sido "Plantas Piloto"
+                      Como ejemplo, en el año 2009 se recibe el galardón de Envase y Embalaje
+                      Estelar otorgado por la Asociación Mexicana de Envase y Embalaje AC. La
+                      razón: Primera empresa a nivel nacional que, en conjunto con nuestro
+                      proveedor Sealed Air, implementó la bolsa barrier Abre Fácil para las
+                      presentaciones de Queso Cheddar 1kg y 500g. Este envase se utilizó hasta
+                      el 2010.
+                    </p>
+                  </div>
+                  <div class="col-6 col-sm-12">
+                    <p>
+                      En el año 2008, se inauguran nuevas instalaciones. Esta segunda planta cuenta con
+                      tecnología de punta que está enfocada a la eficiente fabricación de quesos. Si bien, los quesos
+                      son elaborados con tecnología, no fabricamos quesos industrializados. Además de contar
+                      con mejores instalaciones, esta planta ha sido diseñada para generar un bajo impacto
+                      ambiental, sumándonos al esfuerzo por conservar el medio ambiente y utilizar los recursos
+                      de una manera responsable.
+                    </p>
+                  </div>
+                  <div class="col-sm-12 d-none d-sm-block">
+                    <img class="img-fluid" src="../assets/img/maquina.png" alt="">
+                  </div>
+                </div>
+
+                <div id="historia-hoy" class="row p-bottom-30 p-top-30">
+                  <div class="col-12">
+                    <div class="section_subsubtitle">
+                      <h2>HOY</h2>
+                    </div>
+                  </div>
+                  <div class="col-12 p-bottom-30">
+                    <p class="mt-0">
+                      En 2010 nos llenamos de orgullo al ser Primer Queso hecho en México que recibe el 3er lugar en la categoria de Quesos Hispanos y Portugueses otorgado por American
+                      Cheese Society. Esta competencia comenzó en 1985 y tiene lugar una vez al año en diferentes localidades de Estados Unidos y Canadá. Para el 2010 compitieron alrededor
+                      de 1,500 quesos en 22 categorias, sumando año con año mas competidores.
+                    </p>
+                    <p>
+                      En 2011 celebramos el 50 Aniversario. Quesos Navarro renueva su imagen, mostrando orgullosamente su origen, su edad y su primera razón de su existir, la herencia y el
+                      gusto de ser queseros.
+                    </p>
+                    <p>
+                      Un logro más en el año 2014, ya que fuimos la primer compañia de quesos que obtuvo la certificación por COFOCALEC, gracias a que nuestros Quesos Adobera, Panela y
+                      Cheddar son elaborados 100% leche fresca de vaca.
+                    </p>
+                    <p>
+                      En 2016, volvimos a lograrlo sumando a nuestro Queso Cheddar Añejo. Nuestras certificaciones se lograron bajo la norma NMX-F-713-COFOCALEC-2014
+                    </p>
+                  </div>
+                  <div class="col-12 p-bottom-30">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="title_nuestros-quesos">
+                          <h2>En la actualidad, contamos con cuantro líneas de productos:</h2>
                         </div>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-12">
+                        <img class="img-fluid" src="../assets/img/historia-sitioweb.png" alt="">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <img class="img-fluid" src="../assets/img/añejos-bien.png" alt="">
+                      </div>
+                    </div>
+                    <div class="row text-white text-center">
+                      <div class="col-12">
                         <div class="">
-                          <p class="text-historia-gl">Y desde su origen hasta nuestros días, Quesos Navarro se ha dedicado a mejorar los productos
-                             que elbora, Calidad y Sabor han sido y serán nuestros pilares. Las innovaciones que se realizan,
-                             tanto en el producto como en los procesos, no comprometen en la tradición de hacer buenos
-                             quesos sino que aseguran la calidad de los mismo. Ejemplo de esto es que todos nuestros
-                             productos están envasados al alto vacío.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div id="historia-2008" style="display:none" class="row p-bottom-70 background-historia2-col">
-                <div class="col-6 col-sm-12">
-                  <div class="p-top-70 p-bottom-30">
-                    <img src="../assets/img/planta-exterior.png" alt="">
-                  </div>
-                  <div class="row">
-                    <div class="col-11 col-sm-12">
-                      <p class="text-historia-gl">El trabajo en conjunto con nuestros proveedores ha hecho posible el
-                         desarrollo de productos y aplicaciones donde hemos sido "Plantas Piloto"
-                         Como ejemplo, en el año 2009 se recibe el galardón de Envase y Embalaje
-                         Estelar otorgado por la Asociación Mexicana de Envase y Embalaje AC. La
-                         razón: Primera empresa a nivel nacional que, en conjunto con nuestro
-                         proveedor Sealed Air, implementó la bolsa barrier Abre Fácil para las
-                         presentaciones de Queso Cheddar 1kg y 500g. Este envase se utilizó hasta
-                         el 2010.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 col-sm-12">
-                  <div class="row p-top-70" >
-                    <div class="col-11 col-sm-12" >
-                      <p class="text-historia-gl">En el año 2008, se inauguran nuevas instalaciones. Esta segunda planta cuenta con
-                         tecnología de punta que está enfocada a la eficiente fabricación de quesos. Si bien, los quesos
-                         son elaborados con tecnología, no fabricamos quesos industrializados. Además de contar
-                         con mejores instalaciones, esta planta ha sido diseñada para generar un bajo impacto
-                         ambiental, sumándonos al esfuerzo por conservar el medio ambiente y utilizar los recursos
-                         de una manera responsable.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div id="historia-hoy" class="row" style="display:none">
-                <div class="col-12">
-                  <div class="p-bottom-30">
-                    <p class="text-historia-gl">En 2010 nos llenamos de orgullo al ser Primer Queso hecho en México que recibe el 3er lugar en la categoria de Quesos Hispanos y Portugueses otorgado por American
-                       Cheese Society. Esta competencia comenzó en 1985 y tiene lugar una vez al año en diferentes localidades de Estados Unidos y Canadá. Para el 2010 compitieron alrededor
-                       de 1,500 quesos en 22 categorias, sumando año con año mas competidores.</p>
-                    <p class="text-historia-gl">En 2011 celebramos el 50 Aniversario. Quesos Navarro renueva su imagen, mostrando orgullosamente su origen, su edad y su primera razón de su existir, la herencia y el
-                       gusto de ser queseros.</p>
-                    <p class="text-historia-gl">Un logro más en el año 2014, ya que fuimos la primer compañia de quesos que obtuvo la certificación por COFOCALEC, gracias a que nuestros Quesos Adobera, Panela y
-                       Cheddar son elaborados 100% leche fresca de vaca.</p>
-                    <p class="text-historia-gl">En 2016, volvimos a lograrlo sumando a nuestro Queso Cheddar Añejo. Nuestras certificaciones se lograron bajo la norma NMX-F-713-COFOCALEC-2014</p>
-                  </div>
-                  <div class="">
-                    <h2>En la actualidad, contamos con cuantro líneas de productos:</h2>
-                  </div>
-                  <div class="">
-                    <img src="../assets/img/historia-sitioweb.png" alt="">
-                    <img src="../assets/img/añejos-bien.png" alt="">
-                    <div class="row p-bottom-30 contenedor-azules-historia">
-                      <div class="col-6 p-top-70 p-bottom-70 fondo-azul-card-h">
-                        <div class="p-top-70">
-                          <div class="p-top-70 text-center space-card-margin">
-                            <h2 class="text-white text-h-card-a-title">Línea Funcional</h2>
+                          <div class="col-6 card_linea_productos fondo-azul-card-h">
+                            <div class="p-top-70">
+                              <h2 class="">Línea Funcional</h2>
+                            </div>
+                            <div class="linea_b"></div>
+                            <div class="">
+                              <p class="">Queso Panela Bajo en Grasas</p>
+                            </div>
                           </div>
-                          <div class="text-white p-top-30 p-bottom-70 space-card-margin-item">
-                            <p class="text-historia-card-azules">Queso Panela Bajo en Grasas</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6 p-top-70 p-bottom-70 fondo-azulf-card-h">
-                        <div class="p-top-70 p-bottom-70">
-                          <div class="p-top-70 text-center space-card-margin">
-                            <h2 class="text-white text-h-card-a-title">Línea Práctica</h2>
-                          </div>
-                          <div class="text-white p-top-30 p-bottom-70 space-card-margin-item">
-                            <p class="text-historia-card-azules">Queso Rallado</p>
-                            <p class="text-historia-card-azules">Queso Cubicado</p>
-                            <p class="text-historia-card-azules">Queso Rebanado</p>
+                          <div class="col-6 card_linea_productos fondo-azulf-card-h">
+                            <div class="p-top-70">
+                              <h2 class="">Línea Práctica</h2>
+                            </div>
+                            <div class="linea_b"></div>
+                            <div class="">
+                              <p class="">Queso Rallado</p>
+                              <p class="">Queso Cubicado</p>
+                              <p class="">Queso Rebanado</p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="">
-                    <h2>En sabor premiado por el mundo.</h2>
-                    <p>A lo largo de los años, hemos sido galardonados con varios premios de reconocimiento mundial de distintas competencias de quesos y por asociaciones expertas en el
-                       ramo, tales como la ACS Judging and Competition, los World Championship Cheese Contest y los World Cheese Awards, donde miles de quesos compiten en varias
-                       categorías por llevarse una medalla a casa. Hasta la fecha, Quesos NAVARRO ha ganado 10 premios, demostrando que el oficio de hacer queso de calidad, tiene grandes
-                       resultados.</p>
+                  <div class="col-12">
+                    <div class="title_nuestros-quesos">
+                      <h2>En sabor premiado por el mundo.</h2>
+                    </div>
+                    <p>
+                      A lo largo de los años, hemos sido galardonados con varios premios de reconocimiento mundial de distintas competencias de quesos y por asociaciones expertas en el
+                      ramo, tales como la ACS Judging and Competition, los World Championship Cheese Contest y los World Cheese Awards, donde miles de quesos compiten en varias
+                      categorías por llevarse una medalla a casa. Hasta la fecha, Quesos NAVARRO ha ganado 10 premios, demostrando que el oficio de hacer queso de calidad, tiene grandes
+                      resultados.
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-
-
-        </div>
-        <div id="historia-hoy2" style="display:none" class="container-fluid">
-          <div class="row bg-awards">
-            <div class="col-12">
-              <div class="row">
-                <div class="col-6 text-center p-top-70 p-bottom-70">
-                  <img class="img-medalla-grande" src="../assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
-                </div>
-                <div class="col-6 p-top-70 p-bottom-70">
-                  <div class="">
-                    <h2 class="text-white text-historia-t">Queso Adobera</h2>
-                  </div>
-                  <div class="text-azul space-historia-text">
-                    <p class="text-historia-sub" >2010 ACS Judging and Competition</p>
-                    <p class="text-historia-sub" >Bronce en la categoria Hispanic & Portuguese</p>
-                    <p class="text-historia-sub" >style cheeses</p>
-                  </div>
-                </div>
-              </div>
-
+              <!-- fin Container -->
             </div>
           </div>
         </div>
-        <div id="historia-hoy3" style="display:none" class="container-fluid">
-          <div class="row contenedor-naranja-f">
-            <div class="col-12 text-center p-top-30 p-bottom-30 img-medalla-space">
-              <img  class="img-medalla"  src="/assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
-              <img  src="/assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
-              <img  src="/assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
-              <img  class="img-medalla"  src="/assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
-              <img  src="/assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
-            </div>
-          </div>
 
-        </div>
-        <div id="historia-hoy4" style="display:none" class="container">
+        <div class="container-fluid bg-awards section_awards--history">
           <div class="row">
-            <div class="col-12">
-              <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                      <div class="p-top-70 p-bottom-30">
-                        <h2>Mercados conquistados</h2>
-                        <p>JALISCO - ZMG, Tepatitlán, Interior del estado, Pto. Vallarta</p>
-                        <p>COSTA ALEGRE - Colima(Col, Manzanillo), Nayarit (Tepic, Costa Alegre)</p>
-                        <p>SINALOA - Culiacán, Mochis y Mazatlan</p>
-                        <p>BAJIO - León, Gto. Interior Gto, Irapuato, Salamanca</p>
-                        <p>Centro - CDMX, Estado de México</p>
-                        <p>NORESTE - MTY, Tamaulipas</p>
-                      </div>
+            <div class="col-12 p-bottom-30 p-top-70">
+              <div class="row">
+                <div class="col-3"></div>
+                <div class="col-3 col-sm-6">
+                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
+                </div>
+                <div class="col-4 col-sm-12">
+                  <div class="text_award_history p-top-30">
+                    <div class="text-white p-top-10">
+                      <h2 class="">Queso Adobera</h2>
                     </div>
-                    <div class="col-6">
-                      <div class="p-top-70" style="padding-left: 17%">
-                      <h2>Nuestras Certificaciones</h2>
-                      </div>
-                      <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-4 p-top-70">
-                          <img src="../assets/img/logo-sqf-azul.png" alt="">
-                        </div>
-                        <div class="col-3 p-top-30">
-                          <img src="../assets/img/cofocalec-logo-color.png" alt="">
-                        </div>
+                    <p class="mt-0">
+                      2010 ACS Judging and Competition
+                      Bronce en la categoria Hispanic & Portuguese
+                      style cheeses
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 bg-awards-medals cont_medals p-bottom-30 p-top-30">
+              <div class="row">
+                <div class="col-1 d-sm-none"></div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-anejo.png" alt="">
+                </div>
+                <div class="col-1 col-sm-3">
+                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                      </div>
-                    </div>
+        <div class="container-fluid section_mercadospremios--history bg-white">
+          <div class="container section_mercadospremios--history">
+            <div class="row">
+              <div class="col-1 d-sm-none"></div>
+              <div class="col-5 p-top-70 p-bottom-70 col-sm-12">
+                <div class="title_nuestros-quesos">
+                  <h2>Mercados conquistados</h2>
+                </div>
+                <p>JALISCO - ZMG, Tepatitlán, Interior del estado, Pto. Vallarta</p>
+                <p>COSTA ALEGRE - Colima (Col, Manzanillo), Nayarit (Tepic, Costa Alegre)</p>
+                <p>SINALOA - Culiacán, Mochis y Mazatlan</p>
+                <p>BAJÍO - León, Gto. Interior Gto, Irapuato, Salamanca</p>
+                <p>Centro - CDMX, Estado de México</p>
+                <p>NORESTE - MTY, Tamaulipas</p>
+              </div>
+              <div class="col-6 p-top-70 p-bottom-70 col-sm-12">
+                <div class="title_nuestros-quesos">
+                  <h2>Nuestras Certificaciones</h2>
+                </div>
+                <div class="row">
+                  <div class="col-3 p-top-30 col-sm-3">
+                    <img class="img-fluid" src="../assets/img/logo-sqf-azul.png" alt="">
+                  </div>
+                  <div class="col-1 d-sm-none"></div>
+                  <div class="col-2 col-sm-3">
+                    <img class="img-fluid" src="../assets/img/cofocalec-logo-color.png" alt="">
+                  </div>
                 </div>
               </div>
             </div>
@@ -352,46 +414,32 @@
       </section>
     </section>
 
-    <footer class="azul">
+    <footer class="azul section_footer--history">
       <div class="footer__big">
         <div class="container">
           <div class="row">
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Inicio</a>
-                  </li>
-                  <li>
-                    <a href="#">Quesos</a>
-                  </li>
-                  <li>
-                    <a href="#">Recetas</a>
-                  </li>
+                  <li><a href="../index.html">Inicio</a></li>
+                  <li><a href="../views/quesos.html">Quesos</a></li>
+                  <li><a href="../views/recetas.html">Recetas</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Consejos</a>
-                  </li>
-                  <li>
-                    <a href="#">Wellness</a>
-                  </li>
-                  <li>
-                    <a href="#">Nosotros</a>
-                  </li>
+                  <li><a href="#">Consejos</a></li>
+                  <li><a href="../views/wellness.html">Wellness</a></li>
+                  <li><a href="../views/historia.html">Nosotros</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-1 col-sm-6">
               <div class="widget widget--links">
                 <ul class="links">
-                  <li>
-                    <a href="#">Contacto</a>
-                  </li>
+                  <li><a href="../views/contacto.html">Contacto</a></li>
                 </ul>
               </div>
             </div>
@@ -400,9 +448,9 @@
               <div class="widget text_widget text-right">
                 <img class="footer_logo d-sm-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
                 <img class="footer_logo2 d-none" src="../assets/img/logo-quesos-navarro-quesos-de-los-altos-de-jalisco.png" alt="Logo">
-                <div class="col-12 p-0">
-                  <a href="#"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></button></a>
-                  <a href="#"><button class="btn azul" type="button"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></button></a>
+                <div class="footer_media">
+                  <a target="_blank" href="https://www.facebook.com/QuesosNavarro/"><img class="img-fluid" src="../assets/icon/icon-fb.svg" alt="facebook"></a>
+                  <a target="_blank" href="http://instagram.com/quesosnavarro"><img class="img-fluid" src="../assets/icon/icon-instagram.svg" alt="instagram"></a>
                 </div>
               </div>
             </div>
@@ -414,7 +462,7 @@
           <div class="row">
             <div class="col-12">
               <div class="footer__bottom-content">
-                <p>
+                <p class="m-0">
                   Copyright © Quesos Navarro. Todos los Derechos Reservados
                 </p>
                 <div class="social-basic">
