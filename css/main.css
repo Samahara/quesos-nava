@@ -160,7 +160,7 @@ table {
 .us-time-line {
   position: fixed;
   z-index: 8;
-  background-color: white;
+  padding: 2px;
 }
 
 .img-medalla-space {
