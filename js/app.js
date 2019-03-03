@@ -140,7 +140,6 @@ function timeline() {
       document.getElementById("historia-hoy").style.display = "none";
       document.getElementById("historia-hoy2").style.display = "none";
       document.getElementById("historia-hoy3").style.display = "none";
-      document.getElementById("historia-hoy4").style.display = "none";
 }
 
 function timeline1() {
@@ -155,7 +154,6 @@ function timeline1() {
       document.getElementById("historia-hoy").style.display = "none";
       document.getElementById("historia-hoy2").style.display = "none";
       document.getElementById("historia-hoy3").style.display = "none";
-      document.getElementById("historia-hoy4").style.display = "none";
 }
 
 function timeline2() {
@@ -170,7 +168,6 @@ function timeline2() {
       document.getElementById("historia-hoy").style.display = "none";
       document.getElementById("historia-hoy2").style.display = "none";
       document.getElementById("historia-hoy3").style.display = "none";
-      document.getElementById("historia-hoy4").style.display = "none";
 }
 
 function timeline3() {
@@ -185,5 +182,4 @@ function timeline3() {
       document.getElementById("historia-hoy").style.display = "block";
       document.getElementById("historia-hoy2").style.display = "block";
       document.getElementById("historia-hoy3").style.display = "block";
-      document.getElementById("historia-hoy4").style.display = "block";
 }
