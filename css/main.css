@@ -2041,6 +2041,12 @@ textarea {
   .media-art {
     height: 400px;
   }
+  .modal-content {
+    margin: 70% auto;
+    padding: 55px;
+    width: 670px;
+    height: auto;
+  }
   .art-card {
     margin-bottom: 70px;
     min-height: 950px;
@@ -2142,14 +2148,20 @@ textarea {
     font-size: 60px;
     line-height: 70px;
   }
+  .notificacion_contacto h2,
   .section_subtitle-tips h2,
   .section_subtitle-recetas h2 {
     font-size: 80px;
     line-height: 75px;
   }
+  .notificacion_contacto p,
   .section_subtitle-recetas p {
     font-size: 30px;
     line-height: 40px;
+  }
+  .notificacion_contacto img {
+    height: 60px;
+    width: 60px;
   }
   .tip-wellness {
     height: auto;
