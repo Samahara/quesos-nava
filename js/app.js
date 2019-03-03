@@ -134,6 +134,13 @@ function timeline() {
       document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
       document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
       document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
+      document.getElementById("historia-1960").style.display = "block";
+      document.getElementById("historia-2002").style.display = "none";
+      document.getElementById("historia-2008").style.display = "none";
+      document.getElementById("historia-hoy").style.display = "none";
+      document.getElementById("historia-hoy2").style.display = "none";
+      document.getElementById("historia-hoy3").style.display = "none";
+      document.getElementById("historia-hoy4").style.display = "none";
 }
 
 function timeline1() {
@@ -142,6 +149,13 @@ function timeline1() {
       document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
       document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
       document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
+      document.getElementById("historia-1960").style.display = "none";
+      document.getElementById("historia-2002").style.display = "block";
+      document.getElementById("historia-2008").style.display = "none";
+      document.getElementById("historia-hoy").style.display = "none";
+      document.getElementById("historia-hoy2").style.display = "none";
+      document.getElementById("historia-hoy3").style.display = "none";
+      document.getElementById("historia-hoy4").style.display = "none";
 }
 
 function timeline2() {
@@ -150,6 +164,13 @@ function timeline2() {
       document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
       document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
       document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
+      document.getElementById("historia-1960").style.display = "none";
+      document.getElementById("historia-2002").style.display = "none";
+      document.getElementById("historia-2008").style.display = "block";
+      document.getElementById("historia-hoy").style.display = "none";
+      document.getElementById("historia-hoy2").style.display = "none";
+      document.getElementById("historia-hoy3").style.display = "none";
+      document.getElementById("historia-hoy4").style.display = "none";
 }
 
 function timeline3() {
@@ -158,4 +179,11 @@ function timeline3() {
       document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
       document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
       document.getElementById('btn-hoy').setAttribute('class','text-amarillo btn-tiempo-historia');
+      document.getElementById("historia-1960").style.display = "none";
+      document.getElementById("historia-2002").style.display = "none";
+      document.getElementById("historia-2008").style.display = "none";
+      document.getElementById("historia-hoy").style.display = "block";
+      document.getElementById("historia-hoy2").style.display = "block";
+      document.getElementById("historia-hoy3").style.display = "block";
+      document.getElementById("historia-hoy4").style.display = "block";
 }

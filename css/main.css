@@ -2162,4 +2162,11 @@ textarea {
   .content-art.wellness {
     height: 500px;
   }
+  #historia-2002,
+  #historia-2008,
+  #historia-hoy,
+  #historia-hoy2,
+  #historia-hoy3 {
+    display:none;
+  }
 }

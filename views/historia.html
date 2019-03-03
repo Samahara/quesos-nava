@@ -63,22 +63,32 @@
           <div class="row">
             <div class="col-1 p-top-10 col-sm-2 us-time-line">
               <div class="" >
-                <button id="btn-1960" class="text-amarillo btn-tiempo-historia" type="button" name="button" onclick="timeline()">1960
+                <button id="btn-1960D" class="text-amarillo btn-tiempo-historia d-sm-none" type="button" name="button" onclick="timeline()">1960
+                <p><div id="line-1960D" class="mt-0 mb-0 linea-naranja"></div></p>
+                </button>
+                <button id="btn-1960" class="text-amarillo btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline()">1960
                 <p><div id="line-1960" class="mt-0 mb-0 linea-naranja"></div></p>
                 </button>
               </div>
               <div class="">
-                <button id="btn-2002" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline1()">2002
+                <button id="btn-2002D" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button" onclick="timeline1()">2002
+                  <p><div id="line-2002D" class="mt-0 mb-0 linea-azul"></div></p>
+                </button>
+                <button id="btn-2002" class="text-azul btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline1()">2002
                   <p><div id="line-2002" class="mt-0 mb-0 linea-azul"></div></p>
                 </button>
               </div>
               <div class="">
-                <button id="btn-2008" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline2()">2008
+                <button id="btn-2008D" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button" onclick="timeline2()">2008
+                  <p><div id="line-2008D" class="mt-0 mb-0 linea-azul"></div></p>
+                </button>
+                <button id="btn-2008" class="text-azul btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline2()">2008
                   <p><div id="line-2008" class="mt-0 mb-0 linea-azul"></div></p>
                 </button>
               </div>
               <div class="">
-                <button id="btn-hoy" class="text-azul btn-tiempo-historia" type="button" name="button" onclick="timeline3()">HOY</button>
+                <button id="btn-hoyD" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button" onclick="timeline3()">HOY</button>
+                <button id="btn-hoy" class="text-azul btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline3()">HOY</button>
               </div>
             </div>
 
@@ -317,7 +327,7 @@
           </div>
         </div>
 
-        <div class="container-fluid bg-awards section_awards--history">
+        <div id="historia-hoy2" class="container-fluid bg-awards section_awards--history">
           <div class="row">
             <div class="col-12 p-bottom-30 p-top-70">
               <div class="row">
@@ -379,7 +389,7 @@
           </div>
         </div>
 
-        <div class="container-fluid section_mercadospremios--history bg-white">
+        <div id="historia-hoy3" class="container-fluid section_mercadospremios--history bg-white">
           <div class="container section_mercadospremios--history">
             <div class="row">
               <div class="col-1 d-sm-none"></div>
