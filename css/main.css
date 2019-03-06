@@ -1946,6 +1946,7 @@ textarea {
   footer .footer__big .widget--links ul.links li {
     font-size: 16px;
     line-height: 42px;
+    padding-left: 30px;
   }
   footer .footer__big .text_widget {
     text-align: center!important;
