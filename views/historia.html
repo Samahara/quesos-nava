@@ -2,6 +2,7 @@
 <html lang="" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nosotros</title>
     <link rel="stylesheet" href="../css/main.css">
   </head>
@@ -63,7 +64,7 @@
           <div class="row">
             <div class="col-1 p-top-10 us-time-line">
               <div class="" >
-                <button id="btn-1960D" class="text-amarillo btn-tiempo-historia d-sm-none" type="button" name="button">1960
+                <button id="btn-1960D" class="text-amarillo btn-tiempo-historia d-sm-none" type="button" name="button" onclick="milnove()">1960
                 <p><div id="line-1960D" class="mt-0 mb-0 linea-naranja"></div></p>
                 </button>
                 <button id="btn-1960" class="text-amarillo btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline()">1960
@@ -71,7 +72,7 @@
                 </button>
               </div>
               <div class="">
-                <button id="btn-2002D" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button">2002
+                <button id="btn-2002D" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button" onclick="dosmildos()">2002
                   <p><div id="line-2002D" class="mt-0 mb-0 linea-azul"></div></p>
                 </button>
                 <button id="btn-2002" class="text-azul btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline1()">2002
@@ -79,7 +80,7 @@
                 </button>
               </div>
               <div class="">
-                <button id="btn-2008D" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button">2008
+                <button id="btn-2008D" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button" onclick="dosmilocho()">2008
                   <p><div id="line-2008D" class="mt-0 mb-0 linea-azul"></div></p>
                 </button>
                 <button id="btn-2008" class="text-azul btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline2()">2008
@@ -87,7 +88,7 @@
                 </button>
               </div>
               <div class="">
-                <button id="btn-hoyD" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button">HOY</button>
+                <button id="btn-hoyD" class="text-azul btn-tiempo-historia d-sm-none" type="button" name="button" onclick="hoyActual()">HOY</button>
                 <button id="btn-hoy" class="text-azul btn-tiempo-historia d-none d-sm-block" type="button" name="button" onclick="timeline3()">HOY</button>
               </div>
             </div>
@@ -103,6 +104,7 @@
                   </div>
                 </div>
 
+                <div id="historia--1960--desktop"></div>
                 <div id="historia-1960" class="row p-bottom-30 p-top-30">
                   <div class="col-12">
                     <div class="section_subsubtitle">
@@ -155,7 +157,7 @@
                     </div>
                   </div>
                 </div>
-
+                <div id="historia--2002--desktop"></div>
                 <div id="historia-2002" class="row background-historia-col p-bottom-30 p-top-30">
                   <div class="col-12">
                     <div class="section_subsubtitle">
@@ -203,7 +205,7 @@
                     </p>
                   </div>
                 </div>
-
+                <div id="historia--2008--desktop"></div>
                 <div id="historia-2008" class="row p-bottom-30 p-top-30 background-historia2-col">
                   <div class="col-12">
                     <div class="section_subsubtitle">
@@ -239,7 +241,7 @@
                     <img class="img-fluid" src="../assets/img/maquina.png" alt="">
                   </div>
                 </div>
-
+                <div id="historia--hoy--desktop"></div>
                 <div id="historia-hoy" class="row p-bottom-30 p-top-30">
                   <div class="col-12">
                     <div class="section_subsubtitle">
@@ -333,10 +335,19 @@
               <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3 col-sm-6">
-                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2010-winner-tercer-lugar-adobera.png" alt="">
+                  <img id="adoberAwards" class="img-fluid" src="../assets/img/american-cheese-society-acs-2010-winner-tercer-lugar-adobera.png" alt="">
+                  <img id="bestHispanicAwards" class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="" hidden>
+                  <img id="oaxacAwards" class="img-fluid" src="../assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="" hidden>
+                  <img id="panelAwards" class="img-fluid" src="../assets/img/world-cheese-awards-2017-2018-medalla-super-gold-panela.png" alt="" hidden>
+                  <img id="bestHispanicAwardsNowmin" class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2018-hard-hispanic-cheese.png" alt="" hidden>
+                  <img id="manchegAwards" class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="" hidden>
+                  <img id="anejoAwards" class="img-fluid" src="../assets/img/2018-word-cheese-awards–oro-añejo-de-los-altos-any-other-semi-hardcows-milkcheese.png" alt="" hidden>
+                  <img id="manchegAwardsPlata" class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-silver-medalla-plata-manchego.png" alt="" hidden>
+                  <img id="cheddarAnejAwards" class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="" hidden>
+                  <img id="anejoBestAwards" class="img-fluid" src="../assets/img/2018-word-cheese-awards–major-winners-con-un-major-trophy-como-el-best-aouth-american-cheese-con-nuestro-queso-añejo-de-los-altos.png" alt="" hidden>
                 </div>
                 <div class="col-4 col-sm-12">
-                  <div class="text_award_history p-top-30">
+                  <div id="adoberAwardsText" class="text_award_history p-top-30">
                     <div class="text-white p-top-10">
                       <h2 class="">Queso Adobera</h2>
                     </div>
@@ -355,34 +366,34 @@
               <div class="row">
                 <div class="col-1 d-sm-none"></div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2010-winner-tercer-lugar-adobera.png" alt="">
+                  <img id="adoberAwardsmin" onclick="chesseAwardOne()" class="img-fluid" src="../assets/img/american-cheese-society-acs-2010-winner-tercer-lugar-adobera.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
+                  <img id="bestHispanicAwardsmin" onclick="chesseAwardTwo()" class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2016-hard-hispanic-cheese.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
+                  <img id="oaxacAwardsmin" onclick="chesseAwardThree()" class="img-fluid" src="../assets/img/world-cheese-awards-2016-2017-medalla-bronce-oaxaca.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2017-2018-medalla-super-gold-panela.png" alt="">
+                  <img id="panelAwardsmin" onclick="chesseAwardFour()" class="img-fluid" src="../assets/img/world-cheese-awards-2017-2018-medalla-super-gold-panela.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2018-hard-hispanic-cheese.png" alt="">
+                  <img id="bestHispanicAwardsNowmin" onclick="chesseAwardFive()" class="img-fluid" src="../assets/img/world-championship-cheese-contest-best-of-class-2018-hard-hispanic-cheese.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
+                  <img id="manchegAwardsmin" onclick="chesseAwardSix()" class="img-fluid" src="../assets/img/american-cheese-society-acs-2018-winner-primer-lugar-manchego.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/2018-word-cheese-awards–oro-añejo-de-los-altos-any-other-semi-hardcows-milkcheese.png" alt="">
+                  <img id="anejoAwardsmin" onclick="chesseAwardSeven()" class="img-fluid" src="../assets/img/2018-word-cheese-awards–oro-añejo-de-los-altos-any-other-semi-hardcows-milkcheese.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-silver-medalla-plata-manchego.png" alt="">
+                  <img id="manchegAwardsPlatamin" onclick="chesseAwardEight()" class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-silver-medalla-plata-manchego.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="">
+                  <img id="cheddarAnejAwardsmin" onclick="chesseAwardNine()" class="img-fluid" src="../assets/img/world-cheese-awards-2018-2019-medalla-bronce-cheddar-añejo.png" alt="">
                 </div>
                 <div class="col-1 col-sm-3">
-                  <img class="img-fluid" src="../assets/img/2018-word-cheese-awards–major-winners-con-un-major-trophy-como-el-best-aouth-american-cheese-con-nuestro-queso-añejo-de-los-altos.png" alt="">
+                  <img id="anejoBestAwardsmin" onclick="chesseAwardTen()" class="img-fluid" src="../assets/img/2018-word-cheese-awards–major-winners-con-un-major-trophy-como-el-best-aouth-american-cheese-con-nuestro-queso-añejo-de-los-altos.png" alt="">
                 </div>
               </div>
             </div>

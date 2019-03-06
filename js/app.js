@@ -103,6 +103,7 @@ for (i = 0; i < x.length; i++) {
       this.classList.toggle("select-arrow-active");
     });
 }
+
 function closeAllSelect(elmnt) {
   /*a function that will close all select boxes in the document,
   except the current select box:*/
@@ -129,59 +130,59 @@ document.addEventListener("click", closeAllSelect);
 // End select
 
 function timeline() {
-      document.getElementById('btn-2002').setAttribute('class','text-azul btn-tiempo-historia');
-      document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-azul');
-      document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
-      document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
-      document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
-      document.getElementById("historia-1960").style.display = "block";
-      document.getElementById("historia-2002").style.display = "none";
-      document.getElementById("historia-2008").style.display = "none";
-      document.getElementById("historia-hoy").style.display = "none";
-      document.getElementById("historia-hoy2").style.display = "none";
-      document.getElementById("historia-hoy3").style.display = "none";
+  document.getElementById('btn-2002').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-azul');
+  document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
+  document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById("historia-1960").style.display = "block";
+  document.getElementById("historia-2002").style.display = "none";
+  document.getElementById("historia-2008").style.display = "none";
+  document.getElementById("historia-hoy").style.display = "none";
+  document.getElementById("historia-hoy2").style.display = "none";
+  document.getElementById("historia-hoy3").style.display = "none";
 }
 
 function timeline1() {
-      document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
-      document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
-      document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
-      document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
-      document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
-      document.getElementById("historia-1960").style.display = "none";
-      document.getElementById("historia-2002").style.display = "block";
-      document.getElementById("historia-2008").style.display = "none";
-      document.getElementById("historia-hoy").style.display = "none";
-      document.getElementById("historia-hoy2").style.display = "none";
-      document.getElementById("historia-hoy3").style.display = "none";
+  document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
+  document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById("historia-1960").style.display = "none";
+  document.getElementById("historia-2002").style.display = "block";
+  document.getElementById("historia-2008").style.display = "none";
+  document.getElementById("historia-hoy").style.display = "none";
+  document.getElementById("historia-hoy2").style.display = "none";
+  document.getElementById("historia-hoy3").style.display = "none";
 }
 
 function timeline2() {
-      document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
-      document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
-      document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
-      document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
-      document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
-      document.getElementById("historia-1960").style.display = "none";
-      document.getElementById("historia-2002").style.display = "none";
-      document.getElementById("historia-2008").style.display = "block";
-      document.getElementById("historia-hoy").style.display = "none";
-      document.getElementById("historia-hoy2").style.display = "none";
-      document.getElementById("historia-hoy3").style.display = "none";
+  document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById("historia-1960").style.display = "none";
+  document.getElementById("historia-2002").style.display = "none";
+  document.getElementById("historia-2008").style.display = "block";
+  document.getElementById("historia-hoy").style.display = "none";
+  document.getElementById("historia-hoy2").style.display = "none";
+  document.getElementById("historia-hoy3").style.display = "none";
 }
 
 function timeline3() {
-      document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
-      document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
-      document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
-      document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
-      document.getElementById('btn-hoy').setAttribute('class','text-amarillo btn-tiempo-historia');
-      document.getElementById("historia-1960").style.display = "none";
-      document.getElementById("historia-2002").style.display = "none";
-      document.getElementById("historia-2008").style.display = "none";
-      document.getElementById("historia-hoy").style.display = "block";
-      document.getElementById("historia-hoy2").style.display = "block";
-      document.getElementById("historia-hoy3").style.display = "block";
+  document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-hoy').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById("historia-1960").style.display = "none";
+  document.getElementById("historia-2002").style.display = "none";
+  document.getElementById("historia-2008").style.display = "none";
+  document.getElementById("historia-hoy").style.display = "block";
+  document.getElementById("historia-hoy2").style.display = "block";
+  document.getElementById("historia-hoy3").style.display = "block";
 }
 
 // Get the modal
@@ -239,4 +240,180 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+function milnove() {
+  location.href='#historia--1960--desktop';
+  document.getElementById('btn-2002D').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-azul');
+  document.getElementById('btn-2008D').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-azul');
+  document.getElementById('btn-hoyD').setAttribute('class','text-azul btn-tiempo-historia');
+}
+
+function dosmildos() {
+  location.href='#historia--2002--desktop';
+  document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-2008D').setAttribute('class','text-azul btn-tiempo-historia');
+  document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-azul');
+  document.getElementById('btn-hoyD').setAttribute('class','text-azul btn-tiempo-historia');
+}
+
+function dosmilocho() {
+  location.href='#historia--2008--desktop';
+  document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-2008D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-hoyD').setAttribute('class','text-azul btn-tiempo-historia');
+}
+
+function hoyActual() {
+  location.href='#historia--hoy--desktop';
+  document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-2008D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  document.getElementById('btn-hoyD').setAttribute('class','text-amarillo btn-tiempo-historia');
+}
+
+function chesseAwardOne() {
+  document.getElementById('adoberAwards').hidden = false;
+  document.getElementById('adoberAwardsText').hidden = false;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardTwo() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = false;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardThree() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = false;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardFour() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = false;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardFive() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = false;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardSix() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = false;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardSeven() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = false;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardEight() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = false;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardNine() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = false;
+  document.getElementById('anejoBestAwards').hidden = true;
+}
+
+function chesseAwardTen() {
+  document.getElementById('adoberAwards').hidden = true;
+  document.getElementById('adoberAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('panelAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('anejoBestAwards').hidden = false;
 }

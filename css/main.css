@@ -17,13 +17,6 @@ a {
   text-decoration: none;
 }
 
-/* hr {
-    height: 100%;
-    width: 1px;
-    border-left: 1px solid orange;
-    display: inline-block;
-} */
-
 body {
   color: #3F3F3F;
   font-weight: normal;
@@ -422,6 +415,10 @@ img {
   border-style: none;
 }
 
+#historia--1960--desktop {
+
+}
+
 .art-card {
   min-height: 350px;
 }
@@ -638,20 +635,24 @@ img {
   text-align: center;
 }
 
-.text-info-leche td {
-  font-size: 18px;
-  font-weight: bold;
-}
-
 .composicion-table-information td {
+  font-size: 16.8px;
   font-weight: bold;
   padding: 2px 8px;
+  line-height: 21px;
+}
+
+.text-info-leche td {
+  font-size: 19.2px;
+  line-height: 23px;
+  font-weight: bold;
 }
 
 .composicion-table th {
   border: 2px solid;
   color: white;
   font-size: 16px;
+  font-weight: bold;
   line-height: 19px;
   padding: 15px;
 }
@@ -733,6 +734,10 @@ img {
 .content-menu-recetas p {
   font-size: 10px;
   line-height: 14px;
+}
+
+.cont_medals img {
+  cursor: pointer;
 }
 
 .content-recetas span {
@@ -859,10 +864,9 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
 }
 
 .home {
-  height: 100vh;
+  height: 658px;
   padding-top: 95px;
-  max-height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .intro-area-two {
@@ -957,6 +961,10 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.queso-cabra {
+  height: 250px;
 }
 
 .menu_media a img {
@@ -1082,7 +1090,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .page--content {
-  min-height: 100vh;
+  min-height: 80vh;
   padding-top: 95px;
 }
 
@@ -1176,7 +1184,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   font-size: 24px;
   font-weight: bold;
   line-height: 28px;
-  margin: 25px 0 35px;
+  margin: 24px 0;
 }
 
 .section_subsubtitle h2 {
@@ -1274,7 +1282,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .owl-item .item .caption-description-info-recetas {
   bottom: 15%;
   display: block;
-  padding: 40px 90px;
+  padding: 40px 110px;
   position: absolute;
   width: 100%;
 }
@@ -1324,11 +1332,11 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .topbar-slider #slider-thumbnail .item-caption {
-  height: 568px;
+  height: 563px;
 }
 
 .topbar-slider #slider-thumbnail .item-caption.petite-caption {
-  height: 284px;
+  height: 281.5px;
 }
 
 .tip-recetas p {
@@ -1489,24 +1497,24 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .owl-item.nQuesos,
 .owl-item.nRecetas {
-  height: 346px;
+  height: 330px;
   overflow: hidden;
 }
 
 .owl-item.nRecetas2 {
-  height: 310px;
+  height: 295px;
   overflow: hidden;
 }
 
 .owl-item.nHome {
   width: 50%;
-  height: 568px;
+  height: 563px;
   overflow: hidden;
 }
 
 .owl-item.nHome2 {
   width: 100%;
-  height: 281px;
+  height: 281.5px;
   overflow: hidden;
 }
 
@@ -1746,6 +1754,11 @@ textarea {
   height: 320px;
 }
 
+.notificacion_contacto h2 {
+  font-family: "FlamaCondensed";
+  text-transform: uppercase;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
@@ -1763,11 +1776,7 @@ textarea {
 
 
 @media only screen and (max-width: 991.98px) {
-  body {
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .button-art a {
+  /* .button-art a {
     font-size: 45px;
     line-height: 45px;
   }
@@ -1778,13 +1787,14 @@ textarea {
     padding: 12px 70px;
     text-align: center;
     font-weight: bold;
-  }
+  } */
   .button-menu button {
-    font-size: 80px;
+    font-size: 32px;
     font-weight: bold;
-    padding: 10px 70px;
+    height: 79px;
+    padding: 15px 20px;
     text-align: left;
-    line-height: 125px;
+    line-height: 50px;
   }
   .col-sm-6 {
     width: 50%;
@@ -1807,7 +1817,7 @@ textarea {
   .col-sm-10 {
     width: 83.33%;
   }
-  .composicion-table,
+  /* .composicion-table,
   .composicion-table-information {
     width: 790px;
   }
@@ -1852,11 +1862,11 @@ textarea {
   .content-error p {
     font-size: 45px;
     line-height: 52px;
-  }
+  }*/
   .intro-area-two {
-    height: 200px;
+    height: 80px;
   }
-  .owl-item .item.recetaIte2 .caption-description {
+  /*.owl-item .item.recetaIte2 .caption-description {
     bottom: 15%;
   }
   .owl-item .item.recetaIte.receto .caption-description {
@@ -1897,14 +1907,14 @@ textarea {
   }
   .custom-select.custom2 {
     margin-left: 0;
-  }
+  } */
   .d-sm-none {
     display: none !important;
   }
   .d-sm-block {
     display: block !important;
   }
-  .guarnicion_title h3 {
+  /* .guarnicion_title h3 {
     font-size: 60px;
     line-height: 70px;
   }
@@ -1928,35 +1938,27 @@ textarea {
   }
   .cont_medals img {
     padding: 15px;
-  }
-  footer.footer6 {
-    padding-top: 0;
-  }
-  footer .footer__big {
-    padding: 75px 0 20px;
-    font-size: 40px;
-  }
-  footer .footer__big .widget--links .links {
-    padding-left: 110px;
-  }
-  footer .footer__big .widget ul.links li, footer .footer__big .text_widget div a {
-    line-height: 105px;
+  }*/
+  footer .footer__big .widget--links ul.links li {
+    font-size: 16px;
+    line-height: 42px;
+    padding-left: 32px;
   }
   footer .footer__big .text_widget {
-    padding-top: 5rem;
     text-align: center!important;
   }
   .footer_media a img {
-    margin: 0 40px;
-    height: 100px;
-    width: 100px;
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
   }
-  footer .footer__big .text_widget div {
-    margin-top: 4rem;
+  footer .footer_media {
+    padding-bottom: 30px;
   }
   footer .footer__big .text_widget .footer_logo2 {
-    width: 417.5px;
-    display: inline!important;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+    width: 167px;
   }
   footer .footer__bottom .footer__bottom-content {
     -webkit-box-orient: vertical;
@@ -1972,20 +1974,19 @@ textarea {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-bottom: 150px;
+    padding-bottom: 30px;
   }
   .footer__bottom-content p {
-    font-size: 40px;
-    line-height: 50px;
-    margin-bottom: 5rem;
-    margin-top: 6rem;
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
   }
   .footer__bottom-content .social-basic {
-    font-size: 32.5px;
-    line-height: 50px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 30px;
   }
-  .info-leche-conv {
+  /*.info-leche-conv {
     width: 177px;
     height: auto;
   }
@@ -2015,30 +2016,31 @@ textarea {
     border-radius: 100px;
     font-size: 40px;
     padding-left: 150px;
-  }
+  }*/
   .list-menu {
-    top: 200px;
-    font-size: 60px;
-    height: 88.8vh;
+    font-size: 24px;
+    line-height: 70px;
+    top: 80px;
   }
-  .list-menu ul li {
-    line-height: 160px;
+  .list-menu ul {
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .menu_media a img {
-    height: 100px;
-    margin: 35px;
-    width: 100px;
+    height: 40px;
+    margin: 0 10px;
+    width: 40px;
   }
-  .menu-select-recetas {
+  /*.menu-select-recetas {
     padding: 70px 0 0;
   }
   .menu-select-recetas .col-6 {
     padding: 50px 0;
-  }
+  } */
   .menu_area .navbar {
-    padding: 41px 0;
+    padding: .734rem 0;
   }
-  .media-art {
+  /* .media-art {
     height: 400px;
   }
   .modal-content {
@@ -2050,11 +2052,11 @@ textarea {
   .art-card {
     margin-bottom: 70px;
     min-height: 950px;
-  }
+  }*/
   .navbar .navbar-brand {
-    width: 417.5px;
+    width: 167px;
   }
-  .owl-title-item {
+  /*.owl-title-item {
     color: white;
     font-size: 60px;
     height: auto;
@@ -2192,21 +2194,31 @@ textarea {
   .number- {
     font-size: 60px;
   }
-  .presentaciones-queso p,
   .content-art p {
     line-height: 47px;
   }
+  .presentaciones-queso p {
+    font-size: 35px;
+    line-height: 50px;
+  }
   .presentaciones-queso p.chico {
-    font-size: 32px;
-    line-height: 47px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .section_medals-awards h4 {
+    text-align: center;
+  }
+  .queso-cabra {
+    width: 200px !important;
   }
   .section_subtitle.title-padding {
     padding-right: 0;
-  }
+  }*/
   .navbar-toggler {
-    width: 100px;
+    width: 39px;
+    padding: 0;
   }
-  .section_title h2,
+  /* .section_title h2,
   .section_subtitle h2 {
     font-size: 80px;
     line-height: 125px;
@@ -2262,5 +2274,5 @@ textarea {
   #historia-hoy2,
   #historia-hoy3 {
     display:none;
-  }
+  } */
 }
