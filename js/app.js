@@ -282,138 +282,228 @@ function chesseAwardOne() {
   document.getElementById('adoberAwards').hidden = false;
   document.getElementById('adoberAwardsText').hidden = false;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardTwo() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = false;
+  document.getElementById('bestHispanicAwardsText').hidden = false;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardThree() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = false;
+  document.getElementById('oaxacAwardsText').hidden = false;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardFour() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = false;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = false;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardFive() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = false;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = false;
+  document.getElementById('bestHispanicAwardsNowText').hidden = false;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardSix() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = false;
+  document.getElementById('manchegAwardsText').hidden = false;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardSeven() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = false;
+  document.getElementById('anejoAwardsText').hidden = false;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardEight() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = false;
+  document.getElementById('manchegAwardsPlataText').hidden = false;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardNine() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = false;
+  document.getElementById('cheddarAnejAwardsText').hidden = false;
   document.getElementById('anejoBestAwards').hidden = true;
+  document.getElementById('anejoBestAwardsText').hidden = true;
 }
 
 function chesseAwardTen() {
   document.getElementById('adoberAwards').hidden = true;
   document.getElementById('adoberAwardsText').hidden = true;
   document.getElementById('bestHispanicAwards').hidden = true;
+  document.getElementById('bestHispanicAwardsText').hidden = true;
   document.getElementById('oaxacAwards').hidden = true;
+  document.getElementById('oaxacAwardsText').hidden = true;
   document.getElementById('panelAwards').hidden = true;
-  document.getElementById('bestHispanicAwardsNowmin').hidden = true;
+  document.getElementById('panelAwardsText').hidden = true;
+  document.getElementById('bestHispanicAwardsNow').hidden = true;
+  document.getElementById('bestHispanicAwardsNowText').hidden = true;
   document.getElementById('manchegAwards').hidden = true;
+  document.getElementById('manchegAwardsText').hidden = true;
   document.getElementById('anejoAwards').hidden = true;
+  document.getElementById('anejoAwardsText').hidden = true;
   document.getElementById('manchegAwardsPlata').hidden = true;
+  document.getElementById('manchegAwardsPlataText').hidden = true;
   document.getElementById('cheddarAnejAwards').hidden = true;
+  document.getElementById('cheddarAnejAwardsText').hidden = true;
   document.getElementById('anejoBestAwards').hidden = false;
+  document.getElementById('anejoBestAwardsText').hidden = false;
 }
