@@ -1776,6 +1776,10 @@ textarea {
 
 
 @media only screen and (max-width: 991.98px) {
+  .row:before,
+  .row:after {
+    display: inline-block !important;
+  }
   /* .button-art a {
     font-size: 45px;
     line-height: 45px;
