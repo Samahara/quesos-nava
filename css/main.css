@@ -1942,7 +1942,6 @@ textarea {
   footer .footer__big .widget--links ul.links li {
     font-size: 16px;
     line-height: 42px;
-    padding-left: 32px;
   }
   footer .footer__big .text_widget {
     text-align: center!important;
@@ -2020,10 +2019,11 @@ textarea {
   .list-menu {
     font-size: 24px;
     line-height: 70px;
+    min-height: 88vh;
+    padding: 20px 30px;
     top: 80px;
   }
   .list-menu ul {
-    margin-top: 0;
     margin-bottom: 0;
   }
   .menu_media a img {
