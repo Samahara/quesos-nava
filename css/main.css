@@ -502,13 +502,14 @@ img {
   border: none;
   color: white;
   font-family: "Roboto";
-  font-size: 60px;
+  font-size: 24px;
   font-weight: bold;
   height: auto;
-  padding: 35px 70px;
+  min-height: 59px;
+  padding: 15px;
   text-transform: uppercase;
   text-align: left;
-  line-height: 70px;
+  line-height: 28px;
 }
 
 .notificacion_contacto h2,
@@ -1776,9 +1777,16 @@ textarea {
 
 
 @media only screen and (max-width: 991.98px) {
+  body {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .row:before,
   .row:after {
     display: inline-block !important;
+  }
+  .container-mobile {
+    width: 100%;
   }
   /* .button-art a {
     font-size: 45px;
@@ -1821,14 +1829,18 @@ textarea {
   .col-sm-10 {
     width: 83.33%;
   }
-  /* .composicion-table,
+  .composicion-table {
+    width: 100%;
+  }
   .composicion-table-information {
-    width: 790px;
+    width: 100%;
   }
   .composicion-table th {
-    font-size: 32px;
+    font-size: 12.8px;
+    line-height: 15px;
+    padding: 10px;
   }
-  .content-recetas span {
+  /* .content-recetas span {
     font-size: 40!important;
   }
   .content-print button img {
@@ -1882,13 +1894,18 @@ textarea {
   .caption-description-info-recetas h3 {
     font-size: 40px;
     line-height: 47.5px;
-  }
+  } */
   .composicion-table-information th {
-    font-size: 50px;
-    height: 140px;
-    line-height: 40px;
+    font-size: 24px;
+    height: 70px;
+    line-height: 28px;
   }
-  .container-wellness-2 {
+  .composicion-table td {
+    font-size: 11.2px;
+    line-height: 14px;
+    padding: 10px;
+  }
+  /* .container-wellness-2 {
     width: 90%;
     padding-right: 15px;
     padding-left: 15px;
@@ -1990,15 +2007,15 @@ textarea {
     line-height: 20px;
     padding-top: 30px;
   }
-  /*.info-leche-conv {
-    width: 177px;
+  .info-leche-conv {
+    width: 71px;
     height: auto;
   }
   .info-leche-conh {
-    width: 250px;
+    width: 100px;
     height: auto;
   }
-  .input-style {
+  /* .input-style {
     font-size: 40px;
     line-height: 50px;
     padding: 24px;
@@ -2061,12 +2078,13 @@ textarea {
   .navbar .navbar-brand {
     width: 167px;
   }
-  /*.owl-title-item {
+  .owl-title-item {
     color: white;
-    font-size: 60px;
+    font-size: 24px;
+    min-height: 50px;
     height: auto;
-    line-height: 70px;
-    padding: 33px 20px;
+    line-height: 28px;
+    padding: 10px 0px;
     text-transform: uppercase;
     width: 100%;
   }
@@ -2075,7 +2093,7 @@ textarea {
     height: auto;
     display: flex;
   }
-  .owl-item .item .caption-description-recetas.twowords,
+  /*.owl-item .item .caption-description-recetas.twowords,
   .owl-item .item .caption-description-recetas2.twowords {
     bottom: 35%;
   }
@@ -2089,12 +2107,13 @@ textarea {
   .owl-item.nRecetas2 {
     height: 460px;
     display: flex;
-  }
+  }*/
   .owl-item.nQuesos .item,
   .owl-item.nHome .item {
     width: 50%;
+    padding: 10px 0 25px 25px!important;
   }
-  .background-historia-col {
+  /*.background-historia-col {
     background-size: 0%;
   }
   .background-historia2-col {
@@ -2103,14 +2122,14 @@ textarea {
   .owl-item.nRecetas .item,
   .owl-item.nRecetas2 .item.recetaIte2 {
     width: 100%;
-  }
+  }*/
   .owl-item.nQuesos .item img,
   .owl-item.nRecetas .item img,
   .owl-item.nRecetas2 .item img {
     width: 100%;
     height: auto;
   }
-  .owl-item .item .caption-description-info-recetas {
+  /*.owl-item .item .caption-description-info-recetas {
     bottom: 30px;
     display: block;
     padding: 40px 90px;
@@ -2129,10 +2148,9 @@ textarea {
     height: 460px!important;
     background-color: #0000006b;
     opacity: 1;
-  }
+  }*/
   .page--content {
-    min-height: 100vh;
-    padding-top: 200px;
+    padding-top: 80px;
   }
   .p-mobile-0 {
     padding-top: 0;
@@ -2141,7 +2159,7 @@ textarea {
     background-color: transparent;
     border: none;
     vertical-align: middle;
-    width: 70%;
+    width: 41px;
   }
   .paginator button img {
     width: 100%;
@@ -2152,10 +2170,19 @@ textarea {
   .section_medals-awards h4,
   .section_subsubtitle h2,
   .categoria_title h2 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 24px;
+    line-height: 28px;
   }
-  .notificacion_contacto h2,
+  .txt-wrd,
+  .section_text_info_queso p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .section_text_info_ingredientes {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* .notificacion_contacto h2,
   .section_subtitle-tips h2,
   .section_subtitle-recetas h2 {
     font-size: 80px;
@@ -2201,34 +2228,47 @@ textarea {
   }
   .content-art p {
     line-height: 47px;
-  }
+  } */
   .presentaciones-queso p {
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 16px;
+    line-height: 19px;
   }
-  .presentaciones-queso p.chico {
+  /* .presentaciones-queso p.chico {
     font-size: 45px;
     line-height: 50px;
-  }
+  } */
   .section_medals-awards h4 {
     text-align: center;
   }
   .queso-cabra {
-    width: 200px !important;
+    width: 70px !important;
+  }
+  .item.crema img {
+    padding-top: 40px;
+  }
+  .item.cotija img,
+  .item.parmesano img {
+    width: 120px !important;
+  }
+  .quesos {
+    padding-bottom: 0;
   }
   .section_subtitle.title-padding {
     padding-right: 0;
-  }*/
+  }
   .navbar-toggler {
     width: 39px;
     padding: 0;
   }
-  /* .section_title h2,
-  .section_subtitle h2 {
-    font-size: 80px;
-    line-height: 125px;
+  .section_title h2 {
+    font-size: 32px;
+    line-height: 50px;
   }
-  .section_subtitle {
+  .section_subtitle h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  /* .section_subtitle {
     padding-right: 0;
     text-align: center;
   }
@@ -2238,18 +2278,24 @@ textarea {
   .search-form .search-submit img {
     width: 110px;
     height: auto;
-  }
+  }*/
   .text-quesos-mobile {
-    padding-top: 20%;
-    padding-bottom: 40%;
+    padding-top: 20px;
+    padding-bottom: 80px;
     text-align: left;
+  }
+  .text-quesos-mobile p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1px !important;
   }
   .text-quesos-mobile a {
     color: #FFAD2C;
-    font-size: 35px;
+    font-size: 14px;
+    line-height: 18px;
     text-decoration: underline;
   }
-  .text-info-leche td {
+  /*.text-info-leche td {
     font-size: 45px;
   }
   .section_title-awards {
@@ -2266,11 +2312,11 @@ textarea {
     padding: 30px 0;
     font-size: 45px;
     line-height: 52px;
-  }
+  } */
   .w-100 {
     width: 100% !important;
   }
-  .content-art.wellness {
+  /* .content-art.wellness {
     height: 500px;
   }
   #historia-2002,
