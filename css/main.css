@@ -1660,7 +1660,7 @@ textarea {
 /*style the items (options), including the selected item:*/
 .select-items div,
 .select-selected {
-  color: #0000008f;
+  color: #4E4E4E;
   padding: 8px 16px 8px 0;
   font-size: .9rem;
   border: 1px solid transparent;
@@ -1918,15 +1918,15 @@ textarea {
   }
   .owl-item .item.recetaIte.receto .caption-description {
     bottom: 15%;
-  }
+  }*/
   .content-recetas img {
-    width: 45px!important;
-  } */
+    width: 21px!important;
+  }
   .caption-description-info-recetas h3 {
     font-size: 16px;
     line-height: 19px;
   }
-  .title_aviso_priv h1 {
+  /*.title_aviso_priv h1 {
     font-size: 24px;
     line-height: 28px;
   }
@@ -2134,7 +2134,10 @@ textarea {
     padding: 20px 15px;
   }
   .menu-select-recetas .col-6 {
-    padding: 20px 0;
+    padding: 15px 0;
+  }
+  .container_search_recetas_p {
+    padding-top: 5px;
   }
   .menu_area .navbar {
     padding: .734rem 0;
@@ -2209,9 +2212,10 @@ textarea {
   .owl-item .item .caption-description-info-recetas {
     bottom: 0;
     display: block;
-    padding: 0 20px;
+    padding: 20px;
     position: absolute;
     width: 100%;
+    height: 175px;
   }
   /*.owl-item .item:hover .item-caption-quesos {
     background-color: none;
@@ -2278,6 +2282,12 @@ textarea {
   }
   .section_title_recetas_p {
     padding-top: 30px;
+  }
+  .tip-recetas p {
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 10px;
+    margin: 0;
   }
   /*.notificacion_contacto p,
   .section_subtitle-recetas p {
