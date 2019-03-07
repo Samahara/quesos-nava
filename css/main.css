@@ -8,6 +8,11 @@
   src: url("../assets/fonts/Flama Condensed Extrabold.otf");
 }
 
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
 *, ::after, ::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -442,7 +447,7 @@ img {
   cursor: pointer;
   font-size: 14px;
   line-height: 16px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   height: 32px;
   width: 100%;
 }
@@ -489,9 +494,8 @@ img {
   border: none;
   color: white;
   cursor: pointer;
-  font-family: "Roboto";
   font-size: 24px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   padding: 10px 70px;
   text-transform: uppercase;
   text-align: center;
@@ -501,9 +505,8 @@ img {
 .button-paginator {
   border: none;
   color: white;
-  font-family: "Roboto";
+  font-family: "Roboto-Bold";
   font-size: 24px;
-  font-weight: bold;
   height: auto;
   min-height: 59px;
   padding: 15px;
@@ -587,7 +590,7 @@ img {
 .text_award_history h2 {
   font-size: 32px;
   line-height: 50px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
 }
 
 .btn-tiempo-historia {
@@ -596,7 +599,7 @@ img {
   cursor: pointer;
   font-size: 32px;
   line-height: 50px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   outline: none;
 }
 
@@ -630,7 +633,7 @@ img {
   border: 2px solid #002C54;
   color: white;
   font-size: 28.8px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 34px;
   height: 63.6px;
   text-align: center;
@@ -638,7 +641,7 @@ img {
 
 .composicion-table-information td {
   font-size: 16.8px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   padding: 2px 8px;
   line-height: 21px;
 }
@@ -646,14 +649,14 @@ img {
 .text-info-leche td {
   font-size: 19.2px;
   line-height: 23px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
 }
 
 .composicion-table th {
   border: 2px solid;
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 19px;
   padding: 15px;
 }
@@ -692,7 +695,7 @@ img {
 
 .content-recetas span.blue {
   font-size: 16px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 19px;
   margin-right: 20px;
   vertical-align: middle;
@@ -719,7 +722,7 @@ img {
 .text_award_history p {
   font-size: 24px;
   line-height: 28px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
 }
 
 .content-error h2 {
@@ -743,14 +746,14 @@ img {
 
 .content-recetas span {
   font-size: 12.8px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 15px;
   vertical-align: middle;
 }
 
 .subsub_title-recetagr h2 {
   color: #FCA311;
-  font-size: 48px;;
+  font-size: 48px;
   margin: 0;
   line-height: 52px;
 }
@@ -913,7 +916,7 @@ label {
 .list-menu {
   background-color: white;
   font-size: 32px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   min-height: 86vh;
   padding: 16px 60px;
   position: absolute;
@@ -929,7 +932,7 @@ label {
 
 section.menu-select-recetas > div > div > div:nth-child(2) > div > div.select-selected,
 section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-selected {
-  font-weight: bold;
+  font-family: "Roboto-Bold";
 }
 
 .list-menu ul li {
@@ -994,7 +997,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   color: #ccc;
   margin: 0;
   font-size: 24px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 28px;
   text-align: right;
 }
@@ -1122,7 +1125,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .caption-description-info-recetas h3,
 .presentaciones-queso h4 {
   font-size: 24px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 28px;
   margin-top: 0;
   text-transform: uppercase;
@@ -1130,21 +1133,21 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .title_nuestros-quesos h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 28px;
   margin-top: 0;
 }
 
 .guarnicion_title h3 {
   font-size: 24px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 28px;
   text-transform: uppercase;
 }
 
 .presentaciones-queso p {
   font-size: 18px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 21px;
   margin: 0;
 }
@@ -1155,7 +1158,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .section_title h2 {
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   font-size: 64px;
   line-height: 75px;
   text-transform: uppercase;
@@ -1164,7 +1167,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .title_aviso_priv h1 {
   font-size: 64px;
   line-height: 55px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   text-transform: uppercase;
 }
 
@@ -1175,7 +1178,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .section_subtitle h2,
 .section_title-awards h2 {
   font-size: 64px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 61px;
   margin-top: 0;
   text-transform: uppercase;
@@ -1183,14 +1186,14 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .section_medals-awards h4 {
   font-size: 24px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 28px;
   margin: 24px 0;
 }
 
 .section_subsubtitle h2 {
   color: #002C54;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   font-size: 32px;
   line-height: 50px;
   margin-top: 0;
@@ -1200,7 +1203,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .section_subtitle-recetas h2 {
   color: #CCCCCC;
   font-size: 48px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   line-height: 57px;
   margin: 0;
 }
@@ -1373,7 +1376,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .tip-wellness h2 {
   font-size: 48px;
   line-height: 50px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   text-transform: uppercase;
 }
 
@@ -1451,9 +1454,8 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .topbar-slider #slider-thumbnail .item .caption-title-link {
   color: #fff;
   display: block;
-  font-family: "Roboto";
   font-size: 48px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   height: 100%;
   line-height: 57px;
   text-decoration: none;
@@ -1464,9 +1466,8 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .owl-item .item .caption-title-text-cheese {
   color: #fff;
   display: block;
-  font-family: "Roboto";
   font-size: 32px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   height: 100%;
   line-height: 38px;
   text-align: center;
@@ -1479,9 +1480,8 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .owl-item .item .caption-title-text-recetas2 {
   color: #fff;
   display: block;
-  font-family: "Roboto";
   font-size: 32px;
-  font-weight: bold;
+  font-family: "Roboto-Bold";
   height: 100%;
   line-height: 50px;
   text-align: center;
@@ -1820,7 +1820,7 @@ textarea {
   } */
   .button-menu button {
     font-size: 32px;
-    font-weight: bold;
+    font-family: "Roboto-Bold";
     height: 79px;
     padding: 15px 20px;
     text-align: left;
@@ -1921,11 +1921,11 @@ textarea {
   }
   .content-recetas img {
     width: 45px!important;
-  }
-  .caption-description-info-recetas h3 {
-    font-size: 40px;
-    line-height: 47.5px;
   } */
+  .caption-description-info-recetas h3 {
+    font-size: 16px;
+    line-height: 19px;
+  }
   .title_aviso_priv h1 {
     font-size: 24px;
     line-height: 28px;
@@ -1975,13 +1975,22 @@ textarea {
   }
   .content-art.wellness {
     border-top: 30px solid #FF9B00;
-  }
+  }*/
   .custom-select {
-    width: 587px;
+    width: 235px;
   }
   .custom-select.custom2 {
     margin-left: 0;
-  } */
+  }
+  .contain_recetas {
+    padding-top: 0px;
+  }
+  .owl-item .item .caption-title,
+  .owl-item .item .caption-title-text-recetas,
+  .owl-item .item .caption-title-text-recetas2 {
+    font-size: 16px;
+    line-height: 19px;
+  }
   .d-sm-none {
     display: none !important;
   }
@@ -2091,6 +2100,11 @@ textarea {
     font-size: 14px;
     line-height: 18px;
   }
+  .pagination.recetas a {
+    padding: 9px;
+    font-size: 14px;
+    line-height: 18px;
+  }
   .art-card,
   .text-art-title {
     margin-right: -15px;
@@ -2104,7 +2118,7 @@ textarea {
   .list-menu {
     font-size: 24px;
     line-height: 70px;
-    min-height: 88vh;
+    min-height: 90vh;
     padding: 20px 30px;
     top: 80px;
   }
@@ -2116,12 +2130,12 @@ textarea {
     margin: 0 10px;
     width: 40px;
   }
-  /*.menu-select-recetas {
-    padding: 70px 0 0;
+  .menu-select-recetas {
+    padding: 20px 15px;
   }
   .menu-select-recetas .col-6 {
-    padding: 50px 0;
-  } */
+    padding: 20px 0;
+  }
   .menu_area .navbar {
     padding: .734rem 0;
   }
@@ -2156,21 +2170,21 @@ textarea {
     height: auto;
     display: flex;
   }
-  /*.owl-item .item .caption-description-recetas.twowords,
-  .owl-item .item .caption-description-recetas2.twowords {
+  .owl-item .item .caption-description-recetas.twowords {
     bottom: 35%;
   }
-  .owl-item .item .caption-description-recetas {
-    bottom: 40%;
+  .owl-item .item .caption-description-recetas2.twowords {
+    bottom: 30%;
   }
+  .owl-item .item .caption-description-recetas,
   .owl-item .item .caption-description-recetas2 {
-    bottom: 39%;
+    padding: 20px 20px!important;
   }
   .owl-item.nRecetas,
   .owl-item.nRecetas2 {
-    height: 460px;
+    height: 175px;
     display: flex;
-  }*/
+  }
   .owl-item.nQuesos .item,
   .owl-item.nHome .item {
     width: 50%;
@@ -2192,26 +2206,26 @@ textarea {
     width: 100%;
     height: auto;
   }
-  /*.owl-item .item .caption-description-info-recetas {
-    bottom: 30px;
+  .owl-item .item .caption-description-info-recetas {
+    bottom: 0;
     display: block;
-    padding: 40px 90px;
+    padding: 0 20px;
     position: absolute;
     width: 100%;
   }
-  .owl-item .item:hover .item-caption-quesos {
+  /*.owl-item .item:hover .item-caption-quesos {
     background-color: none;
   }
   .owl-item .item.recetaIte .caption-description,
   .owl-item .item.recetaIte2 .caption-description {
     bottom: 28%;
-  }
+  } */
   .owl-item .item .item-caption-recetas,
   .owl-item .item .item-caption-recetas2 {
-    height: 460px!important;
+    height: 175px!important;
     background-color: #0000006b;
     opacity: 1;
-  }*/
+  }
   .page--content {
     padding-top: 80px;
   }
@@ -2254,10 +2268,16 @@ textarea {
     padding-top: 20px;
   }
   .notificacion_contacto h2,
-  .section_subtitle-tips h2,
-  .section_subtitle-recetas h2 {
+  .section_subtitle-tips h2 {
     font-size: 24px;
     line-height: 28px;
+  }
+  .section_subtitle-recetas h2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .section_title_recetas_p {
+    padding-top: 30px;
   }
   /*.notificacion_contacto p,
   .section_subtitle-recetas p {
