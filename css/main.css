@@ -1905,6 +1905,9 @@ textarea {
     line-height: 14px;
     padding: 10px;
   }
+  .container-leche-info div {
+    padding: 10px 0;
+  }
   /* .container-wellness-2 {
     width: 90%;
     padding-right: 15px;
