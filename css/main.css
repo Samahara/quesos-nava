@@ -449,6 +449,7 @@ img {
   line-height: 16px;
   font-family: "Roboto-Bold";
   height: 32px;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -989,7 +990,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .media-art {
   width: 100%;
-  height: 140px;
+  height: 130px;
   overflow: hidden;
 }
 
@@ -1444,6 +1445,10 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   transition: opacity .2s linear;
 }
 
+.tip-wellness-content {
+  padding-top: 30px;
+}
+
 .topbar-slider #slider-thumbnail .item .caption-title,
 .owl-item .item .caption-title {
   display: block;
@@ -1775,7 +1780,6 @@ textarea {
   cursor: pointer;
 }
 
-
 @media only screen and (max-width: 991.98px) {
   .row:before,
   .row:after {
@@ -1806,18 +1810,6 @@ textarea {
     margin: 5px auto 15px;
     height: 2px;
   }
-  /* .button-art a {
-    font-size: 45px;
-    line-height: 45px;
-  }
-  .button-menu_contacto button {
-    font-size: 35px;
-    height: 78px;
-    line-height: 40px;
-    padding: 12px 70px;
-    text-align: center;
-    font-weight: bold;
-  } */
   .button-menu button {
     font-size: 32px;
     font-family: "Roboto-Bold";
@@ -1864,14 +1856,17 @@ textarea {
     line-height: 15px;
     padding: 10px;
   }
-  /* .content-recetas span {
-    font-size: 40!important;
+  .content-recetas {
+    text-align: left!important;
+  }
+  .content-print button {
+    padding-right: 20px;
+    padding-left: 0;
   }
   .content-print button img {
-    width: 75px;
+    width: 30px;
     margin: 0;
-    margin-right: 10px;
-  }*/
+  }
   .content-error {
     padding-top: 90px;
     padding-bottom: 100px;
@@ -1893,15 +1888,6 @@ textarea {
     font-size: 14px;
     line-height: 18px;
   }
-  /* .custom-select.contacto .select-selected {
-    font-size: 40px;
-    font-family: "Roboto";
-    padding: 24px;
-    line-height: 50px;
-  }
-  .custom-select.contacto{
-    border-bottom: 3px solid #555;
-  }*/
   .content-error h2 {
     font-size: 24px;
     line-height: 28px;
@@ -1913,12 +1899,6 @@ textarea {
   .intro-area-two {
     height: 80px;
   }
-  /*.owl-item .item.recetaIte2 .caption-description {
-    bottom: 15%;
-  }
-  .owl-item .item.recetaIte.receto .caption-description {
-    bottom: 15%;
-  }*/
   .content-recetas img {
     width: 21px!important;
   }
@@ -1926,7 +1906,7 @@ textarea {
     font-size: 16px;
     line-height: 19px;
   }
-  /*.title_aviso_priv h1 {
+  .title_aviso_priv h1 {
     font-size: 24px;
     line-height: 28px;
   }
@@ -1965,17 +1945,6 @@ textarea {
   .tip_wellness_content {
     padding: 0;
   }
-  /*.number-tips {
-    font-size: 60px;
-    line-height: 70px;
-  }
-  .tips-content p {
-    line-height: 50px;
-    padding-bottom: 15px;
-  }
-  .content-art.wellness {
-    border-top: 30px solid #FF9B00;
-  }*/
   .custom-select {
     width: 235px;
   }
@@ -1997,17 +1966,6 @@ textarea {
   .d-sm-block {
     display: block !important;
   }
-  /* .guarnicion_title h3 {
-    font-size: 60px;
-    line-height: 70px;
-  }
-  .form-control {
-    height: 105px;
-  }
-  .filter-select {
-    bottom: 0px;
-    width: 50px;
-  }*/
   .text_award_history  {
     padding-top: 0;
   }
@@ -2079,19 +2037,6 @@ textarea {
     width: 100px;
     height: auto;
   }
-  /* .input-style {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 24px;
-    display: block;
-    border: none;
-    outline: none;
-    border-bottom: 4px solid #555;
-    width: 100%;
-  }
-  .form-group.contactanos {
-    padding-top: 60px;
-  } */
   .pagination {
     width: 100%;
   }
@@ -2110,11 +2055,6 @@ textarea {
     margin-right: -15px;
     margin-left: -15px;
   }
-  /* .search-form .search-field {
-    border-radius: 100px;
-    font-size: 40px;
-    padding-left: 150px;
-  }*/
   .list-menu {
     font-size: 24px;
     line-height: 70px;
@@ -2142,19 +2082,12 @@ textarea {
   .menu_area .navbar {
     padding: .734rem 0;
   }
-  /* .media-art {
-    height: 400px;
-  }
   .modal-content {
     margin: 70% auto;
     padding: 55px;
-    width: 670px;
+    width: 100%;
     height: auto;
   }
-  .art-card {
-    margin-bottom: 70px;
-    min-height: 950px;
-  }*/
   .navbar .navbar-brand {
     width: 167px;
   }
@@ -2199,10 +2132,6 @@ textarea {
   .background-historia2-col {
     background-size: 0%;
   }
-  /* .owl-item.nRecetas .item,
-  .owl-item.nRecetas2 .item.recetaIte2 {
-    width: 100%;
-  }*/
   .owl-item.nQuesos .item img,
   .owl-item.nRecetas .item img,
   .owl-item.nRecetas2 .item img {
@@ -2217,13 +2146,6 @@ textarea {
     width: 100%;
     height: 175px;
   }
-  /*.owl-item .item:hover .item-caption-quesos {
-    background-color: none;
-  }
-  .owl-item .item.recetaIte .caption-description,
-  .owl-item .item.recetaIte2 .caption-description {
-    bottom: 28%;
-  } */
   .owl-item .item .item-caption-recetas,
   .owl-item .item .item-caption-recetas2 {
     height: 175px!important;
@@ -2271,11 +2193,12 @@ textarea {
     padding-bottom: 20px;
     padding-top: 20px;
   }
-  .notificacion_contacto h2,
   .section_subtitle-tips h2 {
     font-size: 24px;
     line-height: 28px;
   }
+  .notificacion_contacto h2,
+  .subsub_title-recetagr h2,
   .section_subtitle-recetas h2 {
     font-size: 32px;
     line-height: 30px;
@@ -2289,55 +2212,10 @@ textarea {
     padding-top: 10px;
     margin: 0;
   }
-  /*.notificacion_contacto p,
-  .section_subtitle-recetas p {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .notificacion_contacto img {
-    height: 60px;
-    width: 60px;
-  }
-  .tip-wellness {
-    height: auto;
-  }
-  .tip-wellness-content {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 70px;
-  }
-  .tip-wellness h2 {
-    font-size: 120px;
-    line-height: 125px;
-  }
-  .tip-wellness h2 img {
-    padding-bottom: 0;
-    padding-right: 15px;
-    width: 140px;
-  }
-  .tip-wellness button {
-    border: 4px solid white;
-    font-size: 3rem;
-    padding: 25px 60px;
-    margin: 70px;
-  }
-  .tip-wellness p {
-    font-size: 2.1rem;
-  }
-  .number- {
-    font-size: 60px;
-  }
-  .content-art p {
-    line-height: 47px;
-  } */
   .presentaciones-queso p {
     font-size: 16px;
     line-height: 19px;
   }
-  /* .presentaciones-queso p.chico {
-    font-size: 45px;
-    line-height: 50px;
-  } */
   .section_medals-awards h4 {
     text-align: center;
   }
@@ -2369,17 +2247,6 @@ textarea {
     font-size: 32px;
     line-height: 36px;
   }
-  /* .section_subtitle {
-    padding-right: 0;
-    text-align: center;
-  }
-  .search-form .search-submit {
-    padding-left: 30px;
-  }
-  .search-form .search-submit img {
-    width: 110px;
-    height: auto;
-  }*/
   .text-quesos-mobile {
     padding-top: 20px;
     padding-bottom: 80px;
@@ -2396,12 +2263,6 @@ textarea {
     line-height: 18px;
     text-decoration: underline;
   }
-  /*.text-info-leche td {
-    font-size: 45px;
-  }
-  .section_title-awards {
-    text-align: center;
-  }*/
   .section_title-awards h2 {
     text-align: center;
     font-size: 48px;
@@ -2414,22 +2275,11 @@ textarea {
   .content_medals-mobile {
     padding-top: 0;
   }
-  /*.select-items div, .select-selected {
-    font-size: 2.5rem;
-  }
-  .text-art-title {
-    padding: 30px 0;
-    font-size: 45px;
-    line-height: 52px;
-  } */
   .us-time-line {
     padding: 8px;
   }
   .w-100 {
     width: 100% !important;
-  }
-  /* .content-art.wellness {
-    height: 500px;
   }
   #historia-2002,
   #historia-2008,
@@ -2437,5 +2287,5 @@ textarea {
   #historia-hoy2,
   #historia-hoy3 {
     display:none;
-  } */
+  }
 }
