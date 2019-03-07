@@ -1174,7 +1174,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .section_subtitle h2,
 .section_title-awards h2 {
-  font-size: 64px;;
+  font-size: 64px;
   font-weight: bold;
   line-height: 61px;
   margin-top: 0;
@@ -2303,12 +2303,16 @@ textarea {
   }
   .section_title-awards {
     text-align: center;
-  }
+  }*/
   .section_title-awards h2 {
     text-align: center;
-    font-size: 5.5rem;
+    font-size: 48px;
+    line-height: 57px;
   }
-  .select-items div, .select-selected {
+  .content_medals-mobile {
+    padding-top: 0;
+  }
+  /*.select-items div, .select-selected {
     font-size: 2.5rem;
   }
   .text-art-title {
