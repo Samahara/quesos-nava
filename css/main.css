@@ -2283,6 +2283,15 @@ textarea {
     padding-top: 10px;
     margin: 0;
   }
+  .tooltip .tooltiptext {
+    width: 130px;
+  }
+  .tooltip-bottom::after {
+    left: 14%;
+  }
+  .tooltip-bottom {
+    left: 110%;
+  }
   .presentaciones-queso p {
     font-size: 16px;
     line-height: 19px;
