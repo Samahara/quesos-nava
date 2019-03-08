@@ -2114,6 +2114,9 @@ textarea {
     width: 100px;
     height: auto;
   }
+  .fr-yellow {
+    border-top: 10px solid #FCA311;
+  }
   .pagination {
     width: 100%;
   }
@@ -2356,5 +2359,43 @@ textarea {
   #historia-hoy2,
   #historia-hoy3 {
     display:none;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1367px) {
+  .home {
+    height: 1080px;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .owl-item.nHome {
+    height: 985px;
+  }
+  .topbar-slider #slider-thumbnail .item-caption {
+    height: 985px;
+  }
+  .owl-item.nHome2 {
+    height: 492.5px;
+  }
+  .topbar-slider #slider-thumbnail .item-caption.petite-caption {
+    height: 492.5px;
+  }
+  .owl-item .item .caption-description {
+    bottom: 36%;
+  }
+  #slider-thumbnail > div > div.col-4.p-0.d-sm-none > div.owl-item.azul.nHome2 > div > img {
+    width: 35%!important;
+    margin: auto;
+    padding-top: 22%!important;
+  }
+  .section_title_contacto {
+    padding: 169px 0px;
+  }
+  .contactanos_section_p {
+    padding-top: 95px;
   }
 }
