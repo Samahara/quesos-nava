@@ -420,10 +420,6 @@ img {
   border-style: none;
 }
 
-#historia--1960--desktop {
-
-}
-
 .art-card {
   min-height: 350px;
 }
@@ -687,6 +683,10 @@ img {
   font-size: 100px;
   line-height: 117px;
   color: #ccc;
+}
+
+.fr-yellow {
+  border-top: 10px solid #FCA311;
 }
 
 .content_politicas_priv .border-bottom {
@@ -2109,13 +2109,12 @@ textarea {
   .info-leche-conv {
     width: 71px;
     height: auto;
+    padding: 4px;
   }
   .info-leche-conh {
     width: 100px;
     height: auto;
-  }
-  .fr-yellow {
-    border-top: 10px solid #FCA311;
+    padding: 2px;
   }
   .pagination {
     width: 100%;
@@ -2352,13 +2351,6 @@ textarea {
   }
   .w-100 {
     width: 100% !important;
-  }
-  #historia-2002,
-  #historia-2008,
-  #historia-hoy,
-  #historia-hoy2,
-  #historia-hoy3 {
-    display:none;
   }
 }
 
