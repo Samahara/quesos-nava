@@ -1302,7 +1302,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .owl-item .item .caption-description-info-recetas {
-  bottom: 15%;
+  bottom: 3%;
   display: block;
   padding: 40px 110px;
   position: absolute;
@@ -1310,7 +1310,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .owl-item .item .caption-description-recetas {
-  bottom: 38%;
+  bottom: 30%;
   display: block;
   padding: 20px 50px;
   position: absolute;
@@ -1318,18 +1318,23 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .owl-item .item .caption-description-recetas2 {
-  bottom: 36%;
+  bottom: 30%;
   display: block;
   padding: 20px 50px;
   position: absolute;
   width: 100%;
 }
 
+.caption-description-recetas span.caption-title {
+  font-size: 32px;
+  line-height: 50px;
+}
+
 .owl-item .item .caption-description-recetas.twowords {
-  bottom: 29%;
+  bottom: 22%;
 }
 .owl-item .item .caption-description-recetas2.twowords {
-  bottom: 25%;
+  bottom: 20%;
 }
 
 .topbar-slider #slider-thumbnail .item-caption,
@@ -1364,12 +1369,15 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .tip-recetas p {
   font-size: 18px;
   line-height: 21px;
-  padding-top: 40%;
+  padding-top: 30%;
 }
 
-.owl-item .item .item-caption-quesos,
-.owl-item .item .item-caption-recetas {
+.owl-item .item .item-caption-quesos {
   height: 346px!important;
+}
+
+.owl-item .item .item-caption-recetas {
+  height: 270px!important;
 }
 
 .topbar-slider #slider-thumbnail .item .caption-description {
@@ -1518,14 +1526,18 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 
-.owl-item.nQuesos,
-.owl-item.nRecetas {
+.owl-item.nQuesos {
   height: 330px;
   overflow: hidden;
 }
 
+.owl-item.nRecetas {
+  height: 270px;
+  overflow: hidden;
+}
+
 .owl-item.nRecetas2 {
-  height: 295px;
+  height: 240px;
   overflow: hidden;
 }
 
