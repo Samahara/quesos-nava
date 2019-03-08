@@ -428,6 +428,12 @@ img {
   min-height: 350px;
 }
 
+.art-card_subsubtitle h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Roboto-Bold";
+}
+
 .button-art a {
   color: #FCA311;
   font-size: 14px;
@@ -519,6 +525,7 @@ img {
 .notificacion_contacto h2,
 .section_subtitle-tips h2 {
   color: #FCA311;
+  font-family: "Roboto-Bold";
   font-size: 32px;
   line-height: 50px;
 }
@@ -990,7 +997,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .media-art {
   width: 100%;
-  height: 130px;
+  /* height: 156px; */
   overflow: hidden;
 }
 
@@ -1199,6 +1206,12 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   line-height: 50px;
   margin-top: 0;
   text-transform: uppercase;
+}
+
+.section_subsubtitle-tips h2 {
+  font-family: "Roboto-Bold";
+  font-size: 32px;
+  line-height: 38px;
 }
 
 .section_subtitle-recetas h2 {
@@ -2176,10 +2189,6 @@ textarea {
     font-size: 24px;
     line-height: 28px;
   }
-  .section_subsubtitle-tips h2 {
-    font-size: 32px;
-    line-height: 38px;
-  }
   .txt-wrd,
   .section_text_info_queso p {
     font-size: 14px;
@@ -2192,10 +2201,6 @@ textarea {
   .section_mercadospremios--history div.p-bottom-70.p-top-70 {
     padding-bottom: 20px;
     padding-top: 20px;
-  }
-  .section_subtitle-tips h2 {
-    font-size: 24px;
-    line-height: 28px;
   }
   .notificacion_contacto h2,
   .subsub_title-recetagr h2,
