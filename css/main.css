@@ -701,6 +701,10 @@ img {
   display: inline-flex;
 }
 
+.content-print button {
+  cursor: pointer;
+}
+
 .content-recetas span.blue {
   font-size: 16px;
   font-family: "Roboto-Bold";
@@ -1792,6 +1796,54 @@ textarea {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* Tooltip */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc;
+    color: #006080;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  width: 150px;
+  background-color: #f9f9f9;
+  color: #3f3f3f;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1;
+  opacity: 0;
+  border-radius: 2px;
+  transition: opacity 0.3s;
+  box-shadow: 3px 3px 4px 0 rgba(205,205,205,0.5);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-bottom {
+  top: 135%;
+  left: 35%;
+  margin-left: -60px;
+}
+
+.tooltip-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #f9f9f9 transparent;
+}
+
+/* Fin tooltip */
 
 @media only screen and (max-width: 991.98px) {
   .row:before,
