@@ -1302,11 +1302,17 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 }
 
 .owl-item .item .caption-description-info-recetas {
-  bottom: 3%;
   display: block;
-  padding: 40px 110px;
+  padding: 62px 20px;
   position: absolute;
   width: 100%;
+}
+
+.owl-item .item .caption-description-info-recetas.short {
+    display: block;
+    padding: 34px 10px;
+    position: absolute;
+    width: 100%;
 }
 
 .owl-item .item .caption-description-recetas {
@@ -1369,7 +1375,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .tip-recetas p {
   font-size: 18px;
   line-height: 21px;
-  padding-top: 30%;
+  padding-top: 22%;
 }
 
 .owl-item .item .item-caption-quesos {
@@ -2217,11 +2223,9 @@ textarea {
     width: 100%;
     height: auto;
   }
-  .owl-item .item .caption-description-info-recetas {
-    bottom: 0;
-    display: block;
-    padding: 20px;
-    position: absolute;
+  .owl-item .item .caption-description-info-recetas.short,
+  .owl-item .item .caption-description-info-recetas  {
+    padding: 10px;
     width: 100%;
     height: 175px;
   }
