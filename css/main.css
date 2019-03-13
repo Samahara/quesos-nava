@@ -703,6 +703,7 @@ img {
 
 .content-print button {
   cursor: pointer;
+  outline: none;
 }
 
 .content-recetas span.blue {
@@ -719,7 +720,6 @@ img {
 }
 
 .content-print button img {
-  display: inline-flex;
   width: 30px;
   margin: 0 20px;
 }
@@ -1450,7 +1450,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .topbar-slider #slider-thumbnail .item:hover .item-caption,
 .owl-item .item:hover .item-caption-recetas,
 .owl-item .item:hover .item-caption-recetas2 {
-  background-color: #000000bd;
+  background-color: #00000082;
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transition: opacity .2s linear;
@@ -1834,6 +1834,21 @@ textarea {
   padding: 15px 0;
   z-index: 1;
   opacity: 0;
+  border-radius: 2px;
+  transition: opacity 0.3s;
+  box-shadow: 3px 3px 4px 0 rgba(205,205,205,0.5);
+}
+
+.tooltip .tooltipFacebook {
+  visibility: visible;
+  position: absolute;
+  width: 150px;
+  background-color: #f9f9f9;
+  color: #3f3f3f;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1;
+  opacity: 1;
   border-radius: 2px;
   transition: opacity 0.3s;
   box-shadow: 3px 3px 4px 0 rgba(205,205,205,0.5);

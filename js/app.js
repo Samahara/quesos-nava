@@ -129,61 +129,41 @@ document.addEventListener("click", closeAllSelect);
 
 // End select
 
-// function timeline() {
-//   document.getElementById('btn-2002').setAttribute('class','text-azul btn-tiempo-historia');
-//   document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-azul');
-//   document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
-//   document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
-//   document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
-//   document.getElementById("historia-1960").style.display = "block";
-//   document.getElementById("historia-2002").style.display = "none";
-//   document.getElementById("historia-2008").style.display = "none";
-//   document.getElementById("historia-hoy").style.display = "none";
-//   document.getElementById("historia-hoy2").style.display = "none";
-//   document.getElementById("historia-hoy3").style.display = "none";
-// }
-//
-// function timeline1() {
-//   document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
-//   document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
-//   document.getElementById('btn-2008').setAttribute('class','text-azul btn-tiempo-historia');
-//   document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-azul');
-//   document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
-//   document.getElementById("historia-1960").style.display = "none";
-//   document.getElementById("historia-2002").style.display = "block";
-//   document.getElementById("historia-2008").style.display = "none";
-//   document.getElementById("historia-hoy").style.display = "none";
-//   document.getElementById("historia-hoy2").style.display = "none";
-//   document.getElementById("historia-hoy3").style.display = "none";
-// }
-//
-// function timeline2() {
-//   document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
-//   document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
-//   document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
-//   document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
-//   document.getElementById('btn-hoy').setAttribute('class','text-azul btn-tiempo-historia');
-//   document.getElementById("historia-1960").style.display = "none";
-//   document.getElementById("historia-2002").style.display = "none";
-//   document.getElementById("historia-2008").style.display = "block";
-//   document.getElementById("historia-hoy").style.display = "none";
-//   document.getElementById("historia-hoy2").style.display = "none";
-//   document.getElementById("historia-hoy3").style.display = "none";
-// }
-//
-// function timeline3() {
-//   document.getElementById('btn-2002').setAttribute('class','text-amarillo btn-tiempo-historia');
-//   document.getElementById('line-2002').setAttribute('class','mt-0 mb-0 linea-naranja');
-//   document.getElementById('btn-2008').setAttribute('class','text-amarillo btn-tiempo-historia');
-//   document.getElementById('line-2008').setAttribute('class','mt-0 mb-0 linea-naranja');
-//   document.getElementById('btn-hoy').setAttribute('class','text-amarillo btn-tiempo-historia');
-//   document.getElementById("historia-1960").style.display = "none";
-//   document.getElementById("historia-2002").style.display = "none";
-//   document.getElementById("historia-2008").style.display = "none";
-//   document.getElementById("historia-hoy").style.display = "block";
-//   document.getElementById("historia-hoy2").style.display = "block";
-//   document.getElementById("historia-hoy3").style.display = "block";
-// }
+var buttonTooltip = document.getElementById("shareFacebook");
+var buttonTooltip2 = document.getElementById("shareFacebook2");
+var menuFacebook = document.getElementById("menuFacebook");
+var buttonTooltipm = document.getElementById("shareFacebookm");
+var buttonTooltip2m = document.getElementById("shareFacebook2m");
+var menuFacebookm = document.getElementById("menuFacebookm");
+
+function showTooltip() {
+  menuFacebook.hidden = false;
+  buttonTooltip2.hidden = false;
+  buttonTooltip.hidden = true;
+}
+
+function closeTooltip() {
+  menuFacebook.hidden = true;
+  buttonTooltip2.hidden = true;
+  buttonTooltip.hidden = false;
+}
+
+function showTooltipm() {
+  menuFacebookm.hidden = false;
+  buttonTooltip2m.hidden = false;
+  buttonTooltipm.hidden = true;
+}
+
+function closeTooltipm() {
+  menuFacebookm.hidden = true;
+  buttonTooltip2m.hidden = true;
+  buttonTooltipm.hidden = false;
+}
+
+buttonTooltip.addEventListener("click", showTooltip);
+buttonTooltip2.addEventListener("click", closeTooltip);
+buttonTooltipm.addEventListener("click", showTooltipm);
+buttonTooltip2m.addEventListener("click", closeTooltipm);
 
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -195,12 +175,12 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
+function openModal() {
   modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+function closeModal() {
   modal.style.display = "none";
 }
 
@@ -210,6 +190,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+btn.addEventListener("click", openModal);
+span.addEventListener("click", closeModal);
 
 var slideIndex = 1;
 showSlides(slideIndex);
