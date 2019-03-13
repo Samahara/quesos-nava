@@ -1469,7 +1469,7 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 .topbar-slider #slider-thumbnail .item:hover .item-caption,
 .owl-item .item:hover .item-caption-recetas,
 .owl-item .item:hover .item-caption-recetas2 {
-  background-color: hsla(0, 0%, 0%, 0.5);
+  background-color: hsla(0, 0%, 0%, 0.38);
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transition: opacity .2s linear;
