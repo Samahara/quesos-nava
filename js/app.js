@@ -1,57 +1,25 @@
-var spanMenu = document.getElementById('spanMenu');
-var spanMenu2 = document.getElementById('spanMenu2');
-var menu = document.getElementById('list-menu');
-
-var showMenu = function() {
+function showMenu() {
   var election = event.target;
   if (election === spanMenu) {
-    menu.hidden = false;
-    spanMenu2.hidden = false;
-    spanMenu.hidden = true;
+    document.getElementById('list-menu').hidden = false;
+    document.getElementById('spanMenu2').hidden = false;
+    document.getElementById('spanMenu').hidden = true;
   }
 }
 
-var closeMenu = function() {
+function closeMenu() {
   var election = event.target;
-  if ( election === spanMenu2) {
-    menu.hidden = true;
-    spanMenu2.hidden = true;
-    spanMenu.hidden = false;
+  if (election === spanMenu2) {
+    document.getElementById('list-menu').hidden = true;
+    document.getElementById('spanMenu2').hidden = true;
+    document.getElementById('spanMenu').hidden = false;
   }
 }
 
+document.getElementById('spanMenu').addEventListener('click', showMenu);
+document.getElementById('spanMenu2').addEventListener('click', closeMenu);
 
 // Select
-spanMenu.addEventListener('click', showMenu);
-spanMenu2.addEventListener('click', closeMenu);
-
-var spanMenu = document.getElementById('spanMenu');
-var spanMenu2 = document.getElementById('spanMenu2');
-var menu = document.getElementById('list-menu');
-
-var showMenu = function() {
-  var election = event.target;
-  if (election === spanMenu) {
-    menu.hidden = false;
-    spanMenu2.hidden = false;
-    spanMenu.hidden = true;
-  }
-}
-
-var closeMenu = function() {
-  var election = event.target;
-  if ( election === spanMenu2) {
-    menu.hidden = true;
-    spanMenu2.hidden = true;
-    spanMenu.hidden = false;
-  }
-}
-
-
-// Select
-spanMenu.addEventListener('click', showMenu);
-spanMenu2.addEventListener('click', closeMenu);
-
 var x, i, j, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
 x = document.getElementsByClassName("custom-select");
@@ -160,11 +128,6 @@ function closeTooltipm() {
   buttonTooltipm.hidden = false;
 }
 
-buttonTooltip.addEventListener("click", showTooltip);
-buttonTooltip2.addEventListener("click", closeTooltip);
-buttonTooltipm.addEventListener("click", showTooltipm);
-buttonTooltip2m.addEventListener("click", closeTooltipm);
-
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -179,50 +142,11 @@ function openModal() {
   modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
-function closeModal() {
-  modal.style.display = "none";
-}
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
-
-btn.addEventListener("click", openModal);
-span.addEventListener("click", closeModal);
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
 function milnove() {
