@@ -1,3 +1,42 @@
+onscroll=function(){
+    var sc=Math.max(document.documentElement.scrollTop,document.body.scrollTop);
+    if(sc>480){
+      document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+      document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+      document.getElementById('btn-2008D').setAttribute('class','text-azul btn-tiempo-historia');
+      document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-azul');
+      document.getElementById('btn-hoyD').setAttribute('class','text-azul btn-tiempo-historia');
+      if(sc>1280){
+        document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+            document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+            document.getElementById('btn-2008D').setAttribute('class','text-amarillo btn-tiempo-historia');
+            document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-naranja');
+            document.getElementById('btn-hoyD').setAttribute('class','text-azul btn-tiempo-historia');
+            if(sc>1880){
+              document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+              document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+              document.getElementById('btn-2008D').setAttribute('class','text-amarillo btn-tiempo-historia');
+              document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-naranja');
+              document.getElementById('btn-hoyD').setAttribute('class','text-amarillo btn-tiempo-historia');
+            }
+        }
+      }
+    else if(sc<480){
+      document.getElementById('btn-2002D').setAttribute('class','text-azul btn-tiempo-historia');
+      document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-azul');
+      document.getElementById('btn-2008D').setAttribute('class','text-azul btn-tiempo-historia');
+      document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-azul');
+      document.getElementById('btn-hoyD').setAttribute('class','text-azul btn-tiempo-historia');
+  }
+  // if(sc<1280){
+  //   document.getElementById('btn-2002D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  //   document.getElementById('line-2002D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  //   document.getElementById('btn-2008D').setAttribute('class','text-amarillo btn-tiempo-historia');
+  //   document.getElementById('line-2008D').setAttribute('class','mt-0 mb-0 linea-naranja');
+  //   document.getElementById('btn-hoyD').setAttribute('class','text-amarillo btn-tiempo-historia');
+  // }
+}
+/*------------------------------------------------------------------------------------*/
 function showMenu() {
   var election = event.target;
   if (election === spanMenu) {
