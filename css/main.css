@@ -130,8 +130,9 @@ table {
 
 .d-flex {
   display: -webkit-box!important;
-  display: -webkit-flex!important;
+  display: -moz-box!important;
   display: -ms-flexbox!important;
+  display: -webkit-flex!important;
   display: flex!important;
 }
 
@@ -214,8 +215,11 @@ table {
 }
 
 .row {
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-box!important;
+  display: -moz-box!important;
+  display: -ms-flexbox!important;
+  display: -webkit-flex!important;
+  display: flex!important;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -813,10 +817,11 @@ footer.footer6 .footer__big .container {
 
 footer .footer__bottom .footer__bottom-content {
   color: white;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-box!important;
+  display: -moz-box!important;
+  display: -ms-flexbox!important;
+  display: -webkit-flex!important;
+  display: flex!important;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -878,7 +883,7 @@ footer .footer__bottom .footer__bottom-content .social-basic li a {
 }
 
 .home {
-  height: 649px;
+  height: 658px;
   padding-top: 95px;
   overflow: hidden;
 }
@@ -1016,10 +1021,11 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
 
 .navbar {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-box!important;
+  display: -moz-box!important;
+  display: -ms-flexbox!important;
+  display: -webkit-flex!important;
+  display: flex!important;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -2217,7 +2223,11 @@ textarea {
   .owl-item.nQuesos,
   .owl-item.nHome {
     height: auto;
-    display: flex;
+    display: -webkit-box!important;
+    display: -moz-box!important;
+    display: -ms-flexbox!important;
+    display: -webkit-flex!important;
+    display: flex!important;
   }
   .owl-item .item .caption-description-recetas.twowords {
     bottom: 35%;
@@ -2232,7 +2242,11 @@ textarea {
   .owl-item.nRecetas,
   .owl-item.nRecetas2 {
     height: 175px;
-    display: flex;
+    display: -webkit-box!important;
+    display: -moz-box!important;
+    display: -ms-flexbox!important;
+    display: -webkit-flex!important;
+    display: flex!important;
   }
   .owl-item.nQuesos .item,
   .owl-item.nHome .item {
