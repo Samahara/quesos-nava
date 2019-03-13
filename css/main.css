@@ -1150,11 +1150,24 @@ section.menu-select-recetas > div > div > div:nth-child(1) > div > div.select-se
   margin-top: 0;
 }
 
-.guarnicion_title h3 {
+.content_receta_detalle h3 {
   font-size: 24px;
   font-family: "Roboto-Bold";
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.content_receta_detalle h2 {
+  color: #002C54;
+  font-family: "Roboto-Bold";
+  font-size: 32px;
+  line-height: 50px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.content_receta_detalle p {
+  margin-top: 0;
 }
 
 .presentaciones-queso p {
